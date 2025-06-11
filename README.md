@@ -1,24 +1,28 @@
 # 🧵 NeedleWhatsappCrawler
 
-A Node.js project using `@open-wa/wa-automate` to extract and analyze messages from WhatsApp groups.
-This tool is useful for academic data analysis, research, or social behavior insight based on exported chat data.
+A collaborative Node.js project for extracting and enriching messages from WhatsApp groups using [`@open-wa/wa-automate`](https://github.com/open-wa/wa-automate-nodejs).
+
+This tool is designed for structured WhatsApp data collection and analysis within our academic course project (מחט בערימת דאטה - 67978).
+
+> Project by Jonatan Vider, Yonatan Ezra, and Netanel Richey
 
 ---
 
-## 🚀 Features
+## 🚀 What It Does
 
-- Authenticates with your WhatsApp Web account.
-- Crawls and loads full chat history from a target group
-- Enriches messages with metadata (author, replies, reactions)
-- Outputs:
-  - `group_export.json` — cleaned & enriched messages
-  - `participants_table.json` — mapping between user names and phone numbers
+- 🔐 Authenticates with WhatsApp Web (via QR scan)
+- 🧠 Crawls full message history from a selected WhatsApp group
+- 🧩 Enriches messages with:
+  - Author identity (name/phone/LID)
+  - Reactions
+  - Reply references
+- 💾 Saves output to a structured `.json` file
 
 ---
 
-## ⚙️ Setup Instructions
+## 🛠️ Setup Instructions (for team use)
 
-### 1. Clone the repository
+### 1. Clone the repo
 
 ```bash
 git clone https://github.com/Viderspace/NeedleWhatsappCrawler.git
@@ -27,66 +31,68 @@ cd NeedleWhatsappCrawler
 
 ### 2. Install dependencies
 
-Make sure you have Node.js (v18 or newer) and `npm` installed.
+Ensure you're using **Node.js v18+**:
 
 ```bash
 npm install
 ```
 
-### 3. Configure project (optional)
+### 3. Define your target WhatsApp group
 
-Edit the following constant at the top of `crawl.js` if needed:
+Edit `config.js` and change the `TARGET_GROUP_NAME` value:
 
 ```js
-const TARGET_GROUP_NAME = 'Your WhatsApp Group Name Here';
+// config.js
+const TARGET_GROUP_NAME = 'Group Chat Name Here';
 ```
+
+Each team member should set the group name *on their own machine* before running.
 
 ---
 
-## 🧪 Running the script
+## 🧪 How to Run
 
 ```bash
 node crawl.js
 ```
 
-On first run, a browser window will open for WhatsApp Web login — scan your QR code.
-
-> ✅ After successful login, the script will:
-> - Locate the target group
-> - Crawl up to 1000 messages
-> - Print message summaries and links
-> - Save results to `group_export.json`
-
----
-
-## 🧼 Cleaning up or starting fresh
-
-If your session gets stuck or cached unexpectedly, delete the `.wwebjs_auth` or `.wwebjs_cache` folder before retrying.
+On first run:
+- A browser window will open to WhatsApp Web
+- Scan the QR code with your phone
+- The script will:
+  - Locate the group
+  - Crawl up to 5000 recent messages
+  - Enrich the data
+  - Save the output JSON file
 
 ---
 
-## 📁 Output Files
+## 📁 Output
+
+Files will be saved in the shared `exports/` directory.
 
 | File | Description |
 |------|-------------|
-| `group_export.json` | Main enriched dataset of messages |
-| `participants_table.json` | Table mapping participant IDs, names & phones |
-| `messages.json` | Raw dump of all messages for inspection/debugging |
+| `exports/<group>.json` | Main export: messages + participant data |
+| `filtered_debug_participants.json` | Optional debug info (filtered participant list) |
+| `filtered_debug_messages.json` | Optional debug info (message header, phone, LID) |
+
+Each team member should run the script independently and contribute their own `.json` file to the shared `exports/` folder for group analysis.
 
 ---
 
-## 🤝 Contributing
+## 🧼 Troubleshooting
 
-1. Fork this repository
-2. Create your feature branch: `git checkout -b my-feature`
-3. Commit your changes
-4. Push to the branch: `git push origin my-feature`
-5. Open a pull request 🎉
+If the script hangs on login or fails to scrape:
+- Quit the script and rerun
+- Close any WhatsApp browser tabs that may have been left open
+- Delete any cached folders (e.g. `.wwebjs_auth`, `.wwebjs_cache`) if problems persist
+
+⚠️ Sometimes the **authentication process gets stuck** — in that case, simply stop and rerun the script.
 
 ---
 
 ## 📜 License
 
-MIT License – see `LICENSE` file for details.
-
+MIT License – see [`LICENSE`](./LICENSE) for full terms.
 
