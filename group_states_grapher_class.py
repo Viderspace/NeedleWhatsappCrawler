@@ -191,33 +191,59 @@ class GroupStatsGrapher:
     def _plot_message_and_emoji_total_graph(self, df):
         df.set_index('Group', inplace=True)
         x = range(len(df))
-        total_emoji = df[list(self._emoji_categories.keys()) + ['other']].sum(axis=1)
-        total_combined = df['Messages'] + total_emoji
-        total_replies = df['Replies']
 
-        bar_width = 0.3
+        # raw counts
+        replies = df['Replies']
+        emojis = df[list(self._emoji_categories.keys()) + ['other']].sum(axis=1)
+        messages = df['Messages']
+        total = replies + emojis + messages
+
+        bar_w = 0.5
         fig, ax = plt.subplots(figsize=(14, 6))
 
-        ax.bar(x, total_combined, width=bar_width, color=self._colors['emoji_and_messages'], label='Messages + Emojis')
-        ax.bar(x, total_emoji, width=bar_width, color=self._colors['emoji_in_emoji_and_messages'], label='Emojis')
-        ax.bar(x, total_replies, width=bar_width, color=self._colors['replies_in_emoji_and_messages'], label='Replies')
+        # 1) Replies at the bottom
+        ax.bar(x, replies,
+               width=bar_w,
+               color=self._colors['replies'],
+               label='Replies')
 
-        for i in range(len(df)):
-            total = total_combined.iloc[i]
-            emoji_count = total_emoji.iloc[i]
-            reply_count = total_replies.iloc[i]
-            emoji_pct = (emoji_count / total) * 100 if total else 0
-            reply_pct = (reply_count / total) * 100 if total else 0
-            ax.text(i, total + 5, f"{emoji_pct:.0f}% emojis\n{reply_pct:.0f}% replies", ha='center',
-                    va='bottom', fontsize=8)
+        # 2) Emojis stacked on top of Replies
+        ax.bar(x, emojis,
+               width=bar_w,
+               bottom=replies,
+               color=self._colors['emoji_and_messages'],
+               label='Emojis')
+
+        # 3) Messages stacked on top of (Replies + Emojis)
+        ax.bar(x, messages,
+               width=bar_w,
+               bottom=replies + emojis,
+               color=self._colors['messages'],
+               label='Messages')
+
+        # annotate percentages above each full bar
+        for i in x:
+            if total.iloc[i]:
+                r_pct = replies.iloc[i] / total.iloc[i]
+                e_pct = emojis.iloc[i] / total.iloc[i]
+            else:
+                r_pct = e_pct = 0
+            ax.text(i, total.iloc[i] + 5,
+                    f"{r_pct:.0%} replies\n{e_pct:.0%} emojis",
+                    ha='center', va='bottom', fontsize=8)
 
         ax.set_xticks(x)
-        ax.set_xticklabels(self._create_xtick_labels(df), rotation=45, ha='right')
+        ax.set_xticklabels(self._create_xtick_labels(df),
+                           rotation=45, ha='right')
         ax.set_ylabel('Count')
-        ax.set_title('Total Messages Including Emoji Reactions per Group')
-        ax.legend()
+        ax.set_title('Replies, Emojis & Messages (bottom-up stacked)')
+        ax.legend(loc='upper left', bbox_to_anchor=(1.01, 1.02))
+        max_total = total.max()
+        ax.set_ylim(0, max_total * 1.15)
+
         plt.tight_layout()
         plt.show()
+
 
 
 # Example usage
