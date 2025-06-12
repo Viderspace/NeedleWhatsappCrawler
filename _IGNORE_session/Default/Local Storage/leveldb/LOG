@@ -1,3 +1,5 @@
-2025/06/11-00:03:26.004 3e07 Reusing MANIFEST /Users/jonatanvider/Documents/Whatsapp_Crawler_Neeldle/_IGNORE_session/Default/Local Storage/leveldb/MANIFEST-000001
-2025/06/11-00:03:26.007 3e07 Recovering log #43
-2025/06/11-00:03:26.007 3e07 Reusing old log /Users/jonatanvider/Documents/Whatsapp_Crawler_Neeldle/_IGNORE_session/Default/Local Storage/leveldb/000043.log 
+2025/06/12-23:48:18.603 2e03 Reusing MANIFEST /Users/jonatanvider/Documents/Whatsapp_Crawler_Neeldle/_IGNORE_session/Default/Local Storage/leveldb/MANIFEST-000001
+2025/06/12-23:48:18.606 2e03 Recovering log #46
+2025/06/12-23:48:18.606 2e03 Level-0 table #48: started
+2025/06/12-23:48:18.610 2e03 Level-0 table #48: 13050 bytes OK
+2025/06/12-23:48:18.613 2e03 Delete type=0 #46

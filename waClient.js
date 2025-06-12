@@ -7,6 +7,14 @@ const { hebrewifyIfNeeded } = require('./common');
 
 async function findGroup(client, name) {
     const groups = await client.getAllGroups();
+    i = 0;
+    console.log(`total groups found "${groups.length}"...`);
+    groups.forEach((g => {
+        // print to console the group name and i
+        const groupName = hebrewifyIfNeeded(g.name || 'Unknown Group');
+        console.log(`   ${++i}). ${groupName} (${g.id})`);
+    }));
+
 
     console.log(`🔍 Searching for group "${name}"...`);
     if (!groups?.length) {

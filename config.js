@@ -3,7 +3,12 @@
 const path = require('path');
 
 module.exports = {
-    TARGET_GROUP_NAME: 'ניידל קבוצת האלופים', //'מחט בערימת דאטה',
+
+    TARGET_GROUP_NAME:'מחט בערימת דאטה',
+    //' ב רטסמס -1 יפניא '
+    // 'ניידל קבוצת
+    // האלופים' ,
+    // 'מחט בערימת דאטה',
     EXPORT_DIR: 'exports',
     MAX_MESSAGES: 5000,
 

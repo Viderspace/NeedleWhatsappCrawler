@@ -28,7 +28,9 @@ const {
 //     getInfo
 // } = require('./participantsEnricher');
 
-const { enrichMessages } = require('./enrichment');
+const { enrichMessages,
+    analyzeMessageLengths,
+    analyzeMessageWordCounts} = require('./enrichment');
 const { findGroup, loadAllMessages } = require('./waClient');
 const { writeExportFile } = require('./exporter');
 
@@ -51,6 +53,7 @@ if (require.main === module) {
             // exportDebugs(messages,participants);
 
             const enriched = enrichMessages(messages, participants);
+            analyzeMessageWordCounts(enriched);
 
             const exportData = {
                 messages: enriched,
@@ -74,4 +77,8 @@ if (require.main === module) {
     * We can use this to traverse the quote chain (thread):
  * ----quoteMap: QuoteMap; --  line 207
  * from library file: node_modules/@open-wa/wa-automate/dist/api/model/message.d.ts
+ *
+ *
+ * 1 תיראיניל
+ *  ב רטסמס -1 יפניא
  */

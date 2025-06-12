@@ -13,12 +13,7 @@
       "serialNumber": 2,
       "datetime": "2025-04-06T12:34:47.000Z",
       "messageId": "3AF3C3C50E65682F2A2F",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "ניידל קבוצת האלופים",
       "replyTo": null,
       "reactions": null
@@ -27,12 +22,7 @@
       "serialNumber": 3,
       "datetime": "2025-04-06T12:34:47.000Z",
       "messageId": "3A615FEE24D5F8A9D584",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "[No text]",
       "replyTo": null,
       "reactions": null
@@ -41,12 +31,7 @@
       "serialNumber": 4,
       "datetime": "2025-04-06T12:41:09.000Z",
       "messageId": "9C0A3E14EE4C363D97C8175DE443AD64",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אהלן חברה.\nפותח את הקבוצה בקצת התרגשות. כמו תמיד, תענוג לעבוד אתך @972545500044 💪🏻\nיש לנו לגבש עד חופשת פסח 3 הצעות לפרויקט. @972546374390 ספרתי ליהונתן כבר על שתי האופציות. \nאם מישהו רוצה להציע רעיון נוסף או להוסיף לרעיונות הקיימים, יש עוד כמה ימים. \nשיהיה בהצלחה לכולנו 🔥",
       "replyTo": null,
       "reactions": [
@@ -120,12 +105,7 @@
       "serialNumber": 10,
       "datetime": "2025-04-13T18:37:47.000Z",
       "messageId": "AF68C0CB76A2B0E4F820E723C623A509",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אני בעד מחר בערב",
       "replyTo": null,
       "reactions": null
@@ -134,12 +114,7 @@
       "serialNumber": 11,
       "datetime": "2025-04-13T18:38:07.000Z",
       "messageId": "848D3F881190EB22187887E563F93922",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "בדיוק רואה הערב את השיעור האחרון ואעבור על הדרישות של התרגיל",
       "replyTo": null,
       "reactions": null
@@ -191,12 +166,7 @@
       "body": "אני צריך לצאת ב19:30 יש מצב שנספיק לפני?",
       "replyTo": {
         "ref": "AF68C0CB76A2B0E4F820E723C623A509",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "אני בעד מחר בערב"
       },
       "reactions": null
@@ -205,12 +175,7 @@
       "serialNumber": 16,
       "datetime": "2025-04-14T08:09:39.000Z",
       "messageId": "8472CB4D977B905C8A900641DB574A9A",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אני ממש אשתדל, אני יוצא לטיול קצר עם הילדים ונוסע לירושלים בערב, אנסה לעשות בין לבין",
       "replyTo": null,
       "reactions": null
@@ -219,12 +184,7 @@
       "serialNumber": 17,
       "datetime": "2025-04-14T08:10:03.000Z",
       "messageId": "C7A37DDA7F85F1F26FBEB8C414EBE0D9",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אעדכן גם במהלך היום שואף לאזור 630",
       "replyTo": null,
       "reactions": null
@@ -268,12 +228,7 @@
       "serialNumber": 21,
       "datetime": "2025-04-14T08:24:38.000Z",
       "messageId": "D6A42B47F353DF5C05057A7C837A8F7B",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "נראלי יש עד היום להגיש הצעות",
       "replyTo": null,
       "reactions": null
@@ -282,12 +237,7 @@
       "serialNumber": 22,
       "datetime": "2025-04-14T08:25:26.000Z",
       "messageId": "3CD0584471C751DED0A58CF8A3650128",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "סליחה יש עד מחר ב2355",
       "replyTo": null,
       "reactions": null
@@ -296,12 +246,7 @@
       "serialNumber": 23,
       "datetime": "2025-04-14T08:26:09.000Z",
       "messageId": "63B02867140CDCA227A8B78AA3354AE0",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "לפי מתי שהפורום נסגר",
       "replyTo": null,
       "reactions": null
@@ -318,12 +263,7 @@
       "body": "כן זהו, אז אם נעשה מחר בצהריים המוקדמים-ערב זה יכול להיות אחלה אם יותר מתאים לכם",
       "replyTo": {
         "ref": "3CD0584471C751DED0A58CF8A3650128",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "סליחה יש עד מחר ב2355"
       },
       "reactions": null
@@ -345,12 +285,7 @@
       "serialNumber": 26,
       "datetime": "2025-04-14T14:22:26.000Z",
       "messageId": "99E6FA44075D41864256E23933D8648B",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "היי",
       "replyTo": null,
       "reactions": null
@@ -359,12 +294,7 @@
       "serialNumber": 27,
       "datetime": "2025-04-14T14:22:30.000Z",
       "messageId": "52DBA9A2096795C7A9D2DA6EEC37E583",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "בסוף מתעכב",
       "replyTo": null,
       "reactions": null
@@ -373,12 +303,7 @@
       "serialNumber": 28,
       "datetime": "2025-04-14T14:22:47.000Z",
       "messageId": "1544C526095F7FFA467C30E6FA7ED74B",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "לא אספיק, אשפר מחר ב10 ככה?",
       "replyTo": null,
       "reactions": null
@@ -400,12 +325,7 @@
       "serialNumber": 30,
       "datetime": "2025-04-14T14:30:04.000Z",
       "messageId": "17209F1327215DA33ECAE9B37B378B61",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "11 מאוחר כבר בשיבילי האמת שרציתי ב9 אבל אמרתי כנראה יהיה לכם מוקדם",
       "replyTo": null,
       "reactions": null
@@ -427,12 +347,7 @@
       "serialNumber": 32,
       "datetime": "2025-04-14T14:31:53.000Z",
       "messageId": "0DCE64B5D91F6C8F0EBE95971AA43EDF",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "מחר בערב אפשר",
       "replyTo": null,
       "reactions": null
@@ -454,12 +369,7 @@
       "serialNumber": 34,
       "datetime": "2025-04-14T14:32:02.000Z",
       "messageId": "7D0E458F8F8D687B2C4D23EA2BA4821F",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אבל זה צמוד לדידליין",
       "replyTo": null,
       "reactions": null
@@ -481,12 +391,7 @@
       "serialNumber": 36,
       "datetime": "2025-04-14T14:32:33.000Z",
       "messageId": "CFF7D88F0DFE3718FCE8A54ECEE04A59",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "וגם צריך להגיש איזה מסמך יקח קצת זמן",
       "replyTo": null,
       "reactions": null
@@ -508,12 +413,7 @@
       "serialNumber": 38,
       "datetime": "2025-04-14T14:33:06.000Z",
       "messageId": "D9EF7C81103237F160B9D76C1F99FB46",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "גם חובה להגיש 3 רעיונות עם תוכנית די מגובשת לדאטאבייס",
       "replyTo": null,
       "reactions": null
@@ -522,12 +422,7 @@
       "serialNumber": 39,
       "datetime": "2025-04-14T14:33:12.000Z",
       "messageId": "6085BB9FD35D96291F1B022EB999D08E",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "וכו",
       "replyTo": null,
       "reactions": null
@@ -562,12 +457,7 @@
       "serialNumber": 42,
       "datetime": "2025-04-14T14:38:17.000Z",
       "messageId": "1335423AB7092D389DE5C40E6F754547",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "נשמע אחלה",
       "replyTo": null,
       "reactions": [
@@ -591,12 +481,7 @@
       "serialNumber": 43,
       "datetime": "2025-04-15T06:58:45.000Z",
       "messageId": "3F4CB26E62E89FF4C29D",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "בוקר טוב",
       "replyTo": null,
       "reactions": null
@@ -605,12 +490,7 @@
       "serialNumber": 44,
       "datetime": "2025-04-15T06:58:53.000Z",
       "messageId": "3F045844BA813147968F",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "@972545500044  יש לך discord?",
       "replyTo": null,
       "reactions": null
@@ -628,12 +508,7 @@
       "serialNumber": 46,
       "datetime": "2025-04-15T07:03:37.000Z",
       "messageId": "3F228AE869F309DB16C0",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "סבבה",
       "replyTo": null,
       "reactions": null
@@ -642,12 +517,7 @@
       "serialNumber": 47,
       "datetime": "2025-04-15T07:04:43.000Z",
       "messageId": "3F3279EF3EE0F16349A4",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "yonatan8908, natanelrichey",
       "replyTo": null,
       "reactions": null
@@ -656,12 +526,7 @@
       "serialNumber": 48,
       "datetime": "2025-04-15T07:04:54.000Z",
       "messageId": "3F5E6562B63822FF6CA0",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "users שלנו",
       "replyTo": null,
       "reactions": null
@@ -670,12 +535,7 @@
       "serialNumber": 49,
       "datetime": "2025-04-15T07:20:41.000Z",
       "messageId": "3F8A116568AEBF2263C4",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "https://meet.google.com/ttv-xfpt-ybp",
       "replyTo": null,
       "reactions": null
@@ -684,12 +544,7 @@
       "serialNumber": 50,
       "datetime": "2025-04-15T07:30:16.000Z",
       "messageId": "3F2D850E842F518FF363",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
       "reactions": null
@@ -698,12 +553,7 @@
       "serialNumber": 51,
       "datetime": "2025-04-15T07:41:00.000Z",
       "messageId": "DE83476CC9848E62CF827F23355E12A1",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "נכנסתי שוב",
       "replyTo": null,
       "reactions": null
@@ -712,12 +562,7 @@
       "serialNumber": 52,
       "datetime": "2025-04-15T07:41:30.000Z",
       "messageId": "94D7E6EEB7E3C4AA498500A2A97FB7FE",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "https://www.kaggle.com/datasets/faroughashkouti/empathy-segmentation",
       "replyTo": null,
       "reactions": null
@@ -726,12 +571,7 @@
       "serialNumber": 53,
       "datetime": "2025-04-15T07:41:30.000Z",
       "messageId": "6B713D5253D2FED0E8167A9D325F690F",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "https://www.kaggle.com/datasets/thedevastator/multi-modal-conversation-data",
       "replyTo": null,
       "reactions": null
@@ -749,12 +589,7 @@
       "serialNumber": 55,
       "datetime": "2025-04-15T07:55:01.000Z",
       "messageId": "9D9864B82FD7DF6F8991D3CD284168FA",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "https://redivis.com/datasets/4ew0-9qer43ndg",
       "replyTo": null,
       "reactions": null
@@ -789,12 +624,7 @@
       "serialNumber": 58,
       "datetime": "2025-04-15T14:41:53.000Z",
       "messageId": "3FEF9EA6089B657FF998",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "https://docs.google.com/document/d/1lOl8vpRV6MugKoBzhn4OQIe4rB3m9QMqKIliTFQUgrs/edit?usp=sharing",
       "replyTo": null,
       "reactions": null
@@ -803,12 +633,7 @@
       "serialNumber": 59,
       "datetime": "2025-04-15T14:42:07.000Z",
       "messageId": "3FECBD9671C6E5D4798E",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "הנה הקובץ",
       "replyTo": null,
       "reactions": null
@@ -817,12 +642,7 @@
       "serialNumber": 60,
       "datetime": "2025-04-15T14:42:20.000Z",
       "messageId": "3FA5FB172CBABC26D7AA",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "בינתיים יש 2 כיוונים",
       "replyTo": null,
       "reactions": null
@@ -831,12 +651,7 @@
       "serialNumber": 61,
       "datetime": "2025-04-15T14:42:48.000Z",
       "messageId": "3F11E5A5FCB6225002C3",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "משאיר ל@972545500044 להוסיף את ה3 🙏🏻",
       "replyTo": null,
       "reactions": null
@@ -845,12 +660,7 @@
       "serialNumber": 62,
       "datetime": "2025-04-15T14:43:24.000Z",
       "messageId": "3F9CE91F8A5BDEF55DBF",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "תוסיפו גם את הפרטים שלכם לתחילת הקובץ",
       "replyTo": null,
       "reactions": null
@@ -859,12 +669,7 @@
       "serialNumber": 63,
       "datetime": "2025-04-15T14:44:40.000Z",
       "messageId": "3F4A208C6A27BB9769A7",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "@972546374390 יש מצב אתה דואג גם להגשה בפורמט הנכון (יש הוראות במודל, ויש שתי פורומים לפרסם בהם)",
       "replyTo": null,
       "reactions": null
@@ -920,12 +725,7 @@
       "body": "תוכל לתת לי גישה לעריכה?",
       "replyTo": {
         "ref": "3F9CE91F8A5BDEF55DBF",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "תוסיפו גם את הפרטים שלכם לתחילת הקובץ"
       },
       "reactions": null
@@ -942,12 +742,7 @@
       "body": "ברגע @972545500044  יכתוב את ההצעה שלו אז אעלה לפורמט (אתה יכול גם להסביר לי בפרטי ואני אכתוב😊)",
       "replyTo": {
         "ref": "3F4A208C6A27BB9769A7",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "@972546374390 יש מצב אתה דואג גם להגשה בפורמט הנכון (יש הוראות במודל, ויש שתי פורומים לפרסם בהם)"
       },
       "reactions": null
@@ -956,12 +751,7 @@
       "serialNumber": 69,
       "datetime": "2025-04-15T15:59:47.000Z",
       "messageId": "32EAE623993D9544BE2EA6E53FEC1B2D",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "נראלי יש כבר גישה",
       "replyTo": null,
       "reactions": null
@@ -970,12 +760,7 @@
       "serialNumber": 70,
       "datetime": "2025-04-15T16:15:48.000Z",
       "messageId": "7E6E5FD84F19B1AC3505731C2951D112",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "https://docs.google.com/document/d/1lOl8vpRV6MugKoBzhn4OQIe4rB3m9QMqKIliTFQUgrs/edit?usp=drivesdk",
       "replyTo": null,
       "reactions": null
@@ -984,12 +769,7 @@
       "serialNumber": 71,
       "datetime": "2025-04-15T16:15:56.000Z",
       "messageId": "1404347E107426B3C306A8D9B78F50B6",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "שיניתי",
       "replyTo": null,
       "reactions": [
@@ -1064,12 +844,7 @@
       "serialNumber": 78,
       "datetime": "2025-04-15T18:14:09.000Z",
       "messageId": "8A80982FF3E6670AD98FAED7B2C7CF28",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "מסתכל עכשיו",
       "replyTo": null,
       "reactions": null
@@ -1078,12 +853,7 @@
       "serialNumber": 79,
       "datetime": "2025-04-15T18:16:31.000Z",
       "messageId": "BA57731706AC8AA66ED948734F80DC5E",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "השני יותר מגניב בטוח",
       "replyTo": null,
       "reactions": null
@@ -1092,12 +862,7 @@
       "serialNumber": 80,
       "datetime": "2025-04-15T18:17:11.000Z",
       "messageId": "2ED4D67FE6D5E3455001062FB2FCA4B8",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "לדעתי רמת קושי של מימוש זהה, וקצת יותר קל משתי האופציות שרשמנו כבר",
       "replyTo": null,
       "reactions": null
@@ -1119,12 +884,7 @@
       "serialNumber": 82,
       "datetime": "2025-04-15T18:17:23.000Z",
       "messageId": "1A34001F5D35A8CFDF62A1A71FF5E11E",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "השני כאן יותר קשה למצוא דאטא לדעתי",
       "replyTo": null,
       "reactions": null
@@ -1141,12 +901,7 @@
       "body": "כן",
       "replyTo": {
         "ref": "1A34001F5D35A8CFDF62A1A71FF5E11E",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "השני כאן יותר קשה למצוא דאטא לדעתי"
       },
       "reactions": null
@@ -1155,12 +910,7 @@
       "serialNumber": 84,
       "datetime": "2025-04-15T18:17:44.000Z",
       "messageId": "5F789A7BAD26083FBF83A36F32D9007A",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אבל אני בעד לנסות את השני",
       "replyTo": null,
       "reactions": null
@@ -1169,12 +919,7 @@
       "serialNumber": 85,
       "datetime": "2025-04-15T18:17:59.000Z",
       "messageId": "D468BEC8EACD3A1ADF1AA86C53E3C4B9",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "מקסימום תדחה ואפשר להציע אחר כך את הראשון",
       "replyTo": null,
       "reactions": null
@@ -1196,12 +941,7 @@
       "serialNumber": 87,
       "datetime": "2025-04-15T18:18:36.000Z",
       "messageId": "F991426B062863FA3BAF27B9F194A442",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "זה לא כמו ניסוי אמיתי שצריך מספיק נבדקים בשביל מובהקות וכו",
       "replyTo": {
         "ref": "7BBC95AFE14CBD407979CC064BF7E1B4",
@@ -1239,12 +979,7 @@
       "body": "גם נכון",
       "replyTo": {
         "ref": "F991426B062863FA3BAF27B9F194A442",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "זה לא כמו ניסוי אמיתי שצריך מספיק נבדקים בשביל מובהקות וכו"
       },
       "reactions": null
@@ -1257,12 +992,7 @@
       "body": "אולי אפשר כזה לאסוף מאגר גדול של אינטרקציות ולתת לgpt לתייג אותן לפי רמות Social Anxiety",
       "replyTo": {
         "ref": "1A34001F5D35A8CFDF62A1A71FF5E11E",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "השני כאן יותר קשה למצוא דאטא לדעתי"
       },
       "reactions": null
@@ -1271,12 +1001,7 @@
       "serialNumber": 91,
       "datetime": "2025-04-15T18:19:27.000Z",
       "messageId": "08D7DAC7BBA0C410014E25BCD259EA4D",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אפילו אם כל אחד ישלח ל3 אנשים שמכיר נראלי מספיק",
       "replyTo": null,
       "reactions": null
@@ -1294,12 +1019,7 @@
       "serialNumber": 93,
       "datetime": "2025-04-15T18:20:13.000Z",
       "messageId": "F9B3EE9C5AD88188A140792700D29625",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "רעיון טוב, אבל צריך לבדוק שהוא עושה טוב וזה ידרוש עבודה, אולי נבדק מדגמית",
       "replyTo": {
         "ref": "3AEC10F6FC0E393F5DE6",
@@ -1351,12 +1071,7 @@
       "body": "הוספתי לכאן",
       "replyTo": {
         "ref": "7E6E5FD84F19B1AC3505731C2951D112",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "https://docs.google.com/document/d/1lOl8vpRV6MugKoBzhn4OQIe4rB3m9QMqKIliTFQUgrs/edit?usp=drivesdk"
       },
       "reactions": null
@@ -1465,12 +1180,7 @@
       "serialNumber": 106,
       "datetime": "2025-04-15T18:32:57.000Z",
       "messageId": "5C3CCC904A98C26AC1B6DA7792E317C5",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "טוב אתה חייב לנו סיפור במפגש הבא",
       "replyTo": null,
       "reactions": null
@@ -1522,12 +1232,7 @@
       "serialNumber": 110,
       "datetime": "2025-04-15T19:29:07.000Z",
       "messageId": "D61F98E483A1072C0D6A02846D5D39C0",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "💪🏻",
       "replyTo": null,
       "reactions": null
@@ -1536,12 +1241,7 @@
       "serialNumber": 111,
       "datetime": "2025-04-15T19:29:21.000Z",
       "messageId": "6836F9D5829125F237062E1B67C392D4",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "עשית גם בפורום קבוצות?",
       "replyTo": null,
       "reactions": null
@@ -1571,12 +1271,7 @@
       "serialNumber": 113,
       "datetime": "2025-04-28T05:32:24.000Z",
       "messageId": "F30C540945D15D18B1482571E02EE2B9",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "קבלנו תשובה 🥴",
       "replyTo": null,
       "reactions": null
@@ -1611,12 +1306,7 @@
       "serialNumber": 116,
       "datetime": "2025-04-28T05:41:17.000Z",
       "messageId": "3F1FB1072061E0A964D2",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
       "reactions": null
@@ -1664,12 +1354,7 @@
       "serialNumber": 120,
       "datetime": "2025-04-28T05:44:28.000Z",
       "messageId": "3FA08604032DF1004777",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
       "reactions": null
@@ -1743,12 +1428,7 @@
       "serialNumber": 126,
       "datetime": "2025-05-05T15:26:14.000Z",
       "messageId": "3EED76706008D7343420636A1D675523",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "היי שלחתי ביום רביעי הודעה בפורום למרצה",
       "replyTo": null,
       "reactions": null
@@ -1757,12 +1437,7 @@
       "serialNumber": 127,
       "datetime": "2025-05-05T15:26:24.000Z",
       "messageId": "BC6908CD0408519D9273D4DAB6289065",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "כנראה שלא ראתה עד ראשון",
       "replyTo": null,
       "reactions": null
@@ -1771,12 +1446,7 @@
       "serialNumber": 128,
       "datetime": "2025-05-05T15:26:35.000Z",
       "messageId": "40B26D60560E9C43475BF28843F35E0D",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "עדיין אין תשובה אבל אעדכן מיד שיש חדש",
       "replyTo": null,
       "reactions": null
@@ -1811,12 +1481,7 @@
       "serialNumber": 131,
       "datetime": "2025-05-06T07:30:43.000Z",
       "messageId": "3FCB62DD7F652CCD00FE",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "בוקר טוב",
       "replyTo": null,
       "reactions": null
@@ -1825,12 +1490,7 @@
       "serialNumber": 132,
       "datetime": "2025-05-06T07:30:59.000Z",
       "messageId": "3FA250170D6F2781F8BF",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "שלחתי לה עכשיו גם מייל",
       "replyTo": null,
       "reactions": null
@@ -1839,12 +1499,7 @@
       "serialNumber": 133,
       "datetime": "2025-05-06T07:31:16.000Z",
       "messageId": "3F28585DB37EB5C227BD",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "מקווה לזרז את הענינים קצת",
       "replyTo": null,
       "reactions": null
@@ -1892,12 +1547,7 @@
       "serialNumber": 137,
       "datetime": "2025-05-06T07:33:33.000Z",
       "messageId": "3FC7AF3EF07A9507F2A5",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "הוספתי אתכם למייל נראלי מספיק",
       "replyTo": null,
       "reactions": null
@@ -1919,12 +1569,7 @@
       "serialNumber": 139,
       "datetime": "2025-05-11T09:54:10.000Z",
       "messageId": "3F0740D65D4B8ED5A221",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "שבוע טוב",
       "replyTo": null,
       "reactions": null
@@ -1933,12 +1578,7 @@
       "serialNumber": 140,
       "datetime": "2025-05-11T09:54:17.000Z",
       "messageId": "3F342E3671582662AF3F",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "היא שלחה מייל",
       "replyTo": null,
       "reactions": null
@@ -1947,12 +1587,7 @@
       "serialNumber": 141,
       "datetime": "2025-05-11T09:56:56.000Z",
       "messageId": "3F5C97BC4D7E1A0CD93E",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
       "reactions": null
@@ -1974,12 +1609,7 @@
       "body": "כיוון טוב לא? מה דעתך",
       "replyTo": {
         "ref": "3F5C97BC4D7E1A0CD93E",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAASAGQDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD9IdKt/ila6zr+oaleaRf2U8kS6Tp5lMCQKJ5QzeasLOM25gYht+ZlkCmOMqa6xYpi/mNcSKBIW2DaQV2lQv3c4/i9c8ZxxReQy3NrNbw3k1pJIhVZ4QheIkcModWUkdfmUj1Brg9U+Eug6tpdxJot3p9pf6hczX/9qLoenXBl88y+YrAwbZEeKZoi332jA3OxZ2dJWG3c9CorkbXw1otn5fh2x8QQ26GOebTNPhtbFRaLGIYmeCMQ9IpSHyQQJJyGypRFjX4V+F49JtNFjs7JbW1h+xso0iwxNaMUae1ZBBsEU0iCSRUVcscjbgY0UU+v5/5E3OtW6t2uHs1uIzcRIkkkQYb1RiwVivUAlHAPfa3oalrnX8H7bh7jT9ansGeOOLNvZWYKxoQVQFoSduTLwc4+0S4xldqw/D/wNBbi1i8F+H0hBhby00uELuhffEcbcfI5LL/dJyMHmk0l1A6Gisu88L+G9S0s6FqXh7S7vTWtWsWs5rON4DbMFDQ+WwK+Wdq5TGDtHHFSpoGgx3C3cei2CzrM1wsi2yBxK0fltIDjO4p8hPUrx0qRl+iqcOj6TbQm3t9Ls4ojbJZ+WkCqvkIGCRYAxsUM2F6DccDmoT4b8OtqEWrNoGnG+gYtFdfZY/NRiXJKvjcCTLL0P/LR/wC8cgGlUSrdfapGaaI2xjQRxiMh1cFt7F92CCCmBtGNrEltwC5//CKeFxqVtrQ8N6UNQs1dLa7+xx+dCrbtwR8blB3vkA8729TUsnh7QJoZ7ebQ9PkiuZo7iaNrVCssqKipIwIwzKsUYBPIEaAfdFAF2NZg0nmSIylsxhVwVXA4JycnOTnjggY4ySn0UAUtYkkj06aSN2RhtwynBHzCrtFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAH//2Q=="
       },
       "reactions": null
@@ -2001,12 +1631,7 @@
       "serialNumber": 145,
       "datetime": "2025-05-11T12:27:58.000Z",
       "messageId": "3FAAFB434A7C9B9C0CD3",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "כן חושב גם. כדאי להסגר על רעיון ספציפי. ולכתוב לה ולקבל סוג של אישור לפני המיילסטון.",
       "replyTo": null,
       "reactions": null
@@ -2015,12 +1640,7 @@
       "serialNumber": 146,
       "datetime": "2025-05-11T12:30:46.000Z",
       "messageId": "3F23A84F4CFC4511FE5C",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אולי הפעם ללכת הפוך. ננסה להבין איך פרדקציה גרפים וטקסט יכול לתת פרויקט טוב, ואיכשהו לקשר גם לאמוגי כי יש הרבה דברים מעניינים שאפשר לעשות",
       "replyTo": null,
       "reactions": null
@@ -2029,12 +1649,7 @@
       "serialNumber": 147,
       "datetime": "2025-05-12T06:13:55.000Z",
       "messageId": "3F0403C5EF22EA0E1680",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "מה אתם אומרים על הרעיון הזה - נעשה data extraction מtext ואמוגיי (של whatsapp) ואז נשתמש בגרף לעשות פרדיקציה כתלות באיך שאני מרגיש כרגע - שמח, עצוב, משועמם, צריך תמיכה וכו', אם מי כדאי לי לדבר מאנשי הקשר שלי.\nאנחנו יכולים גם כשאלת המשך לעשות השוואה בין מי שהאדם בדרך כלל פונה אליו לבין מי שאנו מציעים ולראות עד כמה זה שונה\n\nיש כאן רק עניין של ואלידציה שצריך לחשוב איך כדאי לעשות",
       "replyTo": null,
       "reactions": null
@@ -2056,12 +1671,7 @@
       "serialNumber": 149,
       "datetime": "2025-05-12T06:14:58.000Z",
       "messageId": "3F2A73BCAFF836CE7FB9",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אם למישהו יש עוד רעיונות תעלו היום בבקשה כי אני רוצה לשלוח לה עד סוף היום מייל ולקבל אישור",
       "replyTo": null,
       "reactions": null
@@ -2070,12 +1680,7 @@
       "serialNumber": 150,
       "datetime": "2025-05-12T06:15:10.000Z",
       "messageId": "3F3B5E333B988BD21F90",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "בהצלחה אח",
       "replyTo": {
         "ref": "F658DD35A1281662C2D7E1D6D75C7925",
@@ -2105,12 +1710,7 @@
       "serialNumber": 152,
       "datetime": "2025-05-12T06:23:31.000Z",
       "messageId": "3F558AF46EE260062A13",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
       "reactions": null
@@ -2145,21 +1745,11 @@
       "serialNumber": 155,
       "datetime": "2025-05-13T06:24:04.000Z",
       "messageId": "C0958FB1CEBD5A5C8A03959B6026A8F3",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "@972545500044 מה אומר?",
       "replyTo": {
         "ref": "3F0403C5EF22EA0E1680",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "מה אתם אומרים על הרעיון הזה - נעשה data extraction מtext ואמוגיי (של whatsapp) ואז נשתמש בגרף לעשות פרדיקציה כתלות באיך שאני מרגיש כרגע - שמח, עצוב, משועמם, צריך תמיכה וכו', אם מי כדאי לי לדבר מאנשי הקשר שלי.\nאנחנו יכולים גם כשאלת המשך לעשות השוואה בין מי שהאדם בדרך כלל פונה אליו לבין מי שאנו מציעים ולראות עד כמה זה שונה\n\nיש כאן רק עניין של ואלידציה שצריך לחשוב איך כדאי לעשות"
       },
       "reactions": null
@@ -2177,12 +1767,7 @@
       "serialNumber": 157,
       "datetime": "2025-05-13T12:11:48.000Z",
       "messageId": "3FB7EC89F121627AF750",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אז שלב ראשון: מודל כמו BERT שיודע לעשות SENTIMENT ANALYSIS לכל הטקסט - פה אין הבדל למי הוא שייך\nשלב שני: בונים גרף עם האנשי קשר של אדם ספציפי - הזהות לא רלוונטי אבל יש אדם (נקרא לו שלמה :) יחיד\nשלב שלישי (רשות): פרדקציה למצב הנוחכי של שלמה לפי ההודעות ששלח ביום האחרון (למשל)\nשלב רביעי: RECCOMENDATION לדבר עם אדם ספציפי מהאנשי קשר שלו",
       "replyTo": null,
       "reactions": null
@@ -2200,12 +1785,7 @@
       "serialNumber": 159,
       "datetime": "2025-05-13T12:33:07.000Z",
       "messageId": "1929C01F8A9388D3FEBFFDC53D4C5E63",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "כן אז יש כאן בעיה של ולידציה שתהיתי איך נפתור אותו",
       "replyTo": null,
       "reactions": null
@@ -2214,12 +1794,7 @@
       "serialNumber": 160,
       "datetime": "2025-05-13T12:33:29.000Z",
       "messageId": "7B500B41DE41E90AF5818E3B2E9EC31F",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "קודם כל יש ממש שקופיות של recsys על evaluation",
       "replyTo": null,
       "reactions": null
@@ -2228,12 +1803,7 @@
       "serialNumber": 161,
       "datetime": "2025-05-13T12:34:31.000Z",
       "messageId": "3DC58664BEC7F62592D372878A010C62",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "מוציאים חלק מהדאטא האמיתי ומשתמשים במודל לעשות רקומדציה עליו ורואים עד כמה הוא מקביל לבחירות האמיתיות ששלמה עשה",
       "replyTo": null,
       "reactions": null
@@ -2242,12 +1812,7 @@
       "serialNumber": 162,
       "datetime": "2025-05-13T12:35:06.000Z",
       "messageId": "EB93595ECE1DC7B444D2E3610CAA4E56",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "הבעיה שזה מניח ששלמה יודע עם מי כדאי לו לפנות והמודל שלנו די מתימר לשפר בדחוק את זה",
       "replyTo": null,
       "reactions": null
@@ -2256,12 +1821,7 @@
       "serialNumber": 163,
       "datetime": "2025-05-13T12:35:08.000Z",
       "messageId": "E0000FE013C83A2709957A23BAC92B8D",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "בדיוק",
       "replyTo": null,
       "reactions": null
@@ -2270,12 +1830,7 @@
       "serialNumber": 164,
       "datetime": "2025-05-13T12:35:22.000Z",
       "messageId": "297F04200D990D1D157B9DE832ECF9BD",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אז כבר הגעתי פה לדד אנד",
       "replyTo": null,
       "reactions": null
@@ -2284,12 +1839,7 @@
       "serialNumber": 165,
       "datetime": "2025-05-13T12:37:35.000Z",
       "messageId": "753DE042B46EE4B289EF390FA89F32C8",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אפשר לעשות הכל ביחד \n- אבלואציה כמו בrecsys\n- גם לשאול \n- וגם להשאיר בגדר נתנו המלצה נקווה שזה מצליח הרי יש דברים נוספים (דיוק המודל bert) וגם הפרדיקציה (אם נכניס אותו) שגם אותו נוודא אז אולי זה מספיק",
       "replyTo": null,
       "reactions": null
@@ -2298,21 +1848,11 @@
       "serialNumber": 166,
       "datetime": "2025-05-13T12:44:43.000Z",
       "messageId": "8EB9C4A2632A9E6D33AA58E2843759D6",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "אגב זה נראלי בעיה כללית בrecsys המבחן דיוק הכי טוב הוא מבחן התוצאה שאין למודל בזמן שהוא פועל רק אחרי קצת זמן. הגיוני שהיא לא תבקש יותר מעבר למה שלמדנו",
       "replyTo": {
         "ref": "EB93595ECE1DC7B444D2E3610CAA4E56",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "הבעיה שזה מניח ששלמה יודע עם מי כדאי לו לפנות והמודל שלנו די מתימר לשפר בדחוק את זה"
       },
       "reactions": null
@@ -2330,12 +1870,7 @@
       "serialNumber": 168,
       "datetime": "2025-05-15T09:05:13.000Z",
       "messageId": "915D0B4C7E35BD390E1CD93EFD42E8F6",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "רעיון טוב, יש את ההגשה של תרגיל 1 ביום ראשון אז אולי שני בערב?",
       "replyTo": null,
       "reactions": null
@@ -2361,12 +1896,7 @@
       "body": "סבבי",
       "replyTo": {
         "ref": "915D0B4C7E35BD390E1CD93EFD42E8F6",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "רעיון טוב, יש את ההגשה של תרגיל 1 ביום ראשון אז אולי שני בערב?"
       },
       "reactions": null
@@ -2375,12 +1905,7 @@
       "serialNumber": 171,
       "datetime": "2025-05-15T13:04:20.000Z",
       "messageId": "ECA334D5F5CF5AE9438776F07D490DE4",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
       "reactions": null
@@ -2389,12 +1914,7 @@
       "serialNumber": 172,
       "datetime": "2025-05-15T14:10:33.000Z",
       "messageId": "54197B57308B8B5F9F255D153E99380F",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
       "reactions": null
@@ -2418,9 +1938,10 @@
       "messageId": "3FE0D06213C0F1725346",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "מה נשמע חברים",
       "replyTo": null,
@@ -2432,9 +1953,10 @@
       "messageId": "3F9490A7B95BBB299C7E",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -2446,9 +1968,10 @@
       "messageId": "3FCD5D7F62EEA7003182",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "מתי רוצים לשבת?",
       "replyTo": null,
@@ -2486,9 +2009,10 @@
       "messageId": "DF14B64E5B994C4DB4D8F41AEE296709",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "לי אישית גם נוח בחמישי",
       "replyTo": null,
@@ -2500,9 +2024,10 @@
       "messageId": "1E546B82CBFD8B158F350A3C883B5026",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "פנוי כל היום עד 15",
       "replyTo": null,
@@ -2527,9 +2052,10 @@
       "messageId": "3F63E27C4F8606528B28",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "לי מתאים",
       "replyTo": null,
@@ -2598,9 +2124,10 @@
       "messageId": "2D98C1256B0A5E3A4345FEF2AEF7BA4B",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "👍🏻",
       "replyTo": null,
@@ -2682,9 +2209,10 @@
       "messageId": "3F22F4C943E60F3DCC76",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "הכל טוב בלי לחץ",
       "replyTo": null,
@@ -2709,9 +2237,10 @@
       "messageId": "3F05331DDCC1B2231091",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "https://docs.google.com/document/d/1jHVd2LanxV34OySWbEaHFTuot8D7qhshPgQjSgGC5pM/edit?usp=sharing",
       "replyTo": null,
@@ -2732,9 +2261,10 @@
       "messageId": "3F08E6C10ACCC8061086",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "פתחתי בינתיים דוק משותף",
       "replyTo": null,
@@ -2771,9 +2301,10 @@
         "ref": "3F08E6C10ACCC8061086",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "פתחתי בינתיים דוק משותף"
       },
@@ -2785,9 +2316,10 @@
       "messageId": "3F949D998CF5F8A9C73F",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "יש הוראות של התרגיל וגם מה שדפנה כתבה לנו במייל",
       "replyTo": null,
@@ -2817,9 +2349,10 @@
       "messageId": "3F705DA05103B7A83627",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "שולח",
       "replyTo": null,
@@ -2831,9 +2364,10 @@
       "messageId": "3F99EBA6C973D38039D6",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "https://meet.google.com/hvs-xhxt-nkp",
       "replyTo": null,
@@ -2899,9 +2433,10 @@
       "messageId": "3F0B079D7E446AF802FE",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "what",
       "replyTo": {
@@ -2929,9 +2464,10 @@
         "ref": "3F0B079D7E446AF802FE",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "what"
       },
@@ -2996,9 +2532,10 @@
       "messageId": "B8BACD82F166A0A86F4F8989E2D31CC3",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "🤯",
       "replyTo": null,
@@ -3010,9 +2547,10 @@
       "messageId": "1CD83EBEF0096EA72A9166B0DC186BF3",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "בואנה זה מטורררף",
       "replyTo": null,
@@ -3063,6 +2601,7 @@
       "messageId": "3A7C28391C916E0DDD1E",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3072,9 +2611,10 @@
         "ref": "1CD83EBEF0096EA72A9166B0DC186BF3",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "בואנה זה מטורררף"
       },
@@ -3086,6 +2626,7 @@
       "messageId": "3A1EAE6BCB5C783C5F3A",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3108,6 +2649,7 @@
         "ref": "3A1EAE6BCB5C783C5F3A",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -3122,6 +2664,7 @@
       "messageId": "3AC91A4267B220010D4A",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3136,6 +2679,7 @@
       "messageId": "3A7FBC9BBBE33ABEEED3",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3189,6 +2733,7 @@
         "ref": "3AE0E43CC3A5AE219500",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -3233,15 +2778,17 @@
       "messageId": "629B8C62F2517E2BFA10A6EE9860EF4D",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "שמת לב שלא היה reply אבל? במקרה?",
       "replyTo": {
         "ref": "3A67F4D5B66A2B0C5119",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -3256,9 +2803,10 @@
       "messageId": "DBF187B624A87DEC76FD743920C55A14",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "גם לא היה הרבה הודעות וגם הוא לא מציג שם\n\nאת השמות אפשר לעשות קרוס רפרנס עם הייצוא של וואטסאפ בשביל להשלים",
       "replyTo": null,
@@ -3270,6 +2818,7 @@
       "messageId": "3AF6A4B52D862F610E91",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3279,9 +2828,10 @@
         "ref": "629B8C62F2517E2BFA10A6EE9860EF4D",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "שמת לב שלא היה reply אבל? במקרה?"
       },
@@ -3293,6 +2843,7 @@
       "messageId": "3A0826B7A41362D17DF3",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3302,9 +2853,10 @@
         "ref": "DBF187B624A87DEC76FD743920C55A14",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "גם לא היה הרבה הודעות וגם הוא לא מציג שם\n\nאת השמות אפשר לעשות קרוס רפרנס עם הייצוא של וואטסאפ בשביל להשלים"
       },
@@ -3316,6 +2868,7 @@
       "messageId": "3A6FCAE3C93986A80172",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3382,9 +2935,10 @@
       "messageId": "35B4B2FC020C0A76BAAB4C005254885C",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "🔥",
       "replyTo": null,
@@ -3396,9 +2950,10 @@
       "messageId": "9657734D87A6093C4DFEA2EC48F33F97",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "שבת שלום חברים נדבר בראשון",
       "replyTo": null,
@@ -3410,6 +2965,7 @@
       "messageId": "3ADE63A29148A2B50C3F",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3437,9 +2993,10 @@
       "messageId": "ACA69CD7DD0DCB9F640ABC279634F9AB",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "קבענו מ13-15 נכון?",
       "replyTo": null,
@@ -3451,6 +3008,7 @@
       "messageId": "3A0BB223B505257C404B",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3499,9 +3057,10 @@
       "messageId": "3F4CED7FD637040E7D43",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "https://meet.google.com/qny-rmfm-wha",
       "replyTo": null,
@@ -3513,6 +3072,7 @@
       "messageId": "3A8C7B52A786EC16F65B",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3527,6 +3087,7 @@
       "messageId": "3A369DAF6179962896F8",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -3576,9 +3137,10 @@
       "messageId": "3F4C756F15ECC7D3DDAB",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "https://docs.google.com/document/d/1jHVd2LanxV34OySWbEaHFTuot8D7qhshPgQjSgGC5pM/edit?usp=sharing",
       "replyTo": null,
@@ -3612,9 +3174,10 @@
       "messageId": "3F1F0064D5B05857B926DD9E0818341D",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "https://github.com/NatanelRichey",
       "replyTo": null,
@@ -3644,9 +3207,10 @@
       "messageId": "03D906061DA408DC4138F4C925C790FD",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "רגע הדאטא נקי?",
       "replyTo": null,
@@ -3667,9 +3231,10 @@
       "messageId": "D367EFA18E861BEB6FC51215CB56F547",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "מה שדברנו עם השמות וid message",
       "replyTo": null,
@@ -3690,15 +3255,17 @@
       "messageId": "41CFD2A3F4AEA28719D722818F38FC32",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "זה רק הreply נכון?",
       "replyTo": {
         "ref": "3A18AB4AA7355841E0C3",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -3800,9 +3367,10 @@
       "messageId": "29B8D9DF418289561D8AB1053E47A958",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "אני יושב על זה עכשיו, אשלח שיהיה",
       "replyTo": null,
@@ -3827,9 +3395,10 @@
       "messageId": "3F3451F01D3100D4C5A9",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -3841,9 +3410,10 @@
       "messageId": "3FE7423B9C612B0CE263",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "לא נפתח אצלי חלון ואטסאפ",
       "replyTo": null,
@@ -3855,9 +3425,10 @@
       "messageId": "3F01F5378B745285BFFE",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -3913,15 +3484,17 @@
       "messageId": "3F271FA0C2D3F2888921",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "לא עובד",
       "replyTo": {
         "ref": "3AF2F76699910DD9BC52",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -3936,9 +3509,10 @@
       "messageId": "3F83E721DFA2D9726F12",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "הצלחתי לפתוח את החלון אבל הQR לא נטען",
       "replyTo": null,
@@ -3963,9 +3537,10 @@
       "messageId": "51F2BB70E7E9B06F5DCEDDC64E1CA150",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -4029,9 +3604,10 @@
       "messageId": "6D3E28B98B9AFCFE7FB68721864FA529",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "לפעמים זה קורה לי ואני עובר להוטספוט וזה פוטר את הבעיה. כאן זה לא",
       "replyTo": null,
@@ -4043,9 +3619,10 @@
       "messageId": "F45F6A7B21ECA165BE7D9CE617DB8692",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "איזה?",
       "replyTo": {
@@ -4073,9 +3650,10 @@
         "ref": "3F3451F01D3100D4C5A9",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "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"
       },
@@ -4148,9 +3726,10 @@
       "messageId": "7D595B672BF3E0D007B167B0273068AE",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "זה פותח לי חלון בקרום",
       "replyTo": null,
@@ -4162,6 +3741,7 @@
       "messageId": "3AB43182BEF0ED29D7AB",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -4176,6 +3756,7 @@
       "messageId": "3AFE0751E0D8E860CFBC",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -4190,6 +3771,7 @@
       "messageId": "3ADA2FAE53C878C54A11",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -4204,9 +3786,10 @@
       "messageId": "1556F24111A718F1C7A88969D0E0AEAA",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -4270,9 +3853,10 @@
       "messageId": "3F96A69261EB8F71D4E0",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "שאלת את GPT",
       "replyTo": null,
@@ -4284,9 +3868,10 @@
       "messageId": "3FA7F19C130C289FD390",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "?",
       "replyTo": null,
@@ -4358,9 +3943,10 @@
       "messageId": "C6D4D36C85BE8EF607FFCFA8525502F7",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "סבבה @227564681449618 אתה יכול לסדר את העניין של השעות ולהריץ שוב בבקשה עדיין לא סידרתי את העניין של הqr",
       "replyTo": null,
@@ -4432,9 +4018,10 @@
       "messageId": "957C7523E63F588A1263747497A9C4E6",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "אה\nבבדיקת ריאלתי יש פיגור של שלש שעות. יעני הודעה שנשלחה ב8 אצלנו נקלט כ5 בgroup export כנראה כי הוא מוגדר על utc ואנחנו utc + 3",
       "replyTo": null,
@@ -4485,9 +4072,10 @@
       "messageId": "DB3326985EDD8146BC8C4CBDEB8410F4",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "אולי נשאיר ונראה שעלינו על משהו בבדיקה, ונתקן את הקוד",
       "replyTo": null,
@@ -4551,9 +4139,10 @@
       "messageId": "212EF5F5EB23BB9D62808B3BBBE01388",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -4617,9 +4206,10 @@
       "messageId": "DB0FA80CE323D84937015908E63189AC",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "הקוד מייצא מואטסאפ שומר בזמן utc",
       "replyTo": null,
@@ -4631,9 +4221,10 @@
       "messageId": "36E7649B094AEF122A1288CD47A10351",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "אז בקבוצת נידל שלנו הכל היה בפיגור של 3 שעות, לא ראיתי את שלך עדיין",
       "replyTo": null,
@@ -4732,9 +4323,10 @@
       "messageId": "C2DE78EE2E8424004D7D9B3A930EE714",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "👑",
       "replyTo": null,
@@ -4854,6 +4446,7 @@
         "ref": "3ADA04A2CADC4AB6C61D",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -4925,6 +4518,7 @@
         "ref": "3ACFC557A1412F45F7F8",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -5026,6 +4620,7 @@
         "ref": "3A435400F897CA16D02B",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -5136,9 +4731,10 @@
       "messageId": "3F08C8C14CF62EB30D5A",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "שולח קישור תכף",
       "replyTo": null,
@@ -5150,9 +4746,10 @@
       "messageId": "3FFFD2DF5831683D3173",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "https://meet.google.com/kbp-swqg-dpf",
       "replyTo": null,
@@ -5222,7 +4819,7 @@
     {
       "serialNumber": 381,
       "datetime": "2025-06-09T17:51:28.000Z",
-      "messageId": "3FD261AAD68F11248867",
+      "messageId": "3F387E421426D84C2D0A",
       "sender": {
         "id": "227564681449618@lid",
         "pushname": "Yehonatan (Jonny)",
@@ -5235,7 +4832,7 @@
     {
       "serialNumber": 382,
       "datetime": "2025-06-09T17:51:28.000Z",
-      "messageId": "3FBC5D85E1A6C4A3E252",
+      "messageId": "3FD7825A034697C2775C",
       "sender": {
         "id": "227564681449618@lid",
         "pushname": "Yehonatan (Jonny)",
@@ -5248,7 +4845,7 @@
     {
       "serialNumber": 383,
       "datetime": "2025-06-09T17:51:28.000Z",
-      "messageId": "3F4F366B2A9A9ED27155",
+      "messageId": "3FD261AAD68F11248867",
       "sender": {
         "id": "227564681449618@lid",
         "pushname": "Yehonatan (Jonny)",
@@ -5261,7 +4858,7 @@
     {
       "serialNumber": 384,
       "datetime": "2025-06-09T17:51:28.000Z",
-      "messageId": "3F387E421426D84C2D0A",
+      "messageId": "3FBC5D85E1A6C4A3E252",
       "sender": {
         "id": "227564681449618@lid",
         "pushname": "Yehonatan (Jonny)",
@@ -5274,7 +4871,7 @@
     {
       "serialNumber": 385,
       "datetime": "2025-06-09T17:51:28.000Z",
-      "messageId": "3FD7825A034697C2775C",
+      "messageId": "3F4F366B2A9A9ED27155",
       "sender": {
         "id": "227564681449618@lid",
         "pushname": "Yehonatan (Jonny)",
@@ -5483,9 +5080,10 @@
       "messageId": "3F2EAF4E15963CA356D3",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -5497,9 +5095,10 @@
       "messageId": "3F35C2F8B32548507177",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "הארכה גורפת",
       "replyTo": null,
@@ -5511,9 +5110,10 @@
       "messageId": "3F652A2394ACD5CD93C9",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "שישי ב17:59",
       "replyTo": null,
@@ -5551,9 +5151,10 @@
       "messageId": "3F97D5B39EE1E93F2BD2",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "👌🏻💪🏻",
       "replyTo": null,
@@ -5604,9 +5205,10 @@
       "messageId": "3F7D85320028EA406D28",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -5618,9 +5220,10 @@
       "messageId": "3F3F9E67DD7BFF8FAE12",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -5632,9 +5235,10 @@
       "messageId": "3F29429D1D4CA8F15835",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -5646,9 +5250,10 @@
       "messageId": "3FE62F94C38A4081E873",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -5673,9 +5278,10 @@
       "messageId": "3F9D6E522A7D997E4AF1",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "האחרון יצא קצת צפוף?",
       "replyTo": null,
@@ -5687,6 +5293,7 @@
       "messageId": "3A627515488665A8F83C",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -5701,6 +5308,7 @@
       "messageId": "3A6290F67905E339582C",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -5710,9 +5318,10 @@
         "ref": "3F9D6E522A7D997E4AF1",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "האחרון יצא קצת צפוף?"
       },
@@ -5724,9 +5333,10 @@
       "messageId": "3F062F51EFE1FC6A5E43",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "לא התכוונתי לגרף המאחד",
       "replyTo": null,
@@ -5738,9 +5348,10 @@
       "messageId": "3F934EEF2CDE45D5240B",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "אולי אעשה vertical stack",
       "replyTo": null,
@@ -5752,6 +5363,7 @@
       "messageId": "3A180F9C9235CC7453C5",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -5761,9 +5373,10 @@
         "ref": "3F29429D1D4CA8F15835",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "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"
       },
@@ -5775,6 +5388,7 @@
       "messageId": "3AAFB1CC38A2B503DA99",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -5784,6 +5398,7 @@
         "ref": "3A180F9C9235CC7453C5",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -5798,6 +5413,7 @@
       "messageId": "3A158A0FEF296E0727FB",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -5807,9 +5423,10 @@
         "ref": "3FE62F94C38A4081E873",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "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"
       },
@@ -5821,6 +5438,7 @@
       "messageId": "3AC0ED1B0E15CCEF030F",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -5835,6 +5453,7 @@
       "messageId": "3A67231FB2D0536033B5",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -5849,9 +5468,10 @@
       "messageId": "3FEEEF8AAC6C83F3AFFE",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -5863,6 +5483,7 @@
       "messageId": "3A253299625BBE43ECE1",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -5872,6 +5493,7 @@
         "ref": "3A158A0FEF296E0727FB",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -5886,6 +5508,7 @@
       "messageId": "3A2EC4EB7E1B5EA5D90B",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -5895,9 +5518,10 @@
         "ref": "3FEEEF8AAC6C83F3AFFE",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "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"
       },
@@ -5935,9 +5559,10 @@
       "messageId": "CA1EC56966CDA9AB2BE60D2EE810DE34",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "לדעתי יותר מדי סטאקינג. היא הזהירה על זה בהרצאות. הייתי מאחד רפליי ואמוגי, ועושה בכל עמןדה רק total וreply",
       "replyTo": null,
@@ -5975,9 +5600,10 @@
       "messageId": "95B204FA7059378A6C2DD23D825F9A5B",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "כן. כמו שהיה מקודם רק שתי רמות ואז הייתי מוסיף אמוגי count לreply count כי תכלית זה גם סוג של reply",
       "replyTo": {
@@ -6062,9 +5688,10 @@
       "messageId": "3F6C146053B78DDA6382",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "אז אפשר להוסיף גם את האמוגי count לtotal count\nנגיד יש 80 הודעות, 30 מתוכן רפליי, ו20 אמוגי. אם נספור בלי אמוגי זה 3/8 בערך 38%. אבל עם אמוגיי יוצא 50%.",
       "replyTo": null,
@@ -6076,9 +5703,10 @@
       "messageId": "3FED66218244A1F2C0AB",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "זה גם הגיוני לספור ככה",
       "replyTo": null,
@@ -6103,9 +5731,10 @@
       "messageId": "3F620FEA203B3A9A45A8",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -6143,9 +5772,10 @@
       "messageId": "3F931AE31116BBB159E4",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "[No text]",
       "replyTo": null,
@@ -6157,9 +5787,10 @@
       "messageId": "3F91EB8A8DEDED56803D",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "יש QR",
       "replyTo": null,
@@ -6171,9 +5802,10 @@
       "messageId": "3F18197A3CEB7D01C0C5",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "[No text]",
       "replyTo": null,
@@ -6185,9 +5817,10 @@
       "messageId": "3F3536D25E959DD733A5",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "גם יש דרך להוריד את הדאטא של קבוצות נבחרות ביחד או שחייבים אחד אחד",
       "replyTo": null,
@@ -6293,9 +5926,10 @@
         "ref": "3F3536D25E959DD733A5",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "גם יש דרך להוריד את הדאטא של קבוצות נבחרות ביחד או שחייבים אחד אחד"
       },
@@ -6320,9 +5954,10 @@
       "messageId": "3FB65FD6F179AAB4D972",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "טוב הצלחתי לעשות IMPORT",
       "replyTo": null,
@@ -6334,9 +5969,10 @@
       "messageId": "3F1D8089E06A63F96F72",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "@972545500044 אתה יכול לשלוח את הCRAWLER.JS המעודכן פליז",
       "replyTo": null,
@@ -6348,6 +5984,7 @@
       "messageId": "3A5615FF31B042B8F76A",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6357,9 +5994,10 @@
         "ref": "3F1D8089E06A63F96F72",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "@972545500044 אתה יכול לשלוח את הCRAWLER.JS המעודכן פליז"
       },
@@ -6371,9 +6009,10 @@
       "messageId": "3FDEFC074056CFD01902",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "אז עכשיו לא עובד 😖",
       "replyTo": null,
@@ -6385,9 +6024,10 @@
       "messageId": "3FFAC02E22F6D80FE32A",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "Error: Failed to launch the browser process! undefined",
       "replyTo": null,
@@ -6399,6 +6039,7 @@
       "messageId": "3A9640F3855CE4FD6559",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6413,6 +6054,7 @@
       "messageId": "3ABC02EFE874849B64AE",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6435,9 +6077,10 @@
         "ref": "3FFAC02E22F6D80FE32A",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "Error: Failed to launch the browser process! undefined"
       },
@@ -6449,9 +6092,10 @@
       "messageId": "3FF0809C024301E9560D",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "עשיתי בלגן בNPM",
       "replyTo": null,
@@ -6463,9 +6107,10 @@
       "messageId": "3FF106932084282051E1",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "התקנתי הכל מחדש",
       "replyTo": null,
@@ -6477,9 +6122,10 @@
       "messageId": "3FA20D5D639B6010D083",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "בא נראה",
       "replyTo": null,
@@ -6491,9 +6137,10 @@
       "messageId": "3F455374B825954E875B",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -6505,6 +6152,7 @@
       "messageId": "3A181A9798DB0178E1AF",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6519,9 +6167,10 @@
       "messageId": "3F0E500B6FC38909943A",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "yup",
       "replyTo": null,
@@ -6533,6 +6182,7 @@
       "messageId": "3ADBAD086BB74A506729",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6547,6 +6197,7 @@
       "messageId": "3A38B2673599C1AACA94",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6561,9 +6212,10 @@
       "messageId": "3F84FB52CB972A48C802",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "עכשיו הרצתי שוב ויש רק לחלק",
       "replyTo": null,
@@ -6575,9 +6227,10 @@
       "messageId": "3FEB5ABD9664174F12A0",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
@@ -6589,6 +6242,7 @@
       "messageId": "3AEC0E867D5891287DC7",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6603,6 +6257,7 @@
       "messageId": "3AE8C3043416AF051060",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6612,9 +6267,10 @@
         "ref": "3FEB5ABD9664174F12A0",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "[No text]"
       },
@@ -6626,6 +6282,7 @@
       "messageId": "3A7EE6FF4278C2B7EB0D",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6640,9 +6297,10 @@
       "messageId": "3F07DCB9E6866AC31531",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "כנראה קשור לחיבור שלי לוואטסאפ",
       "replyTo": null,
@@ -6654,6 +6312,7 @@
       "messageId": "3A161B1B5E65D8D0637D",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6668,15 +6327,17 @@
       "messageId": "3F26730657778D9CB586",
       "sender": {
         "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
         "shortName": "נתי",
         "pushname": "Natanel Richey",
-        "phone": "972584171094"
+        "phone": null
       },
       "body": "זה לא אמור להיות הברירת מחדל?",
       "replyTo": {
         "ref": "3A7EE6FF4278C2B7EB0D",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -6691,6 +6352,7 @@
       "messageId": "3ADB3536E4C87FAC28FC",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6705,6 +6367,7 @@
       "messageId": "3A6D5217E49F230585F8",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6714,9 +6377,10 @@
         "ref": "3F26730657778D9CB586",
         "author": {
           "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
           "shortName": "נתי",
           "pushname": "Natanel Richey",
-          "phone": "972584171094"
+          "phone": null
         },
         "body": "זה לא אמור להיות הברירת מחדל?"
       },
@@ -6728,6 +6392,7 @@
       "messageId": "3AE958AA3EA2C9605CA0",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6742,6 +6407,7 @@
       "messageId": "3A616D3967D2A5CCB54D",
       "sender": {
         "id": "117025141694548@lid",
+        "name": "Jonathan Shmuel Vider",
         "shortName": "Jonathan",
         "pushname": "יונתן",
         "phone": null
@@ -6825,6 +6491,7 @@
         "ref": "3A1D95E13BED35392E3E",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -6847,6 +6514,7 @@
         "ref": "3AEF71CABC390739A2C4",
         "author": {
           "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
           "shortName": "Jonathan",
           "pushname": "יונתן",
           "phone": null
@@ -6880,25 +6548,1309 @@
       "body": "אשנה",
       "replyTo": null,
       "reactions": null
+    },
+    {
+      "serialNumber": 496,
+      "datetime": "2025-06-10T19:18:24.000Z",
+      "messageId": "A087E8995B2AC3C15AFD876430813667",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "תודה🙏🏻",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 497,
+      "datetime": "2025-06-11T08:48:45.000Z",
+      "messageId": "782DFD56B21624FC3E6CC804AB864306",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "מה קורה חברה\nאתם רוצים לשבת הערב להגיש?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 498,
+      "datetime": "2025-06-11T09:04:34.000Z",
+      "messageId": "3AFF95B5A1960CF71E29",
+      "sender": "Unknown Member",
+      "body": "אני בעד",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 499,
+      "datetime": "2025-06-11T09:06:28.000Z",
+      "messageId": "976F4E2C4300CD8896B1C3B87AB66558",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "@227564681449618 אפשר אולי להגיש הכל הערב ואם נצליח את הai אפשר תמיד לעדכן את הויזואליזציה האחרונה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 500,
+      "datetime": "2025-06-11T09:09:09.000Z",
+      "messageId": "3AD911E595D28F527715",
+      "sender": "Unknown Member",
+      "body": "עשיתי אתמול קצת משחקים עם ה- AI  הייתי חייב",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 501,
+      "datetime": "2025-06-11T09:10:10.000Z",
+      "messageId": "3A6D98D2FAC812486388",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 502,
+      "datetime": "2025-06-11T09:10:18.000Z",
+      "messageId": "3FCBF44EC27DC6AC8B6D",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "אנסה, אני רגע על הגשה בIML ובערב יש לי איזה אקתון בIML\nמנסה שנייה לסיים הכל עד אז \nמה עשיתי @972545500044 ?",
+      "replyTo": {
+        "ref": "782DFD56B21624FC3E6CC804AB864306",
+        "author": {
+          "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
+          "shortName": "נתי",
+          "pushname": "Natanel Richey",
+          "phone": null
+        },
+        "body": "מה קורה חברה\nאתם רוצים לשבת הערב להגיש?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 503,
+      "datetime": "2025-06-11T09:10:21.000Z",
+      "messageId": "3ACE64E022063450E96B",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 504,
+      "datetime": "2025-06-11T09:10:32.000Z",
+      "messageId": "3F7E557A3BA5C10875E7",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "טואוב",
+      "replyTo": {
+        "ref": "3A6D98D2FAC812486388",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCABIAEgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAEDAgQG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAD0xChtYZsUS5GhoyE8O6871uWcuviKGmTLhz1lZZaq0nDt5yb3k0MEXVzPVEHJ2Ii6hAuEbAJgOQGEBoA//8QAGREBAQADAQAAAAAAAAAAAAAAEQABECAw/9oACAECAQE/AOSMREaIiPP/xAAbEQADAAIDAAAAAAAAAAAAAAAAARIRUSAwYf/aAAgBAwEBPwDHGnsplsplsytFLRXhRT6//8QALxAAAQMCBAUCBAcAAAAAAAAAAQACEQMSEyExUQQiQWFxFDIQICOBJDNCU2Kh0f/aAAgBAQABPwD4j5qbnXS6q0t2TarHGA4E+VUcREOA8ph5dZ+BxMQHEFs6L6lxh410Vw0kSrm7hGlSOVoQ4SiHS1pB7FP4ekfcT9ym8OwCAXAeVgbPcFgtuANYzKFAh2VUysF0gipmF6ZxBDqhz1hUw3FyaQd1B3VYaS0uTJjZQd08M9U2aLi6fd0CAb6g8pujXoqYEmAfuo5hrKoV6tvMC8rFq/tf2qtTiMrWhvkptSvaBh57yvxH8U48RiD6zBn7d1fXxYxWeEDUMj1DZ7BBjjma5I6qjSFKC2mZ7lU6r3PIdTtA67qpBjllMIjZSEWg1A7CGuqdy1pbRBn9ScSwkN4eQeqY9xb+VadirodJfPZUKjaruV9xHRVtBcY8KlNgjMbrm2Cc5mO0F7rpyHRETcC8/wCK0lwIfoNFUESS8tgK1uwTWMaZa0A9kYOsJsBSrWzMCVDdggGgyAEQ06gFVKVd0WVA3fJNaQ0B2Z3T2EkQYTQFARpvum/KZhXvxiJ5fCdVLXGST2AVxdobfsv//gADAP/Z"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 505,
+      "datetime": "2025-06-11T09:10:45.000Z",
+      "messageId": "3F96CB3A825DC4C013F9",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "אבל עכשיו אני ארגיש רע שזה הצליח לך ולא לי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 506,
+      "datetime": "2025-06-11T09:11:59.000Z",
+      "messageId": "3AA82EDE6C0BABF070A8",
+      "sender": "Unknown Member",
+      "body": "חח עזוב😅 יותר מזל משכל..",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 507,
+      "datetime": "2025-06-11T09:12:18.000Z",
+      "messageId": "3F4E7C1F2E4CB72B944D",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "אני לא הבנתי מה הבעיה אצלי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 508,
+      "datetime": "2025-06-11T09:12:21.000Z",
+      "messageId": "3F005AABBA6ED571FFCF",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "כאילו למה זה עבד",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 509,
+      "datetime": "2025-06-11T09:12:26.000Z",
+      "messageId": "3F5A7C9EEF090FA95025",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "ואז הפסיק כי הסתיים המפתח",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 510,
+      "datetime": "2025-06-11T09:12:32.000Z",
+      "messageId": "3FC61B19D5C7C9F346A5",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "ואז שאני מריץ עם שלך זה לא עובד",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 511,
+      "datetime": "2025-06-11T09:12:37.000Z",
+      "messageId": "3F9380BD1B659B3C2763",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "אני עד עכשיו אוכל על זה סריטות",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 512,
+      "datetime": "2025-06-11T09:12:39.000Z",
+      "messageId": "3FD032073C367D6EA26A",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "שריטות",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 513,
+      "datetime": "2025-06-11T09:13:27.000Z",
+      "messageId": "3FA0ACD273EA03974E43",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "מה זה המספרים שאנחנו רואים?",
+      "replyTo": {
+        "ref": "3A6D98D2FAC812486388",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCABIAEgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAEDAgQG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAD0xChtYZsUS5GhoyE8O6871uWcuviKGmTLhz1lZZaq0nDt5yb3k0MEXVzPVEHJ2Ii6hAuEbAJgOQGEBoA//8QAGREBAQADAQAAAAAAAAAAAAAAEQABECAw/9oACAECAQE/AOSMREaIiPP/xAAbEQADAAIDAAAAAAAAAAAAAAAAARIRUSAwYf/aAAgBAwEBPwDHGnsplsplsytFLRXhRT6//8QALxAAAQMCBAUCBAcAAAAAAAAAAQACEQMSEyExUQQiQWFxFDIQICOBJDNCU2Kh0f/aAAgBAQABPwD4j5qbnXS6q0t2TarHGA4E+VUcREOA8ph5dZ+BxMQHEFs6L6lxh410Vw0kSrm7hGlSOVoQ4SiHS1pB7FP4ekfcT9ym8OwCAXAeVgbPcFgtuANYzKFAh2VUysF0gipmF6ZxBDqhz1hUw3FyaQd1B3VYaS0uTJjZQd08M9U2aLi6fd0CAb6g8pujXoqYEmAfuo5hrKoV6tvMC8rFq/tf2qtTiMrWhvkptSvaBh57yvxH8U48RiD6zBn7d1fXxYxWeEDUMj1DZ7BBjjma5I6qjSFKC2mZ7lU6r3PIdTtA67qpBjllMIjZSEWg1A7CGuqdy1pbRBn9ScSwkN4eQeqY9xb+VadirodJfPZUKjaruV9xHRVtBcY8KlNgjMbrm2Cc5mO0F7rpyHRETcC8/wCK0lwIfoNFUESS8tgK1uwTWMaZa0A9kYOsJsBSrWzMCVDdggGgyAEQ06gFVKVd0WVA3fJNaQ0B2Z3T2EkQYTQFARpvum/KZhXvxiJ5fCdVLXGST2AVxdobfsv//gADAP/Z"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 514,
+      "datetime": "2025-06-11T09:14:10.000Z",
+      "messageId": "3A7CE115137700E089F4",
+      "sender": "Unknown Member",
+      "body": "צריך להסתכל על הקוד לבדוק..\n\nבגלל שסריקה וניתוח של 900 הודעות זה איזה 50-80 סנט אז עשיתי כזה קאשינג שישר ישמור את מה שעשה וימשיך משם בריצה הבאה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 515,
+      "datetime": "2025-06-11T09:14:34.000Z",
+      "messageId": "3A10307C8AE2E8C0A479",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 516,
+      "datetime": "2025-06-11T09:15:39.000Z",
+      "messageId": "3AB9C328E6AFD2792835",
+      "sender": "Unknown Member",
+      "body": "הטופ 2 הודעות עם הכי הרבה likelyhood שההודעה היא תגובה",
+      "replyTo": {
+        "ref": "3A10307C8AE2E8C0A479",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "[No text]"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 517,
+      "datetime": "2025-06-11T09:16:59.000Z",
+      "messageId": "3A8CE0F473BAA10824B7",
+      "sender": "Unknown Member",
+      "body": "וגם בעמודה האחרונה יש נימוק של GPT למה הוא חשב את מה שיצא",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 518,
+      "datetime": "2025-06-11T09:17:39.000Z",
+      "messageId": "3A1D36BBFD0029526C45",
+      "sender": "Unknown Member",
+      "body": "העמודה השלישית*\nסידרתי את העמודות אצלי קצת אחרת",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 519,
+      "datetime": "2025-06-11T14:31:16.000Z",
+      "messageId": "3F9CDECF8E9FDF32FB05",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "<Media Message (Truncated)>",
+      "replyTo": {
+        "ref": "3A1D95E13BED35392E3E",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "זה מגניב\nיכול להיות שווה שנמיין כזה את הסדר של הקבוצות לפי גובה/כמות אינטרקציות (נגיד שהbar הכי גבוה יהיה בשמאל ואז בהדרגה ירד עד לקבוצה עם הכי קצת דאטה) וזה יהיה קל יותר ככה להבין מגמות והבדלים בין הקבוצות.."
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 520,
+      "datetime": "2025-06-11T14:31:25.000Z",
+      "messageId": "3F333B1A17CA5462A756",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "העלת לגיט?",
+      "replyTo": {
+        "ref": "3A7CE115137700E089F4",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "צריך להסתכל על הקוד לבדוק..\n\nבגלל שסריקה וניתוח של 900 הודעות זה איזה 50-80 סנט אז עשיתי כזה קאשינג שישר ישמור את מה שעשה וימשיך משם בריצה הבאה"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 521,
+      "datetime": "2025-06-11T14:41:49.000Z",
+      "messageId": "3F2C27148656FC8D29D0",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "מחר אנסה לשבת הרבה על הAO",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 522,
+      "datetime": "2025-06-11T14:41:50.000Z",
+      "messageId": "3F834F59D36791EC1DE6",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "AI",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 523,
+      "datetime": "2025-06-11T16:10:36.000Z",
+      "messageId": "3A0CD80AE0CD005216D5",
+      "sender": "Unknown Member",
+      "body": "לגמרי!",
+      "replyTo": {
+        "ref": "3F9CDECF8E9FDF32FB05",
+        "author": {
+          "id": "227564681449618@lid",
+          "pushname": "Yehonatan (Jonny)",
+          "phone": "972546374390"
+        },
+        "body": "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"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 524,
+      "datetime": "2025-06-11T16:10:44.000Z",
+      "messageId": "3A75B77DCE8D724F8E50",
+      "sender": "Unknown Member",
+      "body": "את הAI?",
+      "replyTo": {
+        "ref": "3F333B1A17CA5462A756",
+        "author": {
+          "id": "227564681449618@lid",
+          "pushname": "Yehonatan (Jonny)",
+          "phone": "972546374390"
+        },
+        "body": "העלת לגיט?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 525,
+      "datetime": "2025-06-11T16:11:45.000Z",
+      "messageId": "3A0442CBE9FA73492619",
+      "sender": "Unknown Member",
+      "body": "הAI אצלי עובד ממש יפה.. הוא עלה על עוד איזה 70-100 Implicit replies  (!!)  בקבוצת מחט",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 526,
+      "datetime": "2025-06-11T16:13:08.000Z",
+      "messageId": "3AA306A2E32B621554A1",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 527,
+      "datetime": "2025-06-11T16:13:58.000Z",
+      "messageId": "3A59F9D63091099DDA8A",
+      "sender": "Unknown Member",
+      "body": "ניסית למיין לפי גובה?",
+      "replyTo": {
+        "ref": "3A0CD80AE0CD005216D5",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "לגמרי!"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 528,
+      "datetime": "2025-06-11T16:16:35.000Z",
+      "messageId": "82D974B8D09E99E6CEEC70FD48380DE3",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "שיט רגע שלחתי את התמונה הלא נכונה חחחחחחחח",
+      "replyTo": {
+        "ref": "3A59F9D63091099DDA8A",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "ניסית למיין לפי גובה?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 529,
+      "datetime": "2025-06-11T16:16:58.000Z",
+      "messageId": "E6A8D852F27BB23A7598CB6EB061D6F7",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "כן",
+      "replyTo": {
+        "ref": "3A75B77DCE8D724F8E50",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "את הAI?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 530,
+      "datetime": "2025-06-11T16:17:02.000Z",
+      "messageId": "3F45A10084130F6CF99B2513573398DA",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "משוגע",
+      "replyTo": {
+        "ref": "3AA306A2E32B621554A1",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "[No text]"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 531,
+      "datetime": "2025-06-11T16:17:34.000Z",
+      "messageId": "3A450B603B4D19D13EC4",
+      "sender": "Unknown Member",
+      "body": "יכול להעלות לריפו אם אתה רוצה",
+      "replyTo": {
+        "ref": "E6A8D852F27BB23A7598CB6EB061D6F7",
+        "author": {
+          "id": "227564681449618@lid",
+          "pushname": "Yehonatan (Jonny)",
+          "phone": "972546374390"
+        },
+        "body": "כן"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 532,
+      "datetime": "2025-06-11T16:18:35.000Z",
+      "messageId": "25FC96731233CF6C7585FB914C83B8C2",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "אשמחח",
+      "replyTo": {
+        "ref": "3A450B603B4D19D13EC4",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "יכול להעלות לריפו אם אתה רוצה"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 533,
+      "datetime": "2025-06-11T16:19:02.000Z",
+      "messageId": "8BEC5AABA3FB604A544CF44240DE2962",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "תעלו הכל, בברנץ \nואז נסדר הכל לפני ההגשה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 534,
+      "datetime": "2025-06-11T16:19:06.000Z",
+      "messageId": "E8529D11A2F52932D94CCAC0D3A12B03",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "כאילו דברים ששימושים",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 535,
+      "datetime": "2025-06-11T16:19:49.000Z",
+      "messageId": "3A8E6163100015462EFF",
+      "sender": "Unknown Member",
+      "body": "בטח. מעלה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 536,
+      "datetime": "2025-06-11T16:20:16.000Z",
+      "messageId": "DF7D5B76CCE15EF38E5470517C5A2C52",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "תודה!",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 537,
+      "datetime": "2025-06-11T16:28:13.000Z",
+      "messageId": "3A79C77A0D91D031E17A",
+      "sender": "Unknown Member",
+      "body": "באוויר🙂",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 538,
+      "datetime": "2025-06-11T16:31:54.000Z",
+      "messageId": "3AB8BAEACE1C816C1218",
+      "sender": "Unknown Member",
+      "body": "ראיתי! שתיכם עשיתם fork \nתוודאו שאתם על הקוד הנקי שעדכנתי אתמול ולא בטעות עם הסקריפט הקודם (המגעיל של ה800 שורות קוד)",
+      "replyTo": {
+        "ref": "8BEC5AABA3FB604A544CF44240DE2962",
+        "author": {
+          "id": "227564681449618@lid",
+          "pushname": "Yehonatan (Jonny)",
+          "phone": "972546374390"
+        },
+        "body": "תעלו הכל, בברנץ \nואז נסדר הכל לפני ההגשה"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 539,
+      "datetime": "2025-06-11T16:34:05.000Z",
+      "messageId": "5C2AAC7154E16FCF1E459AC72FE02B9B",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "הפולק הזה סתם לא נוח, אעבוד עם המקורי עם ברנץ משלי.\nפולק נחמד רק בסוף",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 540,
+      "datetime": "2025-06-11T16:34:23.000Z",
+      "messageId": "F952AD7E5B7B404D6E12C2626FD86B5E",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "תודה!",
+      "replyTo": {
+        "ref": "3A79C77A0D91D031E17A",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "באוויר🙂"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 541,
+      "datetime": "2025-06-11T16:34:38.000Z",
+      "messageId": "3AE2E4E34F9029774147",
+      "sender": "Unknown Member",
+      "body": "הכי טוב",
+      "replyTo": {
+        "ref": "5C2AAC7154E16FCF1E459AC72FE02B9B",
+        "author": {
+          "id": "227564681449618@lid",
+          "pushname": "Yehonatan (Jonny)",
+          "phone": "972546374390"
+        },
+        "body": "הפולק הזה סתם לא נוח, אעבוד עם המקורי עם ברנץ משלי.\nפולק נחמד רק בסוף"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 542,
+      "datetime": "2025-06-11T16:35:10.000Z",
+      "messageId": "3A1BE88F0377BD59E161",
+      "sender": "Unknown Member",
+      "body": "אגב @24331140767913  הגיטהאב מראה לנו שאתה rouge collaborator",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 543,
+      "datetime": "2025-06-11T16:37:13.000Z",
+      "messageId": "3A962A68104053F956DC",
+      "sender": "Unknown Member",
+      "body": "וואלה עכשיו כשאני חושב על זה.. לא תכננתי שמישהו יסתכל על זה😅 כשנעלה לעבוד אסביר מה בדיוק הולך שם ואיפה כל דבר",
+      "replyTo": {
+        "ref": "F952AD7E5B7B404D6E12C2626FD86B5E",
+        "author": {
+          "id": "227564681449618@lid",
+          "pushname": "Yehonatan (Jonny)",
+          "phone": "972546374390"
+        },
+        "body": "תודה!"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 544,
+      "datetime": "2025-06-11T16:38:10.000Z",
+      "messageId": "6878D25462CF8FEC4538C7738A245F48",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "סליחה על הבורות, מה זה?",
+      "replyTo": {
+        "ref": "3A1BE88F0377BD59E161",
+        "author": {
+          "id": "117025141694548@lid",
+          "name": "Jonathan Shmuel Vider",
+          "shortName": "Jonathan",
+          "pushname": "יונתן",
+          "phone": null
+        },
+        "body": "אגב @24331140767913  הגיטהאב מראה לנו שאתה rouge collaborator"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 545,
+      "datetime": "2025-06-11T16:38:16.000Z",
+      "messageId": "D3429C2E58A7294EA8B18D88480E4805",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "Rouge",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 546,
+      "datetime": "2025-06-11T16:39:21.000Z",
+      "messageId": "3A10211CDBE3FFB91F2D",
+      "sender": "Unknown Member",
+      "body": "חח זה בצחוק.. כי הוא לא אישר להצטרף לריפו ורק עשה fork בתור אאוטסיידר",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 547,
+      "datetime": "2025-06-11T16:39:35.000Z",
+      "messageId": "8BC850032A1B0CCF21755051B06F1183",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "אה חחחחחחחחחחחחח",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 548,
+      "datetime": "2025-06-11T17:11:58.000Z",
+      "messageId": "A0C7AFE90DB5F70B55BC35165A6A87B5",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "דווקא בא להיות rouge לשם שינוי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 549,
+      "datetime": "2025-06-11T17:12:29.000Z",
+      "messageId": "7F0C1578765FD2B7194A54F0402842AB",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "מתקדמים ממש יפה זה מרגש קצת",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 550,
+      "datetime": "2025-06-11T17:12:37.000Z",
+      "messageId": "8DF1876B923080F2F6B5E9669B89E193",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "💪",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 551,
+      "datetime": "2025-06-11T17:13:04.000Z",
+      "messageId": "F7C57D6D6EF2AC1CFA614730063D4677",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "אני עדיין עם הילדים 😤 מתי אתם רוצים לשבת?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 552,
+      "datetime": "2025-06-11T17:13:11.000Z",
+      "messageId": "AA8D68C847BAFE79B52DA25619E377BB",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "היום?",
+      "replyTo": {
+        "ref": "F7C57D6D6EF2AC1CFA614730063D4677",
+        "author": {
+          "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
+          "shortName": "נתי",
+          "pushname": "Natanel Richey",
+          "phone": null
+        },
+        "body": "אני עדיין עם הילדים 😤 מתי אתם רוצים לשבת?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 553,
+      "datetime": "2025-06-11T17:13:24.000Z",
+      "messageId": "BB6C3BD0354738EE6E8383C0D4DF1481",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "אני צריך גם פסק זמן של חצי שעה סביבות 10",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 554,
+      "datetime": "2025-06-11T17:13:46.000Z",
+      "messageId": "370EC93CAE35802DBA18320F6D1EDE64",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "כן אשמח כי מחר יש לי כמה הגשות ושבע ברכות",
+      "replyTo": {
+        "ref": "AA8D68C847BAFE79B52DA25619E377BB",
+        "author": {
+          "id": "227564681449618@lid",
+          "pushname": "Yehonatan (Jonny)",
+          "phone": "972546374390"
+        },
+        "body": "היום?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 555,
+      "datetime": "2025-06-11T17:13:58.000Z",
+      "messageId": "49BE0AA482B96AE9BD7DB52466029A26",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "פשוט אני קם ב5 בבוקר אז קצת בעייתי לי😅",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 556,
+      "datetime": "2025-06-11T17:14:45.000Z",
+      "messageId": "75EE670A203F08ED1D01C578E1FFEB23",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "יעני היום אבל כמה שיותר מוקדם או שלא מתאים היום בכלל?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 557,
+      "datetime": "2025-06-11T17:15:12.000Z",
+      "messageId": "2B168460032E8013C5CA521EA67ECDA5",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "בעקרון בעייתי לי ממש כבר היום",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 558,
+      "datetime": "2025-06-11T17:15:51.000Z",
+      "messageId": "059AF733AFA642036F4812EC2DA7666E",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "אבל אפשר גם שתשבו ואז תכתבו מה דיברתם/תשאירו לי דברים לעשות ואעשה מחר.\nאיך נשמע?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 559,
+      "datetime": "2025-06-11T17:16:31.000Z",
+      "messageId": "DC06EF326811FBEC80F005D52C6416B2",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "לי מתאים",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 560,
+      "datetime": "2025-06-11T17:16:37.000Z",
+      "messageId": "875D66D9356F33C25F981E0F8E3B3456",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "אני רוצה לנסות לשחק עם הai מחר לראות אם אני מצליח להוציא משו יותר מעניין בגרפים שלי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 561,
+      "datetime": "2025-06-11T17:17:10.000Z",
+      "messageId": "4D141011C2DDCF4DF683B857F9CC6751",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "סיימנו את הויזואליזציה האחרונה או שרוצים לשנות אותו לאור ההתקדמות של @117025141694548",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 562,
+      "datetime": "2025-06-11T17:17:23.000Z",
+      "messageId": "79E25011BF56C03A4AAE8C23779254E1",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "אה סבבה",
+      "replyTo": {
+        "ref": "875D66D9356F33C25F981E0F8E3B3456",
+        "author": {
+          "id": "227564681449618@lid",
+          "pushname": "Yehonatan (Jonny)",
+          "phone": "972546374390"
+        },
+        "body": "אני רוצה לנסות לשחק עם הai מחר לראות אם אני מצליח להוציא משו יותר מעניין בגרפים שלי"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 563,
+      "datetime": "2025-06-11T17:18:05.000Z",
+      "messageId": "B3C37A523B725F95258F12A17F162027",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "נראלי הכו נכון:\nאשלח את הגרף הנכון עוד מעט כשאגיע לבית כדי שיהיה לנו משו כגיבוי אם הai לא יסתדר.\nבנתיים אנסה להמשיך עם הai",
+      "replyTo": {
+        "ref": "4D141011C2DDCF4DF683B857F9CC6751",
+        "author": {
+          "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
+          "shortName": "נתי",
+          "pushname": "Natanel Richey",
+          "phone": null
+        },
+        "body": "סיימנו את הויזואליזציה האחרונה או שרוצים לשנות אותו לאור ההתקדמות של @117025141694548"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 564,
+      "datetime": "2025-06-11T17:18:17.000Z",
+      "messageId": "8387C5B514C679E8A13D0D6A330BD184",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "אז בינתיים נראה אין כמעט מה לעשות, @117025141694548 נראה שאפשר לסגור פונות בחצי שעה ביחד, מתאים לך ב9?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 565,
+      "datetime": "2025-06-11T17:22:43.000Z",
+      "messageId": "3AF3DA2BBE03D78B1EE6",
+      "sender": "Unknown Member",
+      "body": "נספיק לסיים בחצי שעה?",
+      "replyTo": {
+        "ref": "8387C5B514C679E8A13D0D6A330BD184",
+        "author": {
+          "id": "24331140767913@lid",
+          "name": "נתי ריצ׳י",
+          "shortName": "נתי",
+          "pushname": "Natanel Richey",
+          "phone": null
+        },
+        "body": "אז בינתיים נראה אין כמעט מה לעשות, @117025141694548 נראה שאפשר לסגור פונות בחצי שעה ביחד, מתאים לך ב9?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 566,
+      "datetime": "2025-06-11T17:34:03.000Z",
+      "messageId": "3A4BCE919597085C63E7",
+      "sender": "Unknown Member",
+      "body": "בעצם חושב שקצת לחוץ הערב. מעדיף גם עם יונתן שנשב ביחד",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 567,
+      "datetime": "2025-06-11T17:38:03.000Z",
+      "messageId": "2534B5FAECDE960F30B42550E5D1FD8C",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "סיימתי את הגרפים הראשונים וכתבתי גם הסבר. את החלק הראשון והשני עדכנתי/חידדתי. האמת שלא נשאר הרבה רק עריכה ולעבור על הכל. אולי תשבו יחד מחר ואני אעבור על זה עד ההגשה?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 568,
+      "datetime": "2025-06-11T17:44:09.000Z",
+      "messageId": "3521AAA87902DB980E8837A9C174ED4A",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "סבבי\nאני גם אשמח לעבור על זה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 569,
+      "datetime": "2025-06-12T11:33:56.000Z",
+      "messageId": "3F5AC9F3A7A1DB506CAD",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "מה הולך? איך היה הזום אתמול?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 570,
+      "datetime": "2025-06-12T11:34:01.000Z",
+      "messageId": "3F5EB7BD6C45D48DD518",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 571,
+      "datetime": "2025-06-12T11:34:05.000Z",
+      "messageId": "3F8AEFDE53AC4B677152",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "סליחה ששכחתי לשלוח",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 572,
+      "datetime": "2025-06-12T17:25:08.000Z",
+      "messageId": "44B035722867AB6E1B1733B5B1CA8935",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "מה קורה חברה?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 573,
+      "datetime": "2025-06-12T17:26:11.000Z",
+      "messageId": "3F3FDD20389D7D187372",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "אני בעד לעשות זום היוום אם מישהו יכול בשביל לאפס אותי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 574,
+      "datetime": "2025-06-12T18:03:06.000Z",
+      "messageId": "3A75545D7B6D8E912161",
+      "sender": "Unknown Member",
+      "body": "אני מוכן",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 575,
+      "datetime": "2025-06-12T18:07:21.000Z",
+      "messageId": "3F3C2B49E98FE2C76104",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "יש מצב עוד חצי שעה? סוגר פה פינות אחרונות באקתון",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 576,
+      "datetime": "2025-06-12T18:08:54.000Z",
+      "messageId": "3AE534A6BEA59B527E4F",
+      "sender": "Unknown Member",
+      "body": "טיפה מאוחר.. אז ננסה לעשות קצר מקסימום",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 577,
+      "datetime": "2025-06-12T18:09:02.000Z",
+      "messageId": "3F57E7E1527E865C49DE",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "סבבה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 578,
+      "datetime": "2025-06-12T18:37:43.000Z",
+      "messageId": "3FED3F909CF92BB372D8",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "5 דק?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 579,
+      "datetime": "2025-06-12T18:42:07.000Z",
+      "messageId": "3F7C4B1BBBF379E9A3AC",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "מוכן",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 580,
+      "datetime": "2025-06-12T18:42:53.000Z",
+      "messageId": "3A19B63A91DD9815D8EA",
+      "sender": "Unknown Member",
+      "body": "2דק מתמקם",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 581,
+      "datetime": "2025-06-12T18:43:54.000Z",
+      "messageId": "3F4D3E7020D7F84306DE",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "סבבי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 582,
+      "datetime": "2025-06-12T18:45:20.000Z",
+      "messageId": "3A37EBFE930E36ADEA50",
+      "sender": "Unknown Member",
+      "body": "שלח קישור",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 583,
+      "datetime": "2025-06-12T18:46:00.000Z",
+      "messageId": "3F5FD493FA338783C0EB",
+      "sender": {
+        "id": "227564681449618@lid",
+        "pushname": "Yehonatan (Jonny)",
+        "phone": "972546374390"
+      },
+      "body": "https://meet.google.com/pnm-tewg-oeu",
+      "replyTo": null,
+      "reactions": null
     }
   ],
   "participants": [
     {
+      "id": "117025141694548@lid",
+      "name": "Jonathan Shmuel Vider",
+      "shortName": "Jonathan",
+      "pushname": "יונתן",
+      "phone": null
+    },
+    {
       "id": "24331140767913@lid",
+      "name": "נתי ריצ׳י",
       "shortName": "נתי",
       "pushname": "Natanel Richey",
-      "phone": "972584171094"
+      "phone": null
     },
     {
       "id": "227564681449618@lid",
       "pushname": "Yehonatan (Jonny)",
       "phone": "972546374390"
-    },
-    {
-      "id": "117025141694548@lid",
-      "shortName": "Jonathan",
-      "pushname": "יונתן",
-      "phone": null
     }
   ]
 }

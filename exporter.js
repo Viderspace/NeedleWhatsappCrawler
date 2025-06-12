@@ -8,6 +8,7 @@ const { getPhoneNumber, getLid } = require('./messageUtils');
 const { isPhoneNumber } = require('./common');
 const { filterParticipants } = require('./participants');
 
+
 /**
  * Sanitize a string to be used safely as a filename.
  */

@@ -25,6 +25,7 @@
       "serialNumber": 3,
       "datetime": "2025-04-03T13:10:12.000Z",
       "messageId": "3A2EF06176120E81A8F5",
+      "sender": "Unknown Member",
       "body": "[No text]",
       "replyTo": null,
       "reactions": null
@@ -133,7 +134,6 @@
       "messageId": "3A4AE9150989C949D6B7",
       "sender": {
         "id": "141454865371330@lid",
-        "pushname": "Daniel Sinai",
         "phone": "972542537031"
       },
       "body": "אני ו @972559230863 מחפשים שותף שלישי לפרויקט סיום",
@@ -144,6 +144,7 @@
       "serialNumber": 13,
       "datetime": "2025-04-04T17:37:46.000Z",
       "messageId": "3A63EB57D1050A8369ED",
+      "sender": "Unknown Member",
       "body": "[No text]",
       "replyTo": null,
       "reactions": null
@@ -164,6 +165,7 @@
       "serialNumber": 15,
       "datetime": "2025-04-05T16:06:31.000Z",
       "messageId": "3A53FA8530EFDF0C9AAF",
+      "sender": "Unknown Member",
       "body": "[No text]",
       "replyTo": null,
       "reactions": null
@@ -196,12 +198,7 @@
       "serialNumber": 18,
       "datetime": "2025-04-06T08:01:54.000Z",
       "messageId": "3ACC980B4E1171FE1BEF",
-      "sender": {
-        "id": "156676246241323@lid",
-        "shortName": "אבי מדמח (הסתברות מועד ג)",
-        "pushname": "Avi Kfir Klings",
-        "phone": "972507624269"
-      },
+      "sender": "Unknown Member",
       "body": "[No text]",
       "replyTo": null,
       "reactions": null
@@ -224,7 +221,6 @@
       "messageId": "B12098821CB401714E3DF99820CA5A4F",
       "sender": {
         "id": "226739980615700@lid",
-        "pushname": "Cfir Amar",
         "phone": "972525390457"
       },
       "body": "היי, מחפש זוג אוהב שמוכן לאמץ אותי לפרויקט הגמר שלהם\n\nאני כבר יודע לנקות אחרי עצמי, לא עולה על הספה, ומעדיף לעבוד מרחוק / להיפגש במרכז 😌",
@@ -260,7 +256,6 @@
       "messageId": "3F68DB60B7BCDFEFA603",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "גם לי אין (יעקב). יאללה נהיה שלישיה?\n@972525390457 @972545655209",
@@ -280,7 +275,6 @@
         "ref": "3F68DB60B7BCDFEFA603",
         "author": {
           "id": "84658133971055@lid",
-          "pushname": "נגה ויעקב פינקרט",
           "phone": "972558870095"
         },
         "body": "גם לי אין (יעקב). יאללה נהיה שלישיה?\n@972525390457 @972545655209"
@@ -301,7 +295,6 @@
       "messageId": "5B0851621F1055F3CE53E1FCA2F2A20C",
       "sender": {
         "id": "226739980615700@lid",
-        "pushname": "Cfir Amar",
         "phone": "972525390457"
       },
       "body": "גם אני, סליחה 🥲",
@@ -312,6 +305,7 @@
       "serialNumber": 25,
       "datetime": "2025-04-07T08:33:46.000Z",
       "messageId": "5F3B0D86ACC1951A3E7091F4B342B9BD",
+      "sender": "Unknown Member",
       "body": "היי\nמחפשת שותף לתרגילים",
       "replyTo": null,
       "reactions": null
@@ -322,7 +316,6 @@
       "messageId": "3AE69229225130F9F5C6",
       "sender": {
         "id": "211527240044594@lid",
-        "pushname": "Bar Cavia",
         "phone": "972504643322"
       },
       "body": "[No text]",
@@ -345,6 +338,7 @@
       "serialNumber": 28,
       "datetime": "2025-04-07T19:26:38.000Z",
       "messageId": "3A6B497E37F92EBC159B",
+      "sender": "Unknown Member",
       "body": "[No text]",
       "replyTo": null,
       "reactions": null
@@ -534,7 +528,6 @@
       "messageId": "3EB0A3CDF58D736025A0CA",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "15 לאפריל",
@@ -547,7 +540,6 @@
       "messageId": "3A8DE44AF9B6EBB33A79",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "מישהו מסכם את ההרצאות ויכול לשתף?",
@@ -591,7 +583,6 @@
         "ref": "3A8DE44AF9B6EBB33A79",
         "author": {
           "id": "101584751038550@lid",
-          "pushname": "אליזבט פינחסוב",
           "phone": "972526098761"
         },
         "body": "מישהו מסכם את ההרצאות ויכול לשתף?"
@@ -645,6 +636,7 @@
       "serialNumber": 49,
       "datetime": "2025-04-09T10:49:45.000Z",
       "messageId": "3AD62437FFE2BD186034",
+      "sender": "Unknown Member",
       "body": "[No text]",
       "replyTo": null,
       "reactions": null
@@ -653,6 +645,7 @@
       "serialNumber": 50,
       "datetime": "2025-04-09T10:51:48.000Z",
       "messageId": "3A2389DEE2FDB90379F3",
+      "sender": "Unknown Member",
       "body": "היי:)\nהיום הצטרפתי לקורס והוא עדיין לא מופיע לי במודל, מתי הבוחן?",
       "replyTo": null,
       "reactions": null
@@ -689,6 +682,7 @@
       "serialNumber": 53,
       "datetime": "2025-04-09T11:05:23.000Z",
       "messageId": "3F2CF8462EA1FB39145B",
+      "sender": "Unknown Member",
       "body": "תודה!",
       "replyTo": null,
       "reactions": null
@@ -755,7 +749,6 @@
       "messageId": "3A9C24287B541D8CA799",
       "sender": {
         "id": "105016278925467@lid",
-        "pushname": "Zenab Waked",
         "phone": "972549904405"
       },
       "body": "מחפשת שותפ/ה לתרגילי בית",
@@ -792,7 +785,6 @@
       "messageId": "3A30A0740D95BF56118F",
       "sender": {
         "id": "79796600078520@lid",
-        "pushname": "Shira Gelbstein",
         "phone": "972552368619"
       },
       "body": "[No text]",
@@ -818,7 +810,6 @@
       "messageId": "3A0377ADC02AF38061B1",
       "sender": {
         "id": "105016278925467@lid",
-        "pushname": "Zenab Waked",
         "phone": "972549904405"
       },
       "body": "עדיין רלוונטי",
@@ -826,7 +817,6 @@
         "ref": "3A9C24287B541D8CA799",
         "author": {
           "id": "105016278925467@lid",
-          "pushname": "Zenab Waked",
           "phone": "972549904405"
         },
         "body": "מחפשת שותפ/ה לתרגילי בית"
@@ -851,7 +841,6 @@
       "messageId": "3AA2B8379E3EB0A4FCB6",
       "sender": {
         "id": "213765001887978@lid",
-        "pushname": "Aboud Nairoukh",
         "phone": "972544734304"
       },
       "body": "היי, \nמחפש להצטרף לקבוצה לפרוייקט גמר :)",
@@ -898,6 +887,7 @@
       "serialNumber": 69,
       "datetime": "2025-04-14T08:30:31.000Z",
       "messageId": "3A4EFE68D2A38201E7E8",
+      "sender": "Unknown Member",
       "body": "[No text]",
       "replyTo": null,
       "reactions": null
@@ -1105,7 +1095,6 @@
       "messageId": "3A101D1FAEF3D54C9A15",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "מישהו פה יודע או בירר אם יש תאריך הגשה לפרוייקט הסופי? לדעת עד מתי התקופת מבחנים",
@@ -1154,7 +1143,6 @@
       "messageId": "3A1DEBAB94D93DF82804",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "מישהו שהולך היום לשיעור יכול בבקשה בבקשה לשאול את המרצה מתי תאריך ההגשה של הפרויקט הסופי? 🙏 ממש צריכה לדעת והיא לא עונה לי ❤️",
@@ -1224,7 +1212,6 @@
       "messageId": "3A581D24A5C288CC67F3",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "🙏🙏",
@@ -1232,7 +1219,6 @@
         "ref": "3A1DEBAB94D93DF82804",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "מישהו שהולך היום לשיעור יכול בבקשה בבקשה לשאול את המרצה מתי תאריך ההגשה של הפרויקט הסופי? 🙏 ממש צריכה לדעת והיא לא עונה לי ❤️"
@@ -1315,7 +1301,6 @@
       "messageId": "3A6057871A815DAAA41F",
       "sender": {
         "id": "211527240044594@lid",
-        "pushname": "Bar Cavia",
         "phone": "972504643322"
       },
       "body": "התרגילים חובה בזוגות?",
@@ -1340,7 +1325,6 @@
       "messageId": "3FB56695770C41DC93C6",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "בתרגיל hw1 צריך ממש להוכיח את הסעיפים או שמספיק לכתוב את התשובה?",
@@ -1459,7 +1443,6 @@
       "messageId": "96475AF86B7B698DB62ADBCFAD1D6A93",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "זה קורס באנגלית אז אני כתבתי באנגלית",
@@ -1479,7 +1462,6 @@
       "messageId": "2F58CD66B2A20279B59504C2D29264B3",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "אשמח אם תהיה לך תשובה על זה שתשתף. אפשר לשאול בפורום",
@@ -1487,7 +1469,6 @@
         "ref": "3FB56695770C41DC93C6",
         "author": {
           "id": "48125192486957@lid",
-          "pushname": "yoav schneider",
           "phone": "972523919858"
         },
         "body": "בתרגיל hw1 צריך ממש להוכיח את הסעיפים או שמספיק לכתוב את התשובה?"
@@ -1510,12 +1491,7 @@
       "serialNumber": 112,
       "datetime": "2025-05-06T07:22:44.000Z",
       "messageId": "3F447ED736705CEAFEB4",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "מישהו הצליח לתפוס את דפנה במייל או בפורום אישי? היא לא עונה כמעט שבוע?",
       "replyTo": null,
       "reactions": null
@@ -1531,12 +1507,7 @@
       "body": "כנ״ל היא לא ענתה לי בשניהם",
       "replyTo": {
         "ref": "3F447ED736705CEAFEB4",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "מישהו הצליח לתפוס את דפנה במייל או בפורום אישי? היא לא עונה כמעט שבוע?"
       },
       "reactions": null
@@ -1564,12 +1535,7 @@
       "body": "אם אתם לא בהרצאה\nהיא בדיוק אמרה שהייתה בעיה עם המיילים אז תשלחו שוב אם לא קיבלתם תשובה",
       "replyTo": {
         "ref": "3F447ED736705CEAFEB4",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "מישהו הצליח לתפוס את דפנה במייל או בפורום אישי? היא לא עונה כמעט שבוע?"
       },
       "reactions": null
@@ -1580,7 +1546,6 @@
       "messageId": "3F33BE594D5D34FB1EFD",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "שאלתי אותה היא אמרה עכשיו שצריך להראות את הדרך לא סתם לרשום את התשובה",
@@ -1588,7 +1553,6 @@
         "ref": "3FB56695770C41DC93C6",
         "author": {
           "id": "48125192486957@lid",
-          "pushname": "yoav schneider",
           "phone": "972523919858"
         },
         "body": "בתרגיל hw1 צריך ממש להוכיח את הסעיפים או שמספיק לכתוב את התשובה?"
@@ -1622,7 +1586,6 @@
       "messageId": "3A52F161B570670BE35E",
       "sender": {
         "id": "79796600078520@lid",
-        "pushname": "Shira Gelbstein",
         "phone": "972552368619"
       },
       "body": "מחפשת קבוצה לפרוייקט גמר",
@@ -1635,7 +1598,6 @@
       "messageId": "3FBC7DC40AD7F0EA0455",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "לא למדנו את האלגוריתם לשאלה הספציפית הזו (עם המספרים המחלקים), צריך נראה לי להראות את כיוון החשיבה ואז להסביר איך מוצאים את הfreaquent עפ\"י מה שלמדנו בכיתה. זה לפחות מה שאני מתכוון לעשות",
@@ -1656,7 +1618,6 @@
         "ref": "3FBC7DC40AD7F0EA0455",
         "author": {
           "id": "84658133971055@lid",
-          "pushname": "נגה ויעקב פינקרט",
           "phone": "972558870095"
         },
         "body": "לא למדנו את האלגוריתם לשאלה הספציפית הזו (עם המספרים המחלקים), צריך נראה לי להראות את כיוון החשיבה ואז להסביר איך מוצאים את הfreaquent עפ\"י מה שלמדנו בכיתה. זה לפחות מה שאני מתכוון לעשות"
@@ -1681,7 +1642,6 @@
       "messageId": "3AAF1E73BB0F817CD5E6",
       "sender": {
         "id": "79796600078520@lid",
-        "pushname": "Shira Gelbstein",
         "phone": "972552368619"
       },
       "body": "?🙂",
@@ -1689,7 +1649,6 @@
         "ref": "3A52F161B570670BE35E",
         "author": {
           "id": "79796600078520@lid",
-          "pushname": "Shira Gelbstein",
           "phone": "972552368619"
         },
         "body": "מחפשת קבוצה לפרוייקט גמר"
@@ -1764,7 +1723,6 @@
       "messageId": "3A6567A72DB77FC1980E",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "‏אולי כדאי לבקש ממנה להחזיר את השעת קבלה?",
@@ -1777,7 +1735,6 @@
       "messageId": "792C6B2778FEF8026F864E3549AFEC35",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "מישהו שהתחיל את החלק התכנותי של התרגיל להתייעצות?",
@@ -1790,6 +1747,7 @@
       "messageId": "3A80FCF47416E5B73D75",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "מישהו יודע מתי צריך להגיש את הmilestones?",
@@ -1863,7 +1821,6 @@
       "messageId": "3FD70E612F49DC2A6A60",
       "sender": {
         "id": "79796600078520@lid",
-        "pushname": "Shira Gelbstein",
         "phone": "972552368619"
       },
       "body": "עדיין מחפשת קבוצה לפרוייקט גמר.\nבנוסף מישהו יודע אם אפשר להגיש תשובות לתרגיל בעיברית?",
@@ -1876,7 +1833,6 @@
       "messageId": "3AA7BE3AF26E41B1219E",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "יש דרך לחלק את החלק הפרקטי? שכל אחד יעשה חלק או שהכל ממש תלוי?",
@@ -1896,7 +1852,6 @@
         "ref": "3AA7BE3AF26E41B1219E",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "יש דרך לחלק את החלק הפרקטי? שכל אחד יעשה חלק או שהכל ממש תלוי?"
@@ -1917,7 +1872,6 @@
       "messageId": "3AE940CED2E42F42058A",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "תודה🩷🩷",
@@ -1930,6 +1884,7 @@
       "messageId": "3EB07ED7F522DA8CA405DC",
       "sender": {
         "id": "262748952858745@lid",
+        "pushname": "Eliana Haddad 🤗",
         "phone": "972586003060"
       },
       "body": "מצטרפת לשאלה לגבי התשובה לתרגיל בעברית",
@@ -1937,7 +1892,6 @@
         "ref": "3FD70E612F49DC2A6A60",
         "author": {
           "id": "79796600078520@lid",
-          "pushname": "Shira Gelbstein",
           "phone": "972552368619"
         },
         "body": "עדיין מחפשת קבוצה לפרוייקט גמר.\nבנוסף מישהו יודע אם אפשר להגיש תשובות לתרגיל בעיברית?"
@@ -1974,6 +1928,7 @@
       "messageId": "BAD689E701EAFF596F6D418384FEC297",
       "sender": {
         "id": "262748952858745@lid",
+        "pushname": "Eliana Haddad 🤗",
         "phone": "972586003060"
       },
       "body": "[No text]",
@@ -2035,7 +1990,6 @@
       "messageId": "3EB0018CBBC5398153B6C9",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "שאלה ראשונה בתאורטי סעיף A תת סעיף שני רשמתם את כל הזוגות??",
@@ -2060,7 +2014,6 @@
       "messageId": "3A6A1411EEBEA4393379",
       "sender": {
         "id": "141454865371330@lid",
-        "pushname": "Daniel Sinai",
         "phone": "972542537031"
       },
       "body": "מישהו הבין למה צריך בחלק הפרקטי ב3.1 למיין את המידע לפי country אם גם ככה כל המידע ממוין מראש באתר? ואז כשמושכים את המידע הוא כבר ממוין לפי מדינה?",
@@ -2092,7 +2045,6 @@
         "ref": "3A6A1411EEBEA4393379",
         "author": {
           "id": "141454865371330@lid",
-          "pushname": "Daniel Sinai",
           "phone": "972542537031"
         },
         "body": "מישהו הבין למה צריך בחלק הפרקטי ב3.1 למיין את המידע לפי country אם גם ככה כל המידע ממוין מראש באתר? ואז כשמושכים את המידע הוא כבר ממוין לפי מדינה?"
@@ -2105,7 +2057,6 @@
       "messageId": "3A19CCC0CF1416E30136",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "אם מישהו סיים את הפרקטי ממש אשמח להערכת זמן🙏🏻",
@@ -2162,7 +2113,6 @@
       "messageId": "3ABCFA3FE184CA62A709",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "מישהו הבין איך בחלק של ה web crawling אנחנו אמורים להוציא את המידע של ה life expectancy ושאר הדברים? זה בסעיף c",
@@ -2187,7 +2137,6 @@
       "messageId": "3A1DEF54BFF00DD2922C",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "תודה🙏🏽",
@@ -2404,12 +2353,7 @@
       "serialNumber": 173,
       "datetime": "2025-05-10T17:49:02.000Z",
       "messageId": "3FCCB9300523AD059779",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "שבוע טוב. יש סיכומים?",
       "replyTo": null,
       "reactions": null
@@ -2456,7 +2400,6 @@
       "messageId": "3EB04D15D3B7E4A711FD44",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "<Media Message (Truncated)>",
@@ -2481,7 +2424,6 @@
       "messageId": "3EB0BE9A7F3395DA84A8B9",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "<Media Message (Truncated)>",
@@ -2501,7 +2443,6 @@
         "ref": "3EB0BE9A7F3395DA84A8B9",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "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"
@@ -2514,7 +2455,6 @@
       "messageId": "3EB0C0094745EEC9068FC5",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "תודה ❤️",
@@ -2525,12 +2465,7 @@
       "serialNumber": 182,
       "datetime": "2025-05-11T09:47:40.000Z",
       "messageId": "3F7294405E1367E8068B",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "החלק התאורתי גם בזוגות? לא ברור מההוראות",
       "replyTo": null,
       "reactions": null
@@ -2541,7 +2476,6 @@
       "messageId": "3ADBAB699503BE554AEA",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "לא",
@@ -2552,12 +2486,7 @@
       "serialNumber": 184,
       "datetime": "2025-05-11T09:48:59.000Z",
       "messageId": "3F8DE1C62D854AE17DD4",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
       "reactions": null
@@ -2568,7 +2497,6 @@
       "messageId": "3AABAA2051FCE524C9C1",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "רק לרשום את השם והתז של השותף לתרגיל בפידיאף, לא שתעשו יחד",
@@ -2581,7 +2509,6 @@
       "messageId": "3AD9C51F0C445F604756",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "אולי כדי לראות שלא העתקתם אחד מהשני או משהו כזה, לא יודעת מה הסיבות שלהם",
@@ -2592,12 +2519,7 @@
       "serialNumber": 187,
       "datetime": "2025-05-11T09:52:32.000Z",
       "messageId": "3F9F19C4E1CFCCAF12B1",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "הכוונה שבתיאורתי צריך לרשום את התז של אלה שעשיתי אתם במעשי",
       "replyTo": null,
       "reactions": null
@@ -2608,7 +2530,6 @@
       "messageId": "3A149B001071A2596E2F",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "כן לזה התכוונתי",
@@ -2619,12 +2540,7 @@
       "serialNumber": 189,
       "datetime": "2025-05-11T10:01:09.000Z",
       "messageId": "3F941D2A80F0B356EBEA",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "תודה. איפה מגישים?",
       "replyTo": null,
       "reactions": null
@@ -2671,7 +2587,6 @@
       "messageId": "3EB071E3D8B901373D27BF",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "גם אצלכם בcrawling יוצא שהמדינה הראשונה זה של כל העולם?",
@@ -2696,7 +2611,6 @@
       "messageId": "3EB004D4FD6499ED6F8A08",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "מישהט יודע למה זה קורה?",
@@ -2704,7 +2618,6 @@
         "ref": "3EB071E3D8B901373D27BF",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "גם אצלכם בcrawling יוצא שהמדינה הראשונה זה של כל העולם?"
@@ -2717,7 +2630,6 @@
       "messageId": "3EB03ED1E0B55260E1DE01",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "<Media Message (Truncated)>",
@@ -2738,7 +2650,6 @@
         "ref": "3EB03ED1E0B55260E1DE01",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAAKAGQDASIAAhEBAxEB/8QAGwAAAgIDAQAAAAAAAAAAAAAAAAYDBQIEBwn/xAAmEAACAgEFAAICAgMAAAAAAAACAwEEBQAGERITFCIVIQcWIzEy/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAJBEAAQIFAwUBAAAAAAAAAAAAAQARAhIhgfBRocEiMWFx4fH/2gAMAwEAAhEDEQA/APT5eHyIYKjiC3VlDt1Iqw7KEur8q35EEslownxj2gCFnmoOIYXn5TAyKEzZ27tw5uxYTvf+UdqML5gRYGxg3VuOtRIkCTVYGO/xpcvlfIy2z2hfpC56lrRLB4Qqn48sPRmr8mLnhNcPP5EO9ob1447w2IZ2/wB947c8/vQhoDFmvCCsYGZVc0BW+Yo4axiWfykpdfJlk7SGzgGPyCLFhriqtmwUklSuwL4XK2CnoAzJxJBaWNqboRj8Km/u3f2dZg3IyMtU7F07WRaBs7ItSkUJYsheMSsQWHFaJ7SU/aTf20tqYzZ1XF43bOJqUi3BhIKuiktap75SpB8hAxH2iIif1+4iOdPOPx2PxGPrYnE0a9KjSSFetWrqFakKAYEAABiIERGIiIiOIiIiNBCJSNG3D8N5uVJiTc7U5tYKmq/mhq5Em/2A2WLpAgW/j+9ZQAK4NPT6ypkql0evZkE8omAGBWuiq4LcoZXO509176YREmkmkQ4uKxCDvb1qLlfIjMOOuROLuS1cz2IVtl+0aoJFUIcMkfcGI3Fdr2GLyu9JXk6/4o6VNmNTNMbDOx3QZHRgsSByqChpTELghWw/ueaq+dsW31EFvXHEwhe24TMc1bSOsuv9ROWQuFzPvIAADLFHPBifRjro1kBmr2Wnd0i36u6xyWEoJzO+vIK3nauIVhZSw2olcHZ7r7wajX6/4BgJN3EwxceYbBbi3PWyJ1g2Tu+0oO7PkEWJ8D7NmYXERYFnIiMCM8cdWD2kigurlo1ol4Zf37d1kDqmzPSpwzmTK+2mWzswCV2grjbJtPyYshKZeMQ/v5jMQMxIwfJRwExzMSTmL/4e5kx2vlCsVlmasd3rRYtEIdoBcy2FQRT9I7sCIL/qRj7atNGoqjRo0aIv/9k="
@@ -2772,7 +2683,6 @@
       "messageId": "3EB0A3DA40750382EFE8B9",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "<Media Message (Truncated)>",
@@ -2785,7 +2695,6 @@
       "messageId": "3EB0E90FECF94ADA6C2D21",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "<Media Message (Truncated)>",
@@ -2814,7 +2723,6 @@
         "ref": "3EB0E90FECF94ADA6C2D21",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAA9AGQDASIAAhEBAxEB/8QAHQAAAgMAAwEBAAAAAAAAAAAAAAcEBQYBAgMICf/EADUQAAIBAwMDAgMECgMAAAAAAAECAwQFEQAGEgcTISIxCBQVFiNBURcyNkJxdHWRs7QzN0T/xAAcAQABBQEBAQAAAAAAAAAAAAAAAQIDBAYFBwj/xAA1EQABAwMDAgMGAgsAAAAAAAABAgMRAAQhBRIxBlEyQVIHEyJhobEUgTM0NXGCg5Gys+Hw/9oADAMBAAIRAxEAPwD9U9YmfcPVdKLuw9ObEaliQsUm5JQoJMwj5MlGxH/j5kKQvcqiCwgiNTsqhahqeVaSWOOcowjeSMuivjwWUFSwB9wCM/mPfVdTU+6Fou3V3i1S1fYK92O2yJH3sLh+BnY8Mhzw5ZIIHIYJKikqvsN13/X3cJfdmWu1Wd6WSVZ1vbVFas/exFE9OtOIwDCQzus7cZA0aiRAszYq/dQ/iCoo4RYPhzpLpNPLSRju70pqaOBWRPmZJmMLMFjeXCCNZGkWGoYiMiFJ9heabqitAfs/e9rSVvJyPnLXUJFx7bcB6KgnJkCAn8FLEAkAMSW7qkZ0aHeO1VhA9aNtqoZifzDfPAD+x04R/wBNJmsDvbq71423JT0e3vhgrtw1Vbc6+jpWh3RSxUxp4RWNTzSy8GMDTx0kTYkVY0NZBGZTJyjXin6ufEI10SkrPhKu8dGss6S1cW8bRICoKiB40MiswbLGQNwMYX0iYnGm4sd6FNFG9ZRGoEOJZhTOEabA9Sx9zIUnkeJckeBk++qO927qfPVxvtvd+1qGlEIEkVdtyoqpGly2WDpXRBVIKDiVJBVjyPIBSR2+9EGpWw7xu2/7Rtt431s5NqX2qjZ6yzLckr/k25EKhqI1VJDxCk8RgEkAtjJv9UVBS75Wlq1ul9sT1DpKtI1PapkSJsntPIGqCXAGCygpk5AYe+rC3RXmKSqN2rqKpR53alFPSPAYofHFHLSP3HHnLjgD49I000oqbo0aNJS0aNGjRRRo0aNFFGodFdKa4SVcUEVYpo5zTyGejmhDMADmMyKBIvketOS5yM5B1M1CoK+qrJq2KostZQrS1HZikqHhK1acVPdj7cjEJliuJAjZU+nGCSipbMSp45Bx4JUkZ1lLRb+qkNZC9+3ntWspFVO9FR7XqqaR2BPIq718gUEYwCrYwfJz41ujRRWcrKPqC+4Pmbfufb8Nj5wn5OawTy1fAFe6PmBVqmWAcKez6Sykh+JDS4YN1LTRJUXm1PUCliSWRLVKqNUjPdkVTOSsbenjGWJXBy758XGjRRVQIN1fSJoTebX9UZpOzU/Spfl0BZu2Gh7/ACYheIJEi8iCQFBCivuNF1Ilgty2jde26aaKFVuL1O3aidaiXj6mhVa1DCpbyFYyEDxyPvrT6NFFQret1iUi61tLUtjwaejeEA8mPs0j/ulB/FWPswVZfIfkf7HXbVdWbi2/bolqLhfbfTROxRXmqkRWYDJAJPk4/DUTrzTCdzqgkdyY+9NUtKBKjFWAYH8/7a51T2nd23r7c6+zWq4d+stjmOqi7Tr22DFSMsAD5BHgnVxptvcsXaPe26wtMkSkgiQYIkeYOD2NIhxDo3III+VGjRo1PT68auSWKkmlh49xI2ZOQJHIDxkDyR/Dzryoa2oq5KpJ7TV0a083bjedoiKheIPcQI7ELkkYcK2QfTjBPpXPRx0U73BoVpVjYzmYgRiPHqLZ8ccZznxjS9i6o2O1Ui0TXy03qaGTg1XJfLdF30IzzAVlAIJxx4DwM5J90mKjcdDQlQP5An7A0ydGlLX9d9rx3umtFNuLZdOXhn+a+b3JQcqaQRiSJ2VZ+Zjwrq+EJBeMjKB2E22dd+nlTS1k1fuPbsEsVTNFR0/1+2GSvhVyEmi41LLwYYA5sjclfKL4y1xxDRCXDBOROJBpEvtrEg0zdGkluf4kYrItHUWvbtNcaOsutZbop47jlJY4OyVmRlQgq4nBGCR49znWL3X8QfUaWzbgkts9vtc1mv8AT2+Kalpg7SQulXkOJi6k5gQ5AX8fz1qLXpPU7oJXtCQrgkj1bfKTz8qzF11rpFqVJCiop5ASfTu84HA719MXK522z0Ulyu9wpqGkhx3J6mVYo0yQBlmIAySB/EjWGvHW7aFvvf2doO9c6uS2z3KmmpnjakmSKGSQjuhj7iJhkKfOvnbdG7t039d60t4v9fV0zbettV8tJUN2Elaot5LrF+opy7ewH6x1E25n7SbbwB+yNx/1a3V696UFho11fOuS4htxSY4BDW9JzzB8uDWduuunnrpFvZo2pKkgk5P6QoOOOBIpjbo6oX7cm9um9bbKu4WakuF0SnqqKCvcxzKKqJTzChQwIJGCPYnWOb9go/6u/wDhXXWHP2g6V4AJ+t+M/wA3Drs37BR/1d/8K6+YPajdO3/SnT97cGXHLZ9SjAEkrazgAVzk3Lty/cLeVJx9UN8DgflTg6Tf9n77/nJv9h9OHSe6S5/SdvrIAPzc2cfzD6cOtr7Pf2L/ADHv8iq9I0T9U/iV/caNGjRrb116NZ/fm303TtOvsUlY9KtQIyZUp2nZeEiv4jUgtnjjA/PWg0ar3dqzfW7lrcCULSUqGRIUIIkQRIPkZpjraXkFtYkEQf3GkXP0IpTvtbwd2VglNkFMIhYpjFwWhFHyMwbgH8c+3+t+GP3tSaPpfbkuGzSu4LqWjpC1OG25VKrL3Zaj79j4pWxLx4TcWyuMZPEOvRqlq2iWGuOW71+3vUwhLbZlQ2oQoKSPhImCAZMk+ZIrkM9PaawVFtuNxKjlWSSCTz3A+VIa7fDlDV2+xWZt5zo1NcKqqSRbLI6uZI4cq5EmIgBTHDMcEuAPOAa+99A7ebbe6ebeF0Ave46eUNDtiqmMMqioULxQkmI/M+Z/EY4eT58O5tvXTi6R72vcYaFYkxHRsY2AjHcBaAkse2xPLI++fx4ThIW0Vf02ot824rlM88DQiqIgSaInn94hSNVDgMAMqR6F8Z5Ftq11Vq8JBdjz8KcSd3p75/1VA9HaLBPuMxHiX6dseLtj685pI3boHRUy7nnn3fcCtRaKK3SiDblROyCN6Zg8YjYmcn5bBWMErz8+3mTSdBKWz3Sir5N3Vsv0nb1TSsiWGZu4ksVRHyUqxy47xPaGXPEePUNN6usF0q3Lwb0vVGDIJAsEdGQoHdynrgb0nuIPOT9zHggly/tY7PX2hZ1rt0XS8mZlZWrkplMWFAIXsRRjBxk5B8+2PbUFz1BqN5bLtHnJbWkpUISJBTsIkCcpxgz585qZPSWjpcDoZ+IGfEvkK3er1Z+nFKe29Dqauqtn3en3VVqtgq2uCRz2SWBpws8blGEjAxHK4HIEkEkAgHXmnRajl2zRWxd0V4SsuHdikawTq6s0WMSRk8olwh9b8QCQD5Iy8NGsTqPTWl6tZW2nXjW5q2QpDY3KG1KiCRIIJkpGVEnGDVpPT2moKlJbyrnKuwHfsBWG2Ns2Cy7o3LuSC51M/wBSrJleGa3SU3bbuFzxZ/8AlX1YDqOJx4Otzo0av6fptrpTP4e0TtRJMSTlRJPJJyST9q6bDDdsjY0IGT/XJo0aNGr1TV//2Q=="
@@ -2927,7 +2835,6 @@
       "messageId": "3A46471E28A0D6A389B9",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "בחלק התאורטי בשאלה של recommendation systems, שאלה 1 סעיף f, אנחנו אמורים להחליף מקומות ריקים בטבלה ב0 ואז לחשב את ה cosine distance? אני לא בטוחה כי לא רשמו את זה במפורש",
@@ -3139,7 +3046,6 @@
       "messageId": "3F4B89DC176F0A44CEE2",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "מישהו פה רוצה להשוואת את קורלציית פירסון שיצא לו?",
@@ -3222,7 +3128,6 @@
       "messageId": "3A5C7408B49ED0E66EDD",
       "sender": {
         "id": "104853204398296@lid",
-        "pushname": "Noa Benzikry Goldstein",
         "phone": "972542533397"
       },
       "body": "<Media Message (Truncated)>",
@@ -3247,6 +3152,7 @@
       "messageId": "6D030FADF1FF6B21F55A126A67736A82",
       "sender": {
         "id": "262748952858745@lid",
+        "pushname": "Eliana Haddad 🤗",
         "phone": "972586003060"
       },
       "body": "בחלק הפרקטי 4.2 אומרים להוריד תווים מיוחדים, אבל מה עושים עם מדינות כמו Côte d'Ivoire נגיד? ô נחשב תו מיוחד?",
@@ -3294,12 +3200,7 @@
       "serialNumber": 236,
       "datetime": "2025-05-13T11:59:26.000Z",
       "messageId": "3F1E971CDCE83250C83B",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "מתי המיילסטון הראשון?",
       "replyTo": null,
       "reactions": null
@@ -3382,7 +3283,6 @@
       "messageId": "3AE32724242C6BAC7607",
       "sender": {
         "id": "104853204398296@lid",
-        "pushname": "Noa Benzikry Goldstein",
         "phone": "972542533397"
       },
       "body": "לי כן יצא 6 שורות אבל לא בטוחה בזה",
@@ -3395,7 +3295,6 @@
       "messageId": "3FAA0409A780151F922C",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "בחלק הפרקטי חלק 1 - לכולם יצא שלפני/אחרי sort זה אותו דבר (כי באתר זה כבר מסודר)?",
@@ -3416,7 +3315,6 @@
       "messageId": "3A5776B8196B91039D0C",
       "sender": {
         "id": "104853204398296@lid",
-        "pushname": "Noa Benzikry Goldstein",
         "phone": "972542533397"
       },
       "body": "כן",
@@ -3429,7 +3327,6 @@
       "messageId": "3F44864CEDC34A564344",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "וmissing values - הכל 0?",
@@ -3487,7 +3384,6 @@
       "messageId": "3FE3E79A899D904C9E9F",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "אין לנו נציג כרגע",
@@ -3507,7 +3403,6 @@
       "messageId": "3EB02A6028CA148A2CB318",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "בmismatch שמתם את כל השמות המקוריים והמתוקנים (שיוצאות 2 עמודות אותו הדבר) או רק את אלו שיש הבדל (קובץ ריק בעצם)?",
@@ -3571,7 +3466,6 @@
       "messageId": "3EB030BBE93011AC0AEA45",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "איזה מדינות יצאו לך שם? זה נראה שהכל באתר עם אות גדולה",
@@ -3599,6 +3493,7 @@
       "messageId": "3EB0ED5083C4AC04DC1B2B",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "יש בוחן ב27.5?",
@@ -3618,6 +3513,7 @@
         "ref": "3EB0ED5083C4AC04DC1B2B",
         "author": {
           "id": "97165196193969@lid",
+          "pushname": "רועי מיינפלד",
           "phone": "972548358850"
         },
         "body": "יש בוחן ב27.5?"
@@ -3637,7 +3533,6 @@
         "ref": "3EB030BBE93011AC0AEA45",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "איזה מדינות יצאו לך שם? זה נראה שהכל באתר עם אות גדולה"
@@ -3650,7 +3545,6 @@
       "messageId": "3A53364893DD53ED78E3",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "כן כן צודקת טעינו, יש 6 באמת",
@@ -3677,6 +3571,7 @@
         "ref": "3EB0ED5083C4AC04DC1B2B",
         "author": {
           "id": "97165196193969@lid",
+          "pushname": "רועי מיינפלד",
           "phone": "972548358850"
         },
         "body": "יש בוחן ב27.5?"
@@ -3699,21 +3594,11 @@
       "serialNumber": 259,
       "datetime": "2025-05-13T17:18:42.000Z",
       "messageId": "87DC54E6CFC11E20F8FD6BCE7C22E615",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "?",
       "replyTo": {
         "ref": "3F1E971CDCE83250C83B",
-        "author": {
-          "id": "24331140767913@lid",
-          "shortName": "נתי",
-          "pushname": "Natanel Richey",
-          "phone": "972584171094"
-        },
+        "author": "972584171094@c.us",
         "body": "מתי המיילסטון הראשון?"
       },
       "reactions": null
@@ -3802,7 +3687,6 @@
       "messageId": "3A4C86A9EB3DA7AD56D3",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "מישהו עשה את שאלה 2 סעיף a בחלק התאורטי-RecSys ויכול בבקשה לעזור לי? לא הבנתי מה הם רוצים שנעשה אחרי החישוב של Jaccard",
@@ -3859,7 +3743,6 @@
       "messageId": "3FBA1EEC34528DD20643",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "לא צריך. תעשה כמו ההוראות, ככה כולם פה אמרו שאחרי המיון זה יצא אותו דבר",
@@ -3903,6 +3786,7 @@
       "messageId": "4C9F9E40B0F3FD1AA40A2FB07341D26E",
       "sender": {
         "id": "262748952858745@lid",
+        "pushname": "Eliana Haddad 🤗",
         "phone": "972586003060"
       },
       "body": "<Media Message (Truncated)>",
@@ -3934,7 +3818,6 @@
       "messageId": "3EB0F2B357FED4D734B04C",
       "sender": {
         "id": "246277837222089@lid",
-        "pushname": "- ɴᴏᴀᴍ ᴋ",
         "phone": "972587318509"
       },
       "body": "\"שהאיחוד יהיה טוב\"\nמאוד מדויק מתמטית, \"שהטבלה תצא יפה\"",
@@ -3942,6 +3825,7 @@
         "ref": "4C9F9E40B0F3FD1AA40A2FB07341D26E",
         "author": {
           "id": "262748952858745@lid",
+          "pushname": "Eliana Haddad 🤗",
           "phone": "972586003060"
         },
         "body": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCAAmAEgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAOktAEzvAmYbUaBUEWGZrJsFgUACBQf/xAAUEQEAAAAAAAAAAAAAAAAAAAAw/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAw/9oACAEDAQE/AH//xAAiEAABAwQCAgMAAAAAAAAAAAABAAIREBIhUSBBMWEDEyL/2gAIAQEAAT8AIM+eJcFcE5x6lNJO+RLgcDCLyfSuK+My1SpqbpxC/XpFpPQX1lMFozSKnxhS7ScXRjBQL9hCe6QdrO+BAKtGqf/+AAMA/9k="
@@ -3974,6 +3858,7 @@
       "messageId": "3AAFF2F08996BF9E9815",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "מישהו יודע באיזה שעה הבוחן ב27.5?",
@@ -3993,6 +3878,7 @@
         "ref": "4C9F9E40B0F3FD1AA40A2FB07341D26E",
         "author": {
           "id": "262748952858745@lid",
+          "pushname": "Eliana Haddad 🤗",
           "phone": "972586003060"
         },
         "body": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCAAmAEgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAOktAEzvAmYbUaBUEWGZrJsFgUACBQf/xAAUEQEAAAAAAAAAAAAAAAAAAAAw/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAw/9oACAEDAQE/AH//xAAiEAABAwQCAgMAAAAAAAAAAAABAAIREBIhUSBBMWEDEyL/2gAIAQEAAT8AIM+eJcFcE5x6lNJO+RLgcDCLyfSuK+My1SpqbpxC/XpFpPQX1lMFozSKnxhS7ScXRjBQL9hCe6QdrO+BAKtGqf/+AAMA/9k="
@@ -4030,7 +3916,6 @@
       "messageId": "3F0E2CE4E4E67B2063B0",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "בהחלט לא מובן. אנחנו עשינו פונקצית עזר קטנה שמוודאת את השמות של העמודות ואז הדפסנו \"אישור\" למסך",
@@ -4200,7 +4085,6 @@
       "messageId": "3ACF1C073923DEB8D392",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "יש דרך לפתור בחלק התאורטי את שאלה 1 סעיף a בצורה שהיא לא מעבר על כל האופציות?",
@@ -4221,7 +4105,6 @@
         "ref": "3ACF1C073923DEB8D392",
         "author": {
           "id": "101584751038550@lid",
-          "pushname": "אליזבט פינחסוב",
           "phone": "972526098761"
         },
         "body": "יש דרך לפתור בחלק התאורטי את שאלה 1 סעיף a בצורה שהיא לא מעבר על כל האופציות?"
@@ -4254,7 +4137,6 @@
       "messageId": "3EB08033211AC5733DDF6F",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "מישהו הבין אם יש לי את המדינה Antigua and Barbuda אני אמורה להפוך לAntigua And Barbuda?",
@@ -4267,7 +4149,6 @@
       "messageId": "3EB006DB9EE06B098BE3C2",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "מרגיש לי לא הגיוני אבל הם גם 0 מובנים בתרגיל",
@@ -4304,7 +4185,6 @@
       "messageId": "3EB0532FA427061D903212",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "אז הם רוצים את הצורה הלא תקינה?",
@@ -4336,7 +4216,6 @@
       "messageId": "3EB08DFAE5E02D9E3551B7",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "לפי title case ה and נשאר קטן לדעתי לא?",
@@ -4368,7 +4247,6 @@
       "messageId": "3EB08E9B9A038FB2A9FA2E",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "התקין זה עם a.. בגלל זה זה מוזר. גם לפי חוקים של title case כמו שהם ביקשו",
@@ -4388,7 +4266,6 @@
       "messageId": "3EB0D5F6FCD9C7137986B9",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "אז כן יש סיבה חחח",
@@ -4401,7 +4278,6 @@
       "messageId": "3EB04F112DA9729E5ADD8B",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "גם נגיד המדינה Côte d'Ivoire",
@@ -4421,7 +4297,6 @@
         "ref": "3EB08E9B9A038FB2A9FA2E",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "התקין זה עם a.. בגלל זה זה מוזר. גם לפי חוקים של title case כמו שהם ביקשו"
@@ -4434,7 +4309,6 @@
       "messageId": "3EB04335966886B77271A0",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "[No text]",
@@ -4447,7 +4321,6 @@
       "messageId": "3EB099A49AAAD7C6244EA9",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "ה d אמורה להיות גדולה.?",
@@ -4455,7 +4328,6 @@
         "ref": "3EB04F112DA9729E5ADD8B",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "גם נגיד המדינה Côte d'Ivoire"
@@ -4468,7 +4340,6 @@
       "messageId": "3EB0C90CF697E8BA4FA9D3",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "לא הם אמרו title case",
@@ -4488,7 +4359,6 @@
       "messageId": "3EB0763AE2F14861F18C9C",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "\"convert to Title Case\" זה מה שאמרו",
@@ -4515,7 +4385,6 @@
         "ref": "3EB099A49AAAD7C6244EA9",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "ה d אמורה להיות גדולה.?"
@@ -4528,7 +4397,6 @@
       "messageId": "3EB05C7EFCB2B4A3CFC6C1",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "אז איך עשית?",
@@ -4541,7 +4409,6 @@
       "messageId": "3EB0CC7E492EA63DDC6819",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "לפי title case converter שמצאתי וגם לפי הצ׳אט זה פשוט הצורה שיש באתר, ככה שלא אמור להיות שינוי",
@@ -4566,7 +4433,6 @@
       "messageId": "3EB0193E8B40D8D964E7D2",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "עשית title()  ואז עברת על דברים ידנית להוריד ל lower?",
@@ -4586,7 +4452,6 @@
         "ref": "3ACF1C073923DEB8D392",
         "author": {
           "id": "101584751038550@lid",
-          "pushname": "אליזבט פינחסוב",
           "phone": "972526098761"
         },
         "body": "יש דרך לפתור בחלק התאורטי את שאלה 1 סעיף a בצורה שהיא לא מעבר על כל האופציות?"
@@ -4606,7 +4471,6 @@
         "ref": "3EB08033211AC5733DDF6F",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "מישהו הבין אם יש לי את המדינה Antigua and Barbuda אני אמורה להפוך לAntigua And Barbuda?"
@@ -4627,7 +4491,6 @@
       "messageId": "3EB0E719282DB35DF5B640",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "סגור תודה!",
@@ -4640,7 +4503,6 @@
       "messageId": "3EB0B951CB3B192A32013E",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "כמה outliers יצאו לכם?",
@@ -4660,7 +4522,6 @@
         "ref": "3EB0B951CB3B192A32013E",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "כמה outliers יצאו לכם?"
@@ -4772,7 +4633,6 @@
       "messageId": "3AD585993F5A6F392D73",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "תכתוב בפורום הפרטי ענו לי שם",
@@ -4801,7 +4661,6 @@
         "ref": "3AD585993F5A6F392D73",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "תכתוב בפורום הפרטי ענו לי שם"
@@ -4814,7 +4673,6 @@
       "messageId": "3A0CE4B7DFECAA012F78",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "מצטרפת לשאלה 🙏",
@@ -4841,7 +4699,6 @@
         "ref": "3A0CE4B7DFECAA012F78",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "מצטרפת לשאלה 🙏"
@@ -4866,7 +4723,6 @@
       "messageId": "3AD5E3529A9248654ABA",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "נכון",
@@ -4886,7 +4742,6 @@
       "messageId": "3EB08248184A8E6C1A8BD5",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "איזה תרגיל מוזר",
@@ -5092,7 +4947,6 @@
       "messageId": "3AEFEBED6AD9E0B6998A",
       "sender": {
         "id": "123119599624234@lid",
-        "pushname": "Osher",
         "phone": "972537210056"
       },
       "body": "[No text]",
@@ -5105,7 +4959,6 @@
       "messageId": "3AED66327753BADC153C",
       "sender": {
         "id": "123119599624234@lid",
-        "pushname": "Osher",
         "phone": "972537210056"
       },
       "body": "where do I upload the homework :(",
@@ -5118,7 +4971,6 @@
       "messageId": "3EB03BE2DE0656CBA2F6B9",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "<Media Message (Truncated)>",
@@ -5131,7 +4983,6 @@
       "messageId": "3A21425FC3C0C542D03D",
       "sender": {
         "id": "193119010173134@lid",
-        "pushname": "Miriam Pasikov (Liberman)",
         "phone": "972586275216"
       },
       "body": "<Media Message (Truncated)>",
@@ -5168,7 +5019,6 @@
       "messageId": "3EB001524E6F109AB627C5",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "<Media Message (Truncated)>",
@@ -5268,7 +5118,6 @@
       "messageId": "3EB02D1B537DD7399BD5E4",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "להטריל אותנו",
@@ -5288,7 +5137,6 @@
       "messageId": "3EB0B1955117D4F0EE2AE3",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "ככה מרגיש כל התרגיל הזה",
@@ -5363,7 +5211,6 @@
       "messageId": "3EB091C01B7CC2F31BCB4B",
       "sender": {
         "id": "246277837222089@lid",
-        "pushname": "- ɴᴏᴀᴍ ᴋ",
         "phone": "972587318509"
       },
       "body": "לגבי תיבת הגשה, אמרתי לדפנה שאין תיבה ביום שלישי והיא התפלאה ואמרה שהיא תדבר עם הצאר שלה שיטפל בזה\nאבל עברו מאז יומיים אז לא יודע",
@@ -5388,7 +5235,6 @@
       "messageId": "3EB01178CC2A55FC9FBBA6",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "תגידו ב crawl לקחתם את השמות מה URL או מה HTML TEXT?",
@@ -5457,7 +5303,6 @@
       "messageId": "3FBE1A174C2F1557DBD7",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "בסעיף האחרון של השאלה האחרונה בתרגיל התיאורטי יצאו לכם מספרים ממש מגעילים?",
@@ -5470,7 +5315,6 @@
       "messageId": "3F3E58193849C8977A73",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "לא רק שם חח",
@@ -5478,7 +5322,6 @@
         "ref": "3FBE1A174C2F1557DBD7",
         "author": {
           "id": "48125192486957@lid",
-          "pushname": "yoav schneider",
           "phone": "972523919858"
         },
         "body": "בסעיף האחרון של השאלה האחרונה בתרגיל התיאורטי יצאו לכם מספרים ממש מגעילים?"
@@ -5517,7 +5360,6 @@
       "messageId": "3F99658BBBAE30A19349",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "על איזה דאטא סטים הם מדברים ב5.1 בחלק הפרקטי? gdp_per_capita, population ו-demographics שהוצאנו מהאתר?",
@@ -5530,6 +5372,7 @@
       "messageId": "3A1E75BF3AB288982220",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "מקפיץ את השאלה, מישהו יודע באיזה שעה הבוחן וכמה זמן הוא?",
@@ -5542,7 +5385,6 @@
       "messageId": "3EB04B9AC47757E19C5B8D",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "למישהו יצא duplicates ב demographics data?",
@@ -5555,6 +5397,7 @@
       "messageId": "3EB078F497A08EF8B496FE",
       "sender": {
         "id": "262748952858745@lid",
+        "pushname": "Eliana Haddad 🤗",
         "phone": "972586003060"
       },
       "body": "מישהו הבין את סדר הפעולות בשאלה 5? קודם עושים את סעיף 5.4 ואז את 5.1 5.2 ו-5.3?",
@@ -5575,6 +5418,7 @@
         "ref": "3EB078F497A08EF8B496FE",
         "author": {
           "id": "262748952858745@lid",
+          "pushname": "Eliana Haddad 🤗",
           "phone": "972586003060"
         },
         "body": "מישהו הבין את סדר הפעולות בשאלה 5? קודם עושים את סעיף 5.4 ואז את 5.1 5.2 ו-5.3?"
@@ -5595,7 +5439,6 @@
       "messageId": "3EB0D5D580648663C9E6D0",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "מה עשיתם עם מדינות שמופיעות ב GDP ולא ב demographics data? כי כתוב בפורום שצריך שיהיו שקולות, אז פשוט למחוק אותן?",
@@ -5616,7 +5459,6 @@
         "ref": "3EB0D5D580648663C9E6D0",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "מה עשיתם עם מדינות שמופיעות ב GDP ולא ב demographics data? כי כתוב בפורום שצריך שיהיו שקולות, אז פשוט למחוק אותן?"
@@ -5629,7 +5471,6 @@
       "messageId": "3EB051A62EB3B29D3FE46E",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "מה כתבו",
@@ -5642,7 +5483,6 @@
       "messageId": "3EB000DB2D25BA271AF7F5",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "לי ענה שצריך שיהיו שקולות אבל לא יודעת מה זה אומר",
@@ -5655,7 +5495,6 @@
       "messageId": "3EB02C81A6F188C4FA032E",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "הם כאילו עונים אבל לא עונים",
@@ -5707,7 +5546,6 @@
       "messageId": "3EB0AE9E0568D929FDF050",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "ליצנים",
@@ -5720,7 +5558,6 @@
       "messageId": "3EB0A964C0F077E814714E",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "לא יודעת באמת",
@@ -5896,7 +5733,6 @@
       "messageId": "3AD787E7D4320301D627",
       "sender": {
         "id": "213765001887978@lid",
-        "pushname": "Aboud Nairoukh",
         "phone": "972544734304"
       },
       "body": "גם לענות רק יומיים לפני הגשה לא לגיטימי לדעתי",
@@ -5909,7 +5745,6 @@
       "messageId": "3FD1F656A7A247D01AE9",
       "sender": {
         "id": "141454865371330@lid",
-        "pushname": "Daniel Sinai",
         "phone": "972542537031"
       },
       "body": "מה לגבי העניין של חלוקה לקבצים? אפשר לפרש את מה שהוא כתב בפורום בכמה דרכים\n\n\"שהקוד של ה-crawl בקובץ אחד כפי שצוין ושאר החלקים גם, כפי שצוין בתרגיל\"\n\"שהקוד של ה-crawl בקובץ אחד כפי שצוין, ושאר החלקים גם כפי שצוין בתרגיל\"",
@@ -5922,7 +5757,6 @@
       "messageId": "3FD78622096F71035DE8",
       "sender": {
         "id": "141454865371330@lid",
-        "pushname": "Daniel Sinai",
         "phone": "972542537031"
       },
       "body": "הוא יותר מבלבל בפורום מאשר עונה",
@@ -5935,7 +5769,6 @@
       "messageId": "3EB02D69898CF4D4E3CB83",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "<Media Message (Truncated)>",
@@ -5955,7 +5788,6 @@
         "ref": "3EB02D69898CF4D4E3CB83",
         "author": {
           "id": "101584751038550@lid",
-          "pushname": "אליזבט פינחסוב",
           "phone": "972526098761"
         },
         "body": "/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/2wBDAQMDAwQDBAgEBAgQCwkLEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBD/wAARCAAFAGQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUDBAn/xAAmEAADAAIBBAICAgMAAAAAAAABAgMEBREABhITFCEiMTJRByOB/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APVF1LAAOy/YPI4/v9ff9/r/AL1N1emzMHWQ1+w7l2m2rG72bMyhCVrA0Z1m/wAeU08VBVAFUEqgDlyWLOnQbS1+XOubR95m1XKyp5EpukAuJNUmphPiYJmxm7k0Lv5Wp4uqiapHbs/aJKUcL/IncuMqZWTlOR8OzV92cmV62a2O5E5otMVFUr4wsw5NFlWbp0HcmgzJbJs+fdW4E6bH51cVjB4vP4gx/ijykWSPmFyPwZX9wP5+tmmZ/bfZOV29otdo6999z7g6sYiwzdlkxplOscaUGFnSS+819dKUNQzGl6MpTxkJOnQUdxpNls46yeF3ft9S2BmQysimHLEZthJOfLGt7oUCypyPIyE6DgeDp987T1ecm9fbt3HsaYrYaYo1bJj/ABVorsxyQwkLexgQpBqZ8KOEDcsXToMZ6TZpsJ5rd4bd4pjRg2I0sT1UdBUNYkQD+bmqFgHCAwn4qoNBSisaK9GOXVg9A6qQnCDxA8BwvPHILffJ5J++OAHToIOR2hsL9w43cA7+7kkMXBnhDBm2KMShGROtbPP0flWqyEmYnhJtT0iTOzms+vy2pF13mcglc1dAkOKqfL/U3M+Qo8h9qQ34L+X8uXToNsLGtiyM77HIzGPj+dlmGHCKp/gqj7Klj9ftjxwvCh06dB//2Q=="
@@ -5984,7 +5816,6 @@
         "ref": "3FD1F656A7A247D01AE9",
         "author": {
           "id": "141454865371330@lid",
-          "pushname": "Daniel Sinai",
           "phone": "972542537031"
         },
         "body": "מה לגבי העניין של חלוקה לקבצים? אפשר לפרש את מה שהוא כתב בפורום בכמה דרכים\n\n\"שהקוד של ה-crawl בקובץ אחד כפי שצוין ושאר החלקים גם, כפי שצוין בתרגיל\"\n\"שהקוד של ה-crawl בקובץ אחד כפי שצוין, ושאר החלקים גם כפי שצוין בתרגיל\""
@@ -6017,7 +5848,6 @@
       "messageId": "3EB045D4059E1800C678B1",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "<Media Message (Truncated)>",
@@ -6046,7 +5876,6 @@
         "ref": "3EB045D4059E1800C678B1",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "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"
@@ -6059,7 +5888,6 @@
       "messageId": "3EB00C143D7DA1AC202D18",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "אבל על איזה דאטה סט? ב1 על הדאטה סט המאוחד ובשלישי על הdemographics data?",
@@ -6080,7 +5908,6 @@
       "messageId": "3EB095B3A2D0A912125132",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "כאילו מה קשור הyour demographics crawling",
@@ -6101,7 +5928,6 @@
         "ref": "3EB00C143D7DA1AC202D18",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "אבל על איזה דאטה סט? ב1 על הדאטה סט המאוחד ובשלישי על הdemographics data?"
@@ -6122,7 +5948,6 @@
         "ref": "3EB095B3A2D0A912125132",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "כאילו מה קשור הyour demographics crawling"
@@ -6169,6 +5994,7 @@
       "messageId": "3EB062DB82B88124C69D4C",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "מישהו הבין איך להגיש את הconsolidated reoprt? פשוט קובץ docs אם צילומי מסך של כל הprints?",
@@ -6367,7 +6193,6 @@
       "messageId": "3A1FAF7660DFA13F46F2",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "לדעתי לא",
@@ -6387,7 +6212,6 @@
       "messageId": "3A912AE02F837437A35B",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "כאילו כן רק בX",
@@ -6461,7 +6285,6 @@
       "messageId": "3F2948AEAAB87B9968A8",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "מישהו רוצה להשוואת את המטריצה שיוצאת ב5.3?",
@@ -6498,7 +6321,6 @@
       "messageId": "3EB056C9F3E4DB72B75B3D",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "לדעתי עשו מישמש עם כמה pdfים ולא קראו את התוצאה",
@@ -6533,7 +6355,6 @@
         "ref": "3EB056C9F3E4DB72B75B3D",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "לדעתי עשו מישמש עם כמה pdfים ולא קראו את התוצאה"
@@ -6826,7 +6647,6 @@
       "messageId": "3F58061422F026DD53CF",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "זה מגן או חובה?",
@@ -6853,7 +6673,6 @@
         "ref": "3F58061422F026DD53CF",
         "author": {
           "id": "48125192486957@lid",
-          "pushname": "yoav schneider",
           "phone": "972523919858"
         },
         "body": "זה מגן או חובה?"
@@ -6950,6 +6769,7 @@
       "messageId": "3EB0E53B4C800552E03F07",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "עשיתם outliers גם על הdemograqphics? או רק על הgdp וpop",
@@ -6962,7 +6782,6 @@
       "messageId": "3EB0C91E328E29FB3C40A0",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "להבנתי רק gdp pop",
@@ -7038,7 +6857,6 @@
       "messageId": "3EB0CB324404EAE433984E",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "אני באמת חושבת שיהיה אפשר לערער על כל דבר עם כמה שהם סותרים את עצמם בפורום ובתרגיל",
@@ -7051,7 +6869,6 @@
       "messageId": "3EB02F7B4BDBCC50CD09AD",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "בהצלחה להם בבדיקה",
@@ -7093,7 +6910,7 @@
           "id": "123007947243729@lid",
           "phone": "972524041610"
         },
-        "body": "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"
+        "body": "<Media Message (Truncated)>"
       },
       "reactions": null
     },
@@ -7147,6 +6964,7 @@
       "messageId": "3EB060F282AD1D0C6B53DD",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "בסעיף 5.4 , כשהם רוצים שנעשה inner join בין שלושת הסדאטה סטים, הם מתכוונים לאלה אחרי שניקינו אותם או למקוריים, אחרת אני לא מבין ממש איפה יכול להיות דאטה חסר",
@@ -7171,6 +6989,7 @@
       "messageId": "3A4A545F6B2D5EB42635",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "אבל זה inner join, אז השורות פשוט לא ייכנסו, אבל לא יהיו לי תאים עם null למשל",
@@ -7183,6 +7002,7 @@
       "messageId": "3A4F2C9704AD61500EA8",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "מסכים שחלק מהמדינות לא יהיו שם, אבל להחליף תאים בממוצע וכו, לא מבין איפה זה יכול לקרות",
@@ -7262,6 +7082,7 @@
         "ref": "3A4F2C9704AD61500EA8",
         "author": {
           "id": "97165196193969@lid",
+          "pushname": "רועי מיינפלד",
           "phone": "972548358850"
         },
         "body": "מסכים שחלק מהמדינות לא יהיו שם, אבל להחליף תאים בממוצע וכו, לא מבין איפה זה יכול לקרות"
@@ -7274,7 +7095,6 @@
       "messageId": "3EB081C259A946047E98FD",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "<Media Message (Truncated)>",
@@ -7299,7 +7119,6 @@
       "messageId": "83B985EA529938FC4A775FEC67FA87A0",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "כמה שורות יצא לכם המטריצה של z-score scaling?",
@@ -7530,7 +7349,6 @@
       "messageId": "3A5FD88C510B96B77828",
       "sender": {
         "id": "211527240044594@lid",
-        "pushname": "Bar Cavia",
         "phone": "972504643322"
       },
       "body": "היא מעולם לא הייתה קיימת 😮",
@@ -7562,7 +7380,6 @@
       "messageId": "3A2B32A5199FD687D4D3",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "מישהו שלח להם על זה?",
@@ -7575,7 +7392,6 @@
       "messageId": "3AC5214EAF2826D7C184",
       "sender": {
         "id": "211527240044594@lid",
-        "pushname": "Bar Cavia",
         "phone": "972504643322"
       },
       "body": "כתבתי להם בפורום, עדיין לא ענו",
@@ -7583,7 +7399,6 @@
         "ref": "3A2B32A5199FD687D4D3",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "מישהו שלח להם על זה?"
@@ -7739,12 +7554,7 @@
       "serialNumber": 513,
       "datetime": "2025-05-18T06:28:44.000Z",
       "messageId": "3FA738FEE41903F83733",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
       "reactions": null
@@ -7814,12 +7624,7 @@
       "serialNumber": 519,
       "datetime": "2025-05-18T08:08:14.000Z",
       "messageId": "3F323A6992788C75C981",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "<Media Message (Truncated)>",
       "replyTo": null,
       "reactions": null
@@ -7975,7 +7780,6 @@
       "messageId": "3F2E1CA7E0A89A2B6BB9",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "לפי הפורום כן\nפירוט כאן: https://moodle.huji.ac.il/2024-25/mod/forum/discuss.php?d=69120",
@@ -8050,7 +7854,6 @@
       "messageId": "3EB0A2DC401C4631F25E70",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "צריך שלשלושה PDFים שצריך להגיש יהיה את אותו שם?",
@@ -8071,7 +7874,6 @@
         "ref": "3EB0A2DC401C4631F25E70",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "צריך שלשלושה PDFים שצריך להגיש יהיה את אותו שם?"
@@ -8084,7 +7886,6 @@
       "messageId": "3EB014BCBEDF60AD1CE064",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "תודה",
@@ -8131,7 +7932,6 @@
       "messageId": "3F834077C4F293D58E25",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "אני הבנתי שגם בתיאורטי אתה צריך לכתוב בכותרת למעלה מי השותפים שלך לתרגיל הפרקטי. זה הכל",
@@ -8160,7 +7960,6 @@
         "ref": "3F834077C4F293D58E25",
         "author": {
           "id": "84658133971055@lid",
-          "pushname": "נגה ויעקב פינקרט",
           "phone": "972558870095"
         },
         "body": "אני הבנתי שגם בתיאורטי אתה צריך לכתוב בכותרת למעלה מי השותפים שלך לתרגיל הפרקטי. זה הכל"
@@ -8216,7 +8015,6 @@
       "messageId": "3EB00878F15676AD38D3B0",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "תגידו לא מגישים את ה CSV של ה GDP וה POP נכון? שמתי את זה בתיקייה של הקוד וכל פעם שהשתמשתי ניגשתי עם ./ ועכשיו אם לא מגישה אז זה ירוץ עם שגיאה, זה תקין?",
@@ -8249,7 +8047,6 @@
       "messageId": "3F6E590CA7A929BCCAD8",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "כן",
@@ -8257,7 +8054,6 @@
         "ref": "3EB00878F15676AD38D3B0",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "תגידו לא מגישים את ה CSV של ה GDP וה POP נכון? שמתי את זה בתיקייה של הקוד וכל פעם שהשתמשתי ניגשתי עם ./ ועכשיו אם לא מגישה אז זה ירוץ עם שגיאה, זה תקין?"
@@ -8378,12 +8174,7 @@
       "serialNumber": 551,
       "datetime": "2025-05-18T11:54:43.000Z",
       "messageId": "3F978663A70C96DF2C4E",
-      "sender": {
-        "id": "24331140767913@lid",
-        "shortName": "נתי",
-        "pushname": "Natanel Richey",
-        "phone": "972584171094"
-      },
+      "sender": "Unknown Member",
       "body": "עוד מישהו לא מצליח להעלות למודל?",
       "replyTo": null,
       "reactions": null
@@ -8582,6 +8373,7 @@
         "ref": "4C9F9E40B0F3FD1AA40A2FB07341D26E",
         "author": {
           "id": "262748952858745@lid",
+          "pushname": "Eliana Haddad 🤗",
           "phone": "972586003060"
         },
         "body": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wgARCAAmAEgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBv/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAOktAEzvAmYbUaBUEWGZrJsFgUACBQf/xAAUEQEAAAAAAAAAAAAAAAAAAAAw/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAw/9oACAEDAQE/AH//xAAiEAABAwQCAgMAAAAAAAAAAAABAAIREBIhUSBBMWEDEyL/2gAIAQEAAT8AIM+eJcFcE5x6lNJO+RLgcDCLyfSuK+My1SpqbpxC/XpFpPQX1lMFozSKnxhS7ScXRjBQL9hCe6QdrO+BAKtGqf/+AAMA/9k="
@@ -8763,7 +8555,6 @@
       "messageId": "3F2276D94A0130BC4817",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "אמרו שאפשר להגיש את הקובץ המאוחד לכל 3 תיבות ההגשה. פשוט תעשה ככה",
@@ -8795,7 +8586,6 @@
       "messageId": "3FC8CDE9849AD08590A5",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "זהו גם אני לא הבנתי. הם כתבו שזה לא ייחשב 0 אבל השאלה אם זה ייחשב 100 או שפשוט יקחו רק את התרגילים והפרויקט ויהיה להם משקל שונה",
@@ -8851,7 +8641,6 @@
       "messageId": "3EB0E2D3D994C5E3A192DE",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "תגיש את כולו בשלושתן",
@@ -8900,7 +8689,6 @@
       "messageId": "3F0245087FC6A700F689",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "כן",
@@ -8945,6 +8733,7 @@
       "messageId": "8A5F1D2C9E554D93702E14729D7F82E3",
       "sender": {
         "id": "262748952858745@lid",
+        "pushname": "Eliana Haddad 🤗",
         "phone": "972586003060"
       },
       "body": "אמרו שאפשר גם וגם",
@@ -9116,7 +8905,6 @@
       "messageId": "3ABA3A7502F261D9F6BE",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "כן",
@@ -9354,7 +9142,6 @@
       "messageId": "3FC69AFBCB4BA83DBA36",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "זה גם לא ברור. זה ממש נראה שהוא מתאמץ לא לענות אבל כנראה שאין ברירה צריך כבר להגיש היום",
@@ -9451,6 +9238,7 @@
       "messageId": "3EB01B933481073D996D03",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "יש אנשים שיש להם עומס חוץ מהעבודה הזו והארכה לא עוזרת כי יש להם דברים נוספים לעשות...\nלֹא חכם לבקש הארכות בגלל שטויות שהם עשו, עדיף לבקש שיתחשבו בנו בבדיקה במקום שנצטרך לרדוף אחרי הודעות שהם רושמים במהלך שבוע שלם אחרי ההגשה",
@@ -9494,6 +9282,7 @@
       "serialNumber": 621,
       "datetime": "2025-05-20T10:26:14.000Z",
       "messageId": "3A0973A1F9F7C19ED842",
+      "sender": "Unknown Member",
       "body": "[No text]",
       "replyTo": null,
       "reactions": null
@@ -9502,6 +9291,7 @@
       "serialNumber": 622,
       "datetime": "2025-05-20T10:26:44.000Z",
       "messageId": "EE4817FEBB150C3D800EEF408B2F5541",
+      "sender": "Unknown Member",
       "body": "מישהו רוצה להשוות את החלק התאורטי?🙏🏼",
       "replyTo": null,
       "reactions": null
@@ -9592,6 +9382,7 @@
         "ref": "3EB01B933481073D996D03",
         "author": {
           "id": "97165196193969@lid",
+          "pushname": "רועי מיינפלד",
           "phone": "972548358850"
         },
         "body": "יש אנשים שיש להם עומס חוץ מהעבודה הזו והארכה לא עוזרת כי יש להם דברים נוספים לעשות...\nלֹא חכם לבקש הארכות בגלל שטויות שהם עשו, עדיף לבקש שיתחשבו בנו בבדיקה במקום שנצטרך לרדוף אחרי הודעות שהם רושמים במהלך שבוע שלם אחרי ההגשה"
@@ -9634,6 +9425,7 @@
       "serialNumber": 629,
       "datetime": "2025-05-20T20:22:34.000Z",
       "messageId": "6922B8EEEF23454141804F360A7A662D",
+      "sender": "Unknown Member",
       "body": "מישהו רוצה להשוות את החלק התאורטי?🙏🏼😅",
       "replyTo": null,
       "reactions": null
@@ -9731,7 +9523,6 @@
       "messageId": "3EB0AE504888523316E925",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "לא יודעת אם כבר ביקשו אבל יש מצב לבקש מהם שיעלו בחני עבר?",
@@ -9752,7 +9543,6 @@
       "messageId": "3EB01D43F836DFB6E1BB49",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "אין לי בעיה לבקש רק אם יש נציג או משהו אולי תהיה תשובה מהירה יותר",
@@ -9773,7 +9563,6 @@
         "ref": "3EB0AE504888523316E925",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "לא יודעת אם כבר ביקשו אבל יש מצב לבקש מהם שיעלו בחני עבר?"
@@ -9794,7 +9583,6 @@
         "ref": "3EB0AE504888523316E925",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "לא יודעת אם כבר ביקשו אבל יש מצב לבקש מהם שיעלו בחני עבר?"
@@ -9815,7 +9603,6 @@
       "messageId": "3EB00AA27CFAE207B02240",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "הדרייב ריק",
@@ -9828,7 +9615,6 @@
       "messageId": "3EB0B89B6C080D657DC075",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "אלא אם כן פספסתי משהו",
@@ -9841,6 +9627,7 @@
       "messageId": "3A2F4AC44A39F10ADE18",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "השיעור של אתמול רלוונטי לבוחן?",
@@ -9865,6 +9652,7 @@
       "messageId": "3AACDC361A157D89F2A8",
       "sender": {
         "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
         "phone": "972548358850"
       },
       "body": "תודה🙏",
@@ -9885,7 +9673,6 @@
         "ref": "3EB0AE504888523316E925",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "לא יודעת אם כבר ביקשו אבל יש מצב לבקש מהם שיעלו בחני עבר?"
@@ -9906,7 +9693,6 @@
       "messageId": "3A3BA68C10C03B0505F1",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "תודה 🩷",
@@ -10217,7 +10003,6 @@
       "messageId": "3ACB338CE87DB97B57CE",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "10%",
@@ -10257,7 +10042,6 @@
       "messageId": "3A51D9646F74A82072F8",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "אני דיי בטוחה שהיא אמרה שלא",
@@ -10558,6 +10342,7 @@
       "serialNumber": 681,
       "datetime": "2025-05-24T17:40:40.000Z",
       "messageId": "3A76D4025E52D442DF1F",
+      "sender": "Unknown Member",
       "body": "[No text]",
       "replyTo": null,
       "reactions": null
@@ -10566,6 +10351,7 @@
       "serialNumber": 682,
       "datetime": "2025-05-24T17:41:13.000Z",
       "messageId": "3AE3C6E441174336D31F",
+      "sender": "Unknown Member",
       "body": "אפשר להשוות עם מישהו את התשובות הסופיות בחלק התיאורטי בשיעורי בית שהיו?🙏🏼",
       "replyTo": null,
       "reactions": null
@@ -10643,7 +10429,6 @@
       "messageId": "3EB0E38F8B364629B46899",
       "sender": {
         "id": "123119599624234@lid",
-        "pushname": "Osher",
         "phone": "972537210056"
       },
       "body": "The way she worded it last week we should get them with the test, but you can never be too sure",
@@ -10704,7 +10489,6 @@
       "messageId": "3EB087B20D112846E39DD8",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "למישהו יש פתרון/פתר?",
@@ -10760,7 +10544,6 @@
       "messageId": "3EB0B3A8A3A1976A3DA9AB",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "..",
@@ -10886,7 +10669,6 @@
       "messageId": "3AD64552E987F149AB33",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "הצ׳אט מסביר טוב",
@@ -10906,7 +10688,6 @@
       "messageId": "3ADE028E0E733B5436C6",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "אפשר להביא אותו לבוחן? שואלת בשביל חבר",
@@ -10914,7 +10695,6 @@
         "ref": "3AD64552E987F149AB33",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "הצ׳אט מסביר טוב"
@@ -11127,6 +10907,7 @@
       "messageId": "2698873CF2DCF0A0BF1E7C7EF988605F",
       "sender": {
         "id": "189275014467651@lid",
+        "pushname": "Shirel Schreiber",
         "phone": "972584841113"
       },
       "body": "איפה זה חדר מתמטיקה 2?",
@@ -11261,7 +11042,6 @@
       "messageId": "788DFB8911F8699ACA5C4348091B6373",
       "sender": {
         "id": "265489158766773@lid",
-        "pushname": "שחר",
         "phone": "972528708081"
       },
       "body": "לפי מה שאני יודע IML הוא מומלץ אבל לא קדם",
@@ -11306,7 +11086,6 @@
       "messageId": "3F9E33848AA8C882C6D7",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "יהיה TF-IDF בבוחן?",
@@ -11345,6 +11124,7 @@
       "messageId": "B144659673AC34B0D7495EB9F1DDEAB4",
       "sender": {
         "id": "189275014467651@lid",
+        "pushname": "Shirel Schreiber",
         "phone": "972584841113"
       },
       "body": "?",
@@ -11352,6 +11132,7 @@
         "ref": "2698873CF2DCF0A0BF1E7C7EF988605F",
         "author": {
           "id": "189275014467651@lid",
+          "pushname": "Shirel Schreiber",
           "phone": "972584841113"
         },
         "body": "איפה זה חדר מתמטיקה 2?"
@@ -11371,6 +11152,7 @@
         "ref": "B144659673AC34B0D7495EB9F1DDEAB4",
         "author": {
           "id": "189275014467651@lid",
+          "pushname": "Shirel Schreiber",
           "phone": "972584841113"
         },
         "body": "?"
@@ -11550,7 +11332,6 @@
       "messageId": "3EB02CBC39422927747610",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "<Media Message (Truncated)>",
@@ -11571,7 +11352,6 @@
         "ref": "3EB02CBC39422927747610",
         "author": {
           "id": "140063329538277@lid",
-          "pushname": "Talia💕",
           "phone": "972556696959"
         },
         "body": "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"
@@ -11604,7 +11384,6 @@
       "messageId": "3EB058E71FA2B57AA2CF3D",
       "sender": {
         "id": "246277837222089@lid",
-        "pushname": "- ɴᴏᴀᴍ ᴋ",
         "phone": "972587318509"
       },
       "body": "כתבו במייל להביא",
@@ -11940,7 +11719,6 @@
       "messageId": "C53431B194FC69D77AF36E04F0381E6A",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "ברור במה שבמצגת. זה החומר של הקורס שלנו. זה לא בטעות כי אחרי זה רואים שהיא מדגימה את זה בשקף הבא",
@@ -12065,7 +11843,6 @@
       "messageId": "CB75B533C3547F1A7A1D39C549F89C23",
       "sender": {
         "id": "82966051066102@lid",
-        "pushname": "☆ Asmaa",
         "phone": "972586113237"
       },
       "body": "עוד מישהו לא קיבל ציון בחלק הפרקטי?",
@@ -12125,7 +11902,6 @@
         "ref": "CB75B533C3547F1A7A1D39C549F89C23",
         "author": {
           "id": "82966051066102@lid",
-          "pushname": "☆ Asmaa",
           "phone": "972586113237"
         },
         "body": "עוד מישהו לא קיבל ציון בחלק הפרקטי?"
@@ -12175,7 +11951,6 @@
       "messageId": "3A87AC528E4906D58533",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "אתה יכול לראות תא זה גם במידע אישי",
@@ -12195,7 +11970,6 @@
       "messageId": "3AA21CCDC0745905C7D3",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "במועדי בחינות",
@@ -12265,7 +12039,6 @@
       "messageId": "1AD57D2E28AF9EFF379CD934A6C4E516",
       "sender": {
         "id": "246277837222089@lid",
-        "pushname": "- ɴᴏᴀᴍ ᴋ",
         "phone": "972587318509"
       },
       "body": "הולכים על המסלול שיש בו את שפרינצק לוי וכו' עד הסוף\nבסוף מגיעים למדרגות מימין, יורדים בהן ונכנסים ימינה למבנה שיש בו את רוטברג ואחריו קפלן",
@@ -12400,7 +12173,6 @@
       "messageId": "3F62E061ED10EB92F0AC",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "אחרי הבוחן יש הרצאה חלקית או שמשוחררים?",
@@ -12465,7 +12237,6 @@
         "ref": "3F62E061ED10EB92F0AC",
         "author": {
           "id": "84658133971055@lid",
-          "pushname": "נגה ויעקב פינקרט",
           "phone": "972558870095"
         },
         "body": "אחרי הבוחן יש הרצאה חלקית או שמשוחררים?"
@@ -12478,7 +12249,6 @@
       "messageId": "80C5F0F735A8A7C08B11494F0650BB6B",
       "sender": {
         "id": "226739980615700@lid",
-        "pushname": "Cfir Amar",
         "phone": "972525390457"
       },
       "body": "מישהו יודע אם הסבר לא נכון יכול להוריד ציון של שאלה אמריקאית\nאם התשובה נכונה",
@@ -12503,7 +12273,6 @@
       "messageId": "DB554ABBDBBDA71420259D35EC833788",
       "sender": {
         "id": "226739980615700@lid",
-        "pushname": "Cfir Amar",
         "phone": "972525390457"
       },
       "body": "ואם אתה בודק שלא אכל ארוחת בוקר כי נשרפה לו החביתה?",
@@ -12516,7 +12285,6 @@
       "messageId": "DCC7FAB96FB95FC0452C05C512AD3CA5",
       "sender": {
         "id": "226739980615700@lid",
-        "pushname": "Cfir Amar",
         "phone": "972525390457"
       },
       "body": "שאלה מנחה וחשובה.",
@@ -12536,7 +12304,6 @@
         "ref": "DB554ABBDBBDA71420259D35EC833788",
         "author": {
           "id": "226739980615700@lid",
-          "pushname": "Cfir Amar",
           "phone": "972525390457"
         },
         "body": "ואם אתה בודק שלא אכל ארוחת בוקר כי נשרפה לו החביתה?"
@@ -12578,7 +12345,6 @@
         "ref": "1AD57D2E28AF9EFF379CD934A6C4E516",
         "author": {
           "id": "246277837222089@lid",
-          "pushname": "- ɴᴏᴀᴍ ᴋ",
           "phone": "972587318509"
         },
         "body": "הולכים על המסלול שיש בו את שפרינצק לוי וכו' עד הסוף\nבסוף מגיעים למדרגות מימין, יורדים בהן ונכנסים ימינה למבנה שיש בו את רוטברג ואחריו קפלן"
@@ -12599,6 +12365,7 @@
       "messageId": "1F7A5E2D23370DC322B664B623E3E4CC",
       "sender": {
         "id": "189275014467651@lid",
+        "pushname": "Shirel Schreiber",
         "phone": "972584841113"
       },
       "body": "מישהו שבמתמטיקה יכול להנחות אותי איפה הכיתה של הבחינה?",
@@ -13178,7 +12945,6 @@
       "messageId": "3A7B79FFAADD8A6E7755",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "עכשיו כן",
@@ -13436,7 +13202,6 @@
       "messageId": "A42258FF53F5E6E2993E9920299665ED",
       "sender": {
         "id": "246277837222089@lid",
-        "pushname": "- ɴᴏᴀᴍ ᴋ",
         "phone": "972587318509"
       },
       "body": "<Media Message (Truncated)>",
@@ -13477,7 +13242,6 @@
         "ref": "A42258FF53F5E6E2993E9920299665ED",
         "author": {
           "id": "246277837222089@lid",
-          "pushname": "- ɴᴏᴀᴍ ᴋ",
           "phone": "972587318509"
         },
         "body": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAAYAQwMBIgACEQEDEQH/xAArAAEBAAMAAAAAAAAAAAAAAAAAAgEDBgEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAOk1EVYZFAAf/8QAHxAAAQMDBQAAAAAAAAAAAAAAAQACExESYgMQITFh/9oACAEBAAE/AHMJ6ULgbrVG9DScRUlR+qPJRZKLmtdv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAREAIP/aAAgBAgEBPwBLgnH/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AD//2Q=="
@@ -13524,7 +13288,6 @@
       "messageId": "3A33885597D55F84DBCD",
       "sender": {
         "id": "104853204398296@lid",
-        "pushname": "Noa Benzikry Goldstein",
         "phone": "972542533397"
       },
       "body": "גם לנו:)",
@@ -13532,7 +13295,6 @@
         "ref": "A42258FF53F5E6E2993E9920299665ED",
         "author": {
           "id": "246277837222089@lid",
-          "pushname": "- ɴᴏᴀᴍ ᴋ",
           "phone": "972587318509"
         },
         "body": "/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEABsbGxscGx4hIR4qLSgtKj04MzM4PV1CR0JHQl2NWGdYWGdYjX2Xe3N7l33gsJycsOD/2c7Z//////////////8BGxsbGxwbHiEhHiotKC0qPTgzMzg9XUJHQkdCXY1YZ1hYZ1iNfZd7c3uXfeCwnJyw4P/Zztn////////////////CABEIAAYAQwMBIgACEQEDEQH/xAArAAEBAAMAAAAAAAAAAAAAAAAAAgEDBgEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAOk1EVYZFAAf/8QAHxAAAQMDBQAAAAAAAAAAAAAAAQACExESYgMQITFh/9oACAEBAAE/AHMJ6ULgbrVG9DScRUlR+qPJRZKLmtdv/8QAFxEBAQEBAAAAAAAAAAAAAAAAAREAIP/aAAgBAgEBPwBLgnH/xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AD//2Q=="
@@ -13608,7 +13370,6 @@
       "messageId": "3FD2EA28DF78603F27B7",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "כתבת יפה. תודה!",
@@ -13680,7 +13441,6 @@
       "messageId": "3F345992D92BFB50EF8D",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "כן אבל זה הוא כבר ענה בפורום שצריך לטפל. בעיקר הבעיה היא איך לטפל ושההוראות לא היו ברורות מספיק",
@@ -13709,7 +13469,6 @@
         "ref": "3F345992D92BFB50EF8D",
         "author": {
           "id": "84658133971055@lid",
-          "pushname": "נגה ויעקב פינקרט",
           "phone": "972558870095"
         },
         "body": "כן אבל זה הוא כבר ענה בפורום שצריך לטפל. בעיקר הבעיה היא איך לטפל ושההוראות לא היו ברורות מספיק"
@@ -13730,7 +13489,6 @@
       "messageId": "3A6FCAC156F8634B0856",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "כמה אחוז התרגילים מהציון?",
@@ -13822,12 +13580,7 @@
       "serialNumber": 870,
       "datetime": "2025-05-27T17:16:10.000Z",
       "messageId": "A86FD168E180F6173D3A61FE486C8DB5",
-      "sender": {
-        "id": "156676246241323@lid",
-        "shortName": "אבי מדמח (הסתברות מועד ג)",
-        "pushname": "Avi Kfir Klings",
-        "phone": "972507624269"
-      },
+      "sender": "Unknown Member",
       "body": "לפרויקט הסופי אפשר לבחור נושא שלא מתוך ה 3 נושאים שהצענו בהתחלה?",
       "replyTo": null,
       "reactions": null
@@ -13956,7 +13709,6 @@
       "messageId": "3A928E79F1BFDEC58397",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "מישהו הבין בשביל הmilestone אם צריך עכשיו ממש להכנס לדאטה ולהביא דברים ויזאולים יותר מסובכים או שאפשר דברים בסיסיים?",
@@ -13977,7 +13729,6 @@
         "ref": "3A928E79F1BFDEC58397",
         "author": {
           "id": "61624375357601@lid",
-          "pushname": "Meshi",
           "phone": "972547299035"
         },
         "body": "מישהו הבין בשביל הmilestone אם צריך עכשיו ממש להכנס לדאטה ולהביא דברים ויזאולים יותר מסובכים או שאפשר דברים בסיסיים?"
@@ -13998,7 +13749,6 @@
       "messageId": "3F5F7ACB970809345F28",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "מתי התאריך האחרון להגשה של הפרוייקט הסופי?",
@@ -14011,7 +13761,6 @@
       "messageId": "3EB06C811A81024CB99293",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "לדעתי אמצע-סוף אוגוסט (נראה לי ב20?)",
@@ -14024,7 +13773,6 @@
       "messageId": "3EB09EB8A29ECCDC46E991",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "אם אני לא טועה זה עד סוף תקופת המבחנים",
@@ -14037,7 +13785,6 @@
       "messageId": "3EB07F689A1397A00EC6CB",
       "sender": {
         "id": "123119599624234@lid",
-        "pushname": "Osher",
         "phone": "972537210056"
       },
       "body": "I can back that up, I asked the lecturer and she said as late as she could possibly make it (End of test season)",
@@ -14050,7 +13797,6 @@
       "messageId": "3A5D77A6AFEA48098A4B",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "ה 20 לאוגוסט זה תאריך סיום תקופת המבחנים וכששאלתי את המרצה היא אמרה שצריך בערך 10 ימים לפני זה אבל לא אמרה לי תאריך מדוייק",
@@ -14063,7 +13809,6 @@
       "messageId": "3FF6FBC673B612CC04D8",
       "sender": {
         "id": "48125192486957@lid",
-        "pushname": "yoav schneider",
         "phone": "972523919858"
       },
       "body": "<Media Message (Truncated)>",
@@ -14076,7 +13821,6 @@
       "messageId": "3EB0A359E8A6761873C335",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "לפי מה שאנחנו הבנו זה אם אתם שלושה חברי צוות עם שם משפחה שמתחיל באות A לחבר צוות אחד, שם משפחה שמתחיל באות B לחבר צוות שני ושם משפחה שמתחיל באות C לחבר צוות שלישי אז שם הקובץ יהיה: milestone A B C.pdf",
@@ -14084,7 +13828,6 @@
         "ref": "3FF6FBC673B612CC04D8",
         "author": {
           "id": "48125192486957@lid",
-          "pushname": "yoav schneider",
           "phone": "972523919858"
         },
         "body": "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"
@@ -14097,7 +13840,6 @@
       "messageId": "0F6F9C8F675502F8A93CF8987D0D06D0",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "את בטוחה שעם הmilestone? זה לא רק האותיות?",
@@ -14105,7 +13847,6 @@
         "ref": "3EB0A359E8A6761873C335",
         "author": {
           "id": "101584751038550@lid",
-          "pushname": "אליזבט פינחסוב",
           "phone": "972526098761"
         },
         "body": "לפי מה שאנחנו הבנו זה אם אתם שלושה חברי צוות עם שם משפחה שמתחיל באות A לחבר צוות אחד, שם משפחה שמתחיל באות B לחבר צוות שני ושם משפחה שמתחיל באות C לחבר צוות שלישי אז שם הקובץ יהיה: milestone A B C.pdf"
@@ -14118,7 +13859,6 @@
       "messageId": "3A72F8E014245F5DAE8F",
       "sender": {
         "id": "101584751038550@lid",
-        "pushname": "אליזבט פינחסוב",
         "phone": "972526098761"
       },
       "body": "אני לא בטוחה, אבל זה מה שאנחנו הבנו",
@@ -14126,7 +13866,6 @@
         "ref": "0F6F9C8F675502F8A93CF8987D0D06D0",
         "author": {
           "id": "84658133971055@lid",
-          "pushname": "נגה ויעקב פינקרט",
           "phone": "972558870095"
         },
         "body": "את בטוחה שעם הmilestone? זה לא רק האותיות?"
@@ -14147,7 +13886,6 @@
       "messageId": "3EB0EDCA095370967546E2",
       "sender": {
         "id": "84658133971055@lid",
-        "pushname": "נגה ויעקב פינקרט",
         "phone": "972558870095"
       },
       "body": "אני רואה עכשיו אני מבין אבל באמת זה ממש ממש לא ברור איפה מתחיל השם של הקובץ. מזל ששאלו פה",
@@ -14160,9 +13898,9 @@
       "messageId": "1B1EFA455AE61EA84FE4D2A55AB89070",
       "sender": {
         "id": "156676246241323@lid",
+        "name": "אבי מדמח (הסתברות מועד ג)",
         "shortName": "אבי מדמח (הסתברות מועד ג)",
-        "pushname": "Avi Kfir Klings",
-        "phone": "972507624269"
+        "phone": null
       },
       "body": "לעוד מישהו 2 עמודים לא מספיקים ל milestone? \nאולי נבקש עמוד נוסף? \nהגרפים תופסים מקום",
       "replyTo": null,
@@ -14182,9 +13920,9 @@
         "ref": "1B1EFA455AE61EA84FE4D2A55AB89070",
         "author": {
           "id": "156676246241323@lid",
+          "name": "אבי מדמח (הסתברות מועד ג)",
           "shortName": "אבי מדמח (הסתברות מועד ג)",
-          "pushname": "Avi Kfir Klings",
-          "phone": "972507624269"
+          "phone": null
         },
         "body": "לעוד מישהו 2 עמודים לא מספיקים ל milestone? \nאולי נבקש עמוד נוסף? \nהגרפים תופסים מקום"
       },
@@ -14196,9 +13934,9 @@
       "messageId": "DD55F261F40E51C3E190676F7EE2DD49",
       "sender": {
         "id": "156676246241323@lid",
+        "name": "אבי מדמח (הסתברות מועד ג)",
         "shortName": "אבי מדמח (הסתברות מועד ג)",
-        "pushname": "Avi Kfir Klings",
-        "phone": "972507624269"
+        "phone": null
       },
       "body": "תודה רבה 💪",
       "replyTo": {
@@ -14218,7 +13956,6 @@
       "messageId": "3AC458C648EBECC53A64",
       "sender": {
         "id": "61624375357601@lid",
-        "pushname": "Meshi",
         "phone": "972547299035"
       },
       "body": "אנחנו גם עם יותר מ2, נשמח שתעדכן🙏🏻",
@@ -14239,7 +13976,6 @@
       "messageId": "75AA32A450C38598252376492476BF5C",
       "sender": {
         "id": "82966051066102@lid",
-        "pushname": "☆ Asmaa",
         "phone": "972586113237"
       },
       "body": "רציתי לשאול אם מישהו יודע איך אפשר לבקש הארכה למועד ההגשה של הmilestone. אם בכלל אפשר לבקש הארכה לכולם?\nשלחנו הודעה בפורום עם בקשה אישית אבל עדיין לא קיבלנו מענה.\nלא הספקנו לסיים בגלל צום יום ערפה ועיד אלאדחא, חמשת הימים האלו נכללים בשבוע שבו אמורים לעבוד על המשימה..",
@@ -14336,7 +14072,6 @@
       "messageId": "3EB051B0D61AE56B3FC668",
       "sender": {
         "id": "140063329538277@lid",
-        "pushname": "Talia💕",
         "phone": "972556696959"
       },
       "body": "אם אפשר גם שתפרסם תאריך הגשה לפרוייקט הסופי נשמחח",
@@ -14462,23 +14197,190 @@
       "body": "זה למיילסטון היום 😬 אז מעריך אם תוכלו 😅",
       "replyTo": null,
       "reactions": null
+    },
+    {
+      "serialNumber": 908,
+      "datetime": "2025-06-10T06:19:57.000Z",
+      "messageId": "3F8B6DB3E2C7534C030B",
+      "sender": {
+        "id": "24331140767913@lid",
+        "name": "נתי ריצ׳י",
+        "shortName": "נתי",
+        "pushname": "Natanel Richey",
+        "phone": null
+      },
+      "body": "נתנה הארכה עד שישי 17:59",
+      "replyTo": {
+        "ref": "3A4DE8040688346D5855",
+        "author": {
+          "id": "129802719780926@lid",
+          "pushname": "Shalev",
+          "phone": "972509254505"
+        },
+        "body": "ההגשה עד היום או עד מחר כולל"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 909,
+      "datetime": "2025-06-11T12:22:03.000Z",
+      "messageId": "3EB04F3EC987268F38F4A0",
+      "sender": {
+        "id": "46540416676070@lid",
+        "pushname": "Aharon Cohen",
+        "phone": "972525255409"
+      },
+      "body": "יש לדפנה שעת קבלה ?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 910,
+      "datetime": "2025-06-12T09:39:18.000Z",
+      "messageId": "B7515E381CE9B6D2FC3DF1D38C94580E",
+      "sender": {
+        "id": "189275014467651@lid",
+        "pushname": "Shirel Schreiber",
+        "phone": "972584841113"
+      },
+      "body": "היי\nתגידו שמתם את הגרפים והתמונות בתוך הpdf או אפשר לצרף אותם כקבצים נלווים?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 911,
+      "datetime": "2025-06-12T09:41:11.000Z",
+      "messageId": "3EB0F5A6646363E8B3A7F0",
+      "sender": {
+        "id": "129802719780926@lid",
+        "pushname": "Shalev",
+        "phone": "972509254505"
+      },
+      "body": "בתוך",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 912,
+      "datetime": "2025-06-12T10:20:38.000Z",
+      "messageId": "3A7F77F17ACF9C169E4F",
+      "sender": {
+        "id": "169428004151520@lid",
+        "pushname": "Yuval",
+        "phone": "972587716464"
+      },
+      "body": "יש עדכון לגבי זה? רק 3 גרפים והסברים שלהם מגיעים ל2 עמודים",
+      "replyTo": {
+        "ref": "B0E1965A53522BB42BE0F688FC507CDD",
+        "author": {
+          "id": "18116255981791@lid",
+          "pushname": "Samuel",
+          "phone": "972584437991"
+        },
+        "body": "לא נראה לי שזה בעייתי אני אשאל את דפנה בכל מקרה \nפשוט שלא יהיה עכשיו ארוך מדי של 15 דפים כי זה רק sanity check"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 913,
+      "datetime": "2025-06-12T10:20:54.000Z",
+      "messageId": "FC6F8864988ACA38754126547DF46673",
+      "sender": {
+        "id": "18116255981791@lid",
+        "pushname": "Samuel",
+        "phone": "972584437991"
+      },
+      "body": "היא דברה על זה בהתחלת ההרצאה \nזה שתי דפים + תמונות",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 914,
+      "datetime": "2025-06-12T10:21:20.000Z",
+      "messageId": "3ACAA08088B0AA9B7BD0",
+      "sender": {
+        "id": "169428004151520@lid",
+        "pushname": "Yuval",
+        "phone": "972587716464"
+      },
+      "body": "אה תודה, הכוונה לשים את התמונות בסוף ולא ביחד עם ההסברים שלהם?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 915,
+      "datetime": "2025-06-12T10:21:33.000Z",
+      "messageId": "3A8D9835CF36538277C2",
+      "sender": {
+        "id": "97165196193969@lid",
+        "pushname": "רועי מיינפלד",
+        "phone": "972548358850"
+      },
+      "body": "לא הבנתי, זה שתי דפים ללא התמונות?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 916,
+      "datetime": "2025-06-12T10:21:55.000Z",
+      "messageId": "4C6B397EDA21045434042E8283C55B0E",
+      "sender": {
+        "id": "18116255981791@lid",
+        "pushname": "Samuel",
+        "phone": "972584437991"
+      },
+      "body": "הכוונה שלא יהיה ארוך מדי ^^",
+      "replyTo": {
+        "ref": "3ACAA08088B0AA9B7BD0",
+        "author": {
+          "id": "169428004151520@lid",
+          "pushname": "Yuval",
+          "phone": "972587716464"
+        },
+        "body": "אה תודה, הכוונה לשים את התמונות בסוף ולא ביחד עם ההסברים שלהם?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 917,
+      "datetime": "2025-06-12T10:22:35.000Z",
+      "messageId": "3A5930E4E6C48937ECA3",
+      "sender": {
+        "id": "169428004151520@lid",
+        "pushname": "Yuval",
+        "phone": "972587716464"
+      },
+      "body": "הבנתי אז זה לא מוגדר",
+      "replyTo": null,
+      "reactions": null
     }
   ],
   "participants": [
     {
-      "id": "246277837222089@lid",
-      "pushname": "- ɴᴏᴀᴍ ᴋ",
-      "phone": "972587318509"
+      "id": "117025141694548@lid",
+      "name": "Jonathan Shmuel Vider",
+      "shortName": "Jonathan",
+      "pushname": "יונתן",
+      "phone": null
     },
     {
-      "id": "82966051066102@lid",
-      "pushname": "☆ Asmaa",
-      "phone": "972586113237"
+      "id": "156676246241323@lid",
+      "name": "אבי מדמח (הסתברות מועד ג)",
+      "shortName": "אבי מדמח (הסתברות מועד ג)",
+      "phone": null
     },
     {
-      "id": "213765001887978@lid",
-      "pushname": "Aboud Nairoukh",
-      "phone": "972544734304"
+      "id": "80745435513008@lid",
+      "name": "יצחק קופינסקי",
+      "shortName": "יצחק",
+      "phone": null
+    },
+    {
+      "id": "24331140767913@lid",
+      "name": "נתי ריצ׳י",
+      "shortName": "נתי",
+      "pushname": "Natanel Richey",
+      "phone": null
     },
     {
       "id": "46540416676070@lid",
@@ -14486,30 +14388,14 @@
       "phone": "972525255409"
     },
     {
-      "id": "156676246241323@lid",
-      "shortName": "אבי מדמח (הסתברות מועד ג)",
-      "pushname": "Avi Kfir Klings",
-      "phone": "972507624269"
-    },
-    {
-      "id": "211527240044594@lid",
-      "pushname": "Bar Cavia",
-      "phone": "972504643322"
-    },
-    {
-      "id": "226739980615700@lid",
-      "pushname": "Cfir Amar",
-      "phone": "972525390457"
-    },
-    {
-      "id": "141454865371330@lid",
-      "pushname": "Daniel Sinai",
-      "phone": "972542537031"
-    },
-    {
       "id": "142958154268772@lid",
       "pushname": "David",
       "phone": "972547797183"
+    },
+    {
+      "id": "262748952858745@lid",
+      "pushname": "Eliana Haddad 🤗",
+      "phone": "972586003060"
     },
     {
       "id": "165738526548131@lid",
@@ -14527,45 +14413,14 @@
       "phone": "972526661524"
     },
     {
-      "id": "61624375357601@lid",
-      "pushname": "Meshi",
-      "phone": "972547299035"
-    },
-    {
-      "id": "193119010173134@lid",
-      "pushname": "Miriam Pasikov (Liberman)",
-      "phone": "972586275216"
-    },
-    {
       "id": "187754596032645@lid",
       "pushname": "Naor Peretz ⚡️",
       "phone": "972523297340"
     },
     {
-      "id": "24331140767913@lid",
-      "shortName": "נתי",
-      "pushname": "Natanel Richey",
-      "phone": "972584171094"
-    },
-    {
-      "id": "104853204398296@lid",
-      "pushname": "Noa Benzikry Goldstein",
-      "phone": "972542533397"
-    },
-    {
-      "id": "70373173416081@lid",
-      "pushname": "Noa Velner-Harris🥑",
-      "phone": "972525031115"
-    },
-    {
       "id": "36004727656671@lid",
       "pushname": "OF8",
       "phone": "972546965542"
-    },
-    {
-      "id": "123119599624234@lid",
-      "pushname": "Osher",
-      "phone": "972537210056"
     },
     {
       "id": "70927157092408@lid",
@@ -14578,24 +14433,14 @@
       "phone": "972584437991"
     },
     {
-      "id": "202945811456095@lid",
-      "pushname": "Semi Ennekavi",
-      "phone": "972533740367"
-    },
-    {
       "id": "129802719780926@lid",
       "pushname": "Shalev",
       "phone": "972509254505"
     },
     {
-      "id": "79796600078520@lid",
-      "pushname": "Shira Gelbstein",
-      "phone": "972552368619"
-    },
-    {
-      "id": "140063329538277@lid",
-      "pushname": "Talia💕",
-      "phone": "972556696959"
+      "id": "189275014467651@lid",
+      "pushname": "Shirel Schreiber",
+      "phone": "972584841113"
     },
     {
       "id": "134106159546514@lid",
@@ -14613,19 +14458,9 @@
       "phone": "972546374390"
     },
     {
-      "id": "48125192486957@lid",
-      "pushname": "yoav schneider",
-      "phone": "972523919858"
-    },
-    {
       "id": "169428004151520@lid",
       "pushname": "Yuval",
       "phone": "972587716464"
-    },
-    {
-      "id": "105016278925467@lid",
-      "pushname": "Zenab Waked",
-      "phone": "972549904405"
     },
     {
       "id": "140269370495075@lid",
@@ -14633,35 +14468,17 @@
       "phone": "972543488288"
     },
     {
-      "id": "101584751038550@lid",
-      "pushname": "אליזבט פינחסוב",
-      "phone": "972526098761"
-    },
-    {
-      "id": "117025141694548@lid",
-      "shortName": "Jonathan",
-      "pushname": "יונתן",
-      "phone": null
+      "id": "97165196193969@lid",
+      "pushname": "רועי מיינפלד",
+      "phone": "972548358850"
     },
     {
       "id": "101039105687610@lid",
-      "pushname": "מייקי",
       "phone": "972528474519"
     },
     {
-      "id": "84658133971055@lid",
-      "pushname": "נגה ויעקב פינקרט",
-      "phone": "972558870095"
-    },
-    {
-      "id": "265489158766773@lid",
-      "pushname": "שחר",
-      "phone": "972528708081"
-    },
-    {
-      "id": "2645733441627@lid",
-      "pushname": "رامي ذباح",
-      "phone": "972512244155"
+      "id": "101584751038550@lid",
+      "phone": "972526098761"
     },
     {
       "id": "101704976576636@lid",
@@ -14674,6 +14491,14 @@
     {
       "id": "104273383801030@lid",
       "phone": "972587116688"
+    },
+    {
+      "id": "104853204398296@lid",
+      "phone": "972542533397"
+    },
+    {
+      "id": "105016278925467@lid",
+      "phone": "972549904405"
     },
     {
       "id": "114555485180142@lid",
@@ -14702,6 +14527,10 @@
     {
       "id": "123007947243729@lid",
       "phone": "972524041610"
+    },
+    {
+      "id": "123119599624234@lid",
+      "phone": "972537210056"
     },
     {
       "id": "12412623278300@lid",
@@ -14734,6 +14563,14 @@
     {
       "id": "138242263384148@lid",
       "phone": "972584449315"
+    },
+    {
+      "id": "140063329538277@lid",
+      "phone": "972556696959"
+    },
+    {
+      "id": "141454865371330@lid",
+      "phone": "972542537031"
     },
     {
       "id": "141910115123240@lid",
@@ -14884,8 +14721,8 @@
       "phone": "972523267751"
     },
     {
-      "id": "189275014467651@lid",
-      "phone": "972584841113"
+      "id": "193119010173134@lid",
+      "phone": "972586275216"
     },
     {
       "id": "193539984080948@lid",
@@ -14912,6 +14749,10 @@
       "phone": "972544243219"
     },
     {
+      "id": "202945811456095@lid",
+      "phone": "972533740367"
+    },
+    {
       "id": "20310933958663@lid",
       "phone": "972555001487"
     },
@@ -14924,8 +14765,16 @@
       "phone": "972547616998"
     },
     {
+      "id": "211527240044594@lid",
+      "phone": "972504643322"
+    },
+    {
       "id": "213640380739676@lid",
       "phone": "972584002316"
+    },
+    {
+      "id": "213765001887978@lid",
+      "phone": "972544734304"
     },
     {
       "id": "214280347599078@lid",
@@ -14966,6 +14815,10 @@
     {
       "id": "222548142862395@lid",
       "phone": "972502057283"
+    },
+    {
+      "id": "226739980615700@lid",
+      "phone": "972525390457"
     },
     {
       "id": "227053546823889@lid",
@@ -15048,6 +14901,10 @@
       "phone": "972587454144"
     },
     {
+      "id": "246277837222089@lid",
+      "phone": "972587318509"
+    },
+    {
       "id": "249142613942281@lid",
       "phone": "972548313321"
     },
@@ -15084,10 +14941,6 @@
       "phone": "972546816225"
     },
     {
-      "id": "262748952858745@lid",
-      "phone": "972586003060"
-    },
-    {
       "id": "26285250236605@lid",
       "phone": "972526255212"
     },
@@ -15102,6 +14955,14 @@
     {
       "id": "264114853130302@lid",
       "phone": "972545408778"
+    },
+    {
+      "id": "2645733441627@lid",
+      "phone": "972512244155"
+    },
+    {
+      "id": "265489158766773@lid",
+      "phone": "972528708081"
     },
     {
       "id": "266309614968917@lid",
@@ -15200,6 +15061,10 @@
       "phone": "972546329010"
     },
     {
+      "id": "48125192486957@lid",
+      "phone": "972523919858"
+    },
+    {
       "id": "49624085712905@lid",
       "phone": "972524321471"
     },
@@ -15222,6 +15087,10 @@
     {
       "id": "575743770656@lid",
       "phone": "972547610130"
+    },
+    {
+      "id": "61624375357601@lid",
+      "phone": "972547299035"
     },
     {
       "id": "62195538866296@lid",
@@ -15250,6 +15119,10 @@
     {
       "id": "69917873279040@lid",
       "phone": "972523337004"
+    },
+    {
+      "id": "70373173416081@lid",
+      "phone": "972525031115"
     },
     {
       "id": "71172003778599@lid",
@@ -15288,13 +15161,16 @@
       "phone": "972586180601"
     },
     {
-      "id": "80745435513008@lid",
-      "shortName": "יצחק",
-      "phone": "972556840204"
+      "id": "79796600078520@lid",
+      "phone": "972552368619"
     },
     {
       "id": "80904466751496@lid",
       "phone": "972525205524"
+    },
+    {
+      "id": "82966051066102@lid",
+      "phone": "972586113237"
     },
     {
       "id": "83545821327399@lid",
@@ -15303,6 +15179,10 @@
     {
       "id": "84336179167252@lid",
       "phone": "972547332114"
+    },
+    {
+      "id": "84658133971055@lid",
+      "phone": "972558870095"
     },
     {
       "id": "87157804937252@lid",
@@ -15315,10 +15195,6 @@
     {
       "id": "95966917091570@lid",
       "phone": "972585302000"
-    },
-    {
-      "id": "97165196193969@lid",
-      "phone": "972548358850"
     },
     {
       "id": "98054304714924@lid",
