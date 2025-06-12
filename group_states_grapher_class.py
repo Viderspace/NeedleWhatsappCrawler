@@ -189,39 +189,47 @@ class GroupStatsGrapher:
         plt.show()
 
     def _plot_message_and_emoji_total_graph(self, df):
+        # 1) index by group
         df.set_index('Group', inplace=True)
-        x = range(len(df))
 
-        # raw counts
+        # 2) compute each series
         replies = df['Replies']
         emojis = df[list(self._emoji_categories.keys()) + ['other']].sum(axis=1)
         messages = df['Messages']
-        total = replies + emojis + messages
 
+        # 3) compute total and sort descending
+        df['__total__'] = replies + emojis + messages
+        df.sort_values('__total__', ascending=False, inplace=True)
+
+        # 4) re-extract in sorted order
+        replies = df['Replies']
+        emojis = df[list(self._emoji_categories.keys()) + ['other']].sum(axis=1)
+        messages = df['Messages']
+        total = df['__total__']
+
+        # 5) plotting
+        x = range(len(df))
         bar_w = 0.5
         fig, ax = plt.subplots(figsize=(14, 6))
 
-        # 1) Replies at the bottom
         ax.bar(x, replies,
                width=bar_w,
                color=self._colors['replies'],
                label='Replies')
 
-        # 2) Emojis stacked on top of Replies
         ax.bar(x, emojis,
                width=bar_w,
                bottom=replies,
                color=self._colors['emoji_and_messages'],
                label='Emojis')
 
-        # 3) Messages stacked on top of (Replies + Emojis)
         ax.bar(x, messages,
                width=bar_w,
                bottom=replies + emojis,
                color=self._colors['messages'],
                label='Messages')
 
-        # annotate percentages above each full bar
+        # 6) annotate
         for i in x:
             if total.iloc[i]:
                 r_pct = replies.iloc[i] / total.iloc[i]
@@ -232,18 +240,19 @@ class GroupStatsGrapher:
                     f"{r_pct:.0%} replies\n{e_pct:.0%} emojis",
                     ha='center', va='bottom', fontsize=8)
 
+        # 7) tidy up axes & legend
         ax.set_xticks(x)
         ax.set_xticklabels(self._create_xtick_labels(df),
                            rotation=45, ha='right')
         ax.set_ylabel('Count')
-        ax.set_title('Replies, Emojis & Messages (bottom-up stacked)')
+        ax.set_title('Replies, Emojis & Messages (sorted by total descending)')
         ax.legend(loc='upper left', bbox_to_anchor=(1.01, 1.02))
-        max_total = total.max()
-        ax.set_ylim(0, max_total * 1.15)
+
+        # 8) give a little headroom
+        ax.set_ylim(0, total.max() * 1.15)
 
         plt.tight_layout()
         plt.show()
-
 
 
 # Example usage
