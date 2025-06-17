@@ -1,0 +1,2429 @@
+{
+  "messages": [
+    {
+      "serialNumber": 1,
+      "datetime": "2025-04-14T11:50:38.000Z",
+      "messageId": "7829CA9ADCECCCE61BBA7A7E87B9E96B",
+      "sender": "Unknown Member",
+      "body": "[No text]",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 2,
+      "datetime": "2025-04-14T11:50:38.000Z",
+      "messageId": "2211764655",
+      "sender": "Unknown Member",
+      "body": "פרויקט דינמיקה ורשתות",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 3,
+      "datetime": "2025-04-14T11:50:38.000Z",
+      "messageId": "FAD9933BE96EC3F22DCE88740EEE8D45",
+      "sender": "Unknown Member",
+      "body": "[No text]",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 4,
+      "datetime": "2025-04-14T11:51:52.000Z",
+      "messageId": "8DD0B2DA0B0E48411000BFD1C9599E1D",
+      "sender": "Unknown Member",
+      "body": "🥳🥳",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 5,
+      "datetime": "2025-04-14T11:52:19.000Z",
+      "messageId": "89DF4C9C01275F06C37C0D7C2F48EC1F",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "👋🏽",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 6,
+      "datetime": "2025-04-14T11:52:37.000Z",
+      "messageId": "34006225392EBBBDD9613A08A112DEDF",
+      "sender": "Unknown Member",
+      "body": "רוצים נעשה דיסקורד/זום היכרות מתיישהו במהלך השבוע?",
+      "replyTo": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "reactedBy": [
+            "972543554912"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 7,
+      "datetime": "2025-04-14T11:56:35.000Z",
+      "messageId": "085877BE457F5FE0594B3DB900A973B8",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "דיסקורד אחלה מבחינתי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 8,
+      "datetime": "2025-04-14T11:56:43.000Z",
+      "messageId": "2F2E5F0D2AC84AE6AAF9477646A46B44",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "Nitzan#3541",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 9,
+      "datetime": "2025-04-14T11:57:17.000Z",
+      "messageId": "3F1A19A9E080B427C999",
+      "sender": "Unknown Member",
+      "body": "כן נשמע טוב",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 10,
+      "datetime": "2025-04-14T11:59:09.000Z",
+      "messageId": "98FE6AA5151024241836BE5EEE738DDF",
+      "sender": "Unknown Member",
+      "body": "אשש\nמתאים לכם מתיישהו בחמישי/רביעי?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 11,
+      "datetime": "2025-04-14T11:59:52.000Z",
+      "messageId": "2DBF85E5F6A720F6F2B1FB2E3D90DAC8",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "לי מתאים",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 12,
+      "datetime": "2025-04-14T11:59:59.000Z",
+      "messageId": "3F45A574AAB6940FFB7C",
+      "sender": "Unknown Member",
+      "body": "רביעי אני מעדיף",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 13,
+      "datetime": "2025-04-14T12:00:23.000Z",
+      "messageId": "523B9F3F0F4CAF8E6A2B2CBA1ED7599B",
+      "sender": "Unknown Member",
+      "body": "יאללה אש\nאני בעקרון זמין בכל שעה, אז מתי שנוח לכם ברביעי אני זורם",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 14,
+      "datetime": "2025-04-14T12:00:29.000Z",
+      "messageId": "3F8E6D8385125DDA9065",
+      "sender": "Unknown Member",
+      "body": "סבבה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 15,
+      "datetime": "2025-04-14T12:21:33.000Z",
+      "messageId": "0A5CCA787508F7CE95FC1EC6C7FBED43",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אני לדעתי גם זמין ברביעי מתי שתרצו",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 16,
+      "datetime": "2025-04-14T12:24:11.000Z",
+      "messageId": "3F494BAEBBFDA8FF8BBB",
+      "sender": "Unknown Member",
+      "body": "אז אני אומר רביעי ב13:00?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 17,
+      "datetime": "2025-04-14T12:28:12.000Z",
+      "messageId": "3F8F7B9EF3E6A51D2405",
+      "sender": "Unknown Member",
+      "body": "סבבה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 18,
+      "datetime": "2025-04-15T17:15:32.000Z",
+      "messageId": "3F95F051E9BC3C764F23",
+      "sender": "Unknown Member",
+      "body": "סגורים על מחר ב13 נכון?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 19,
+      "datetime": "2025-04-15T17:16:20.000Z",
+      "messageId": "3AF86CBE62F753E61717",
+      "sender": "Unknown Member",
+      "body": "כן",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 20,
+      "datetime": "2025-04-16T07:54:24.000Z",
+      "messageId": "3F8865EFF084855F7C15",
+      "sender": "Unknown Member",
+      "body": "https://docs.google.com/spreadsheets/d/1TPi0kl7hTecl-Y1r06zrvA6ifA_hNjr_DA7j86_HTj8/edit?gid=0#gid=0",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 21,
+      "datetime": "2025-04-16T07:54:44.000Z",
+      "messageId": "3F12E1736D987C27FDAE",
+      "sender": "Unknown Member",
+      "body": "תנסו לעבור על הרשימה של המאמרים לפני השיחה שנראה מה יכול להיות מעניין לשחזר ולעבוד עליו",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 22,
+      "datetime": "2025-04-16T08:08:09.000Z",
+      "messageId": "3FA716F6A6BBBA4F93E6",
+      "sender": "Unknown Member",
+      "body": "כן",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 23,
+      "datetime": "2025-04-16T09:42:48.000Z",
+      "messageId": "3542864665",
+      "sender": "Unknown Member",
+      "body": "https://drive.google.com/drive/folders/15NZYFEGPL74RhsbmN5QLpJHspo5duz4H?usp=sharing",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 24,
+      "datetime": "2025-04-16T10:00:54.000Z",
+      "messageId": "3A5313439B32753103D4",
+      "sender": "Unknown Member",
+      "body": "@972543554912 עולה?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 25,
+      "datetime": "2025-04-16T10:12:05.000Z",
+      "messageId": "3FF5844B7085D2A90FF8",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 26,
+      "datetime": "2025-04-16T10:12:28.000Z",
+      "messageId": "3F74C8FF5575132CD251",
+      "sender": "Unknown Member",
+      "body": "זה המאמר שאני וגל חשבנו עליו\n@972543554912  מה אתה חושב על זה?\nירדנו בנתיים מהדיסקורד",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 27,
+      "datetime": "2025-04-16T10:14:38.000Z",
+      "messageId": "CBD21B95C304FE525A4AC36CEE3E297A",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "נראה מעניין",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 28,
+      "datetime": "2025-04-16T10:14:45.000Z",
+      "messageId": "56EDAB89392C85A61A855AF9998A4DE7",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "לא תפסו אותו עדיין?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 29,
+      "datetime": "2025-04-16T10:14:58.000Z",
+      "messageId": "3ACF9FF16FD15357E50B",
+      "sender": "Unknown Member",
+      "body": "לא",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 30,
+      "datetime": "2025-04-16T10:15:27.000Z",
+      "messageId": "3D88E74EC253A528FB85EFEB54F3DD6D",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אני זורם ללכת עליו",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 31,
+      "datetime": "2025-04-16T10:15:51.000Z",
+      "messageId": "3A3766028671363D7B82",
+      "sender": "Unknown Member",
+      "body": "אתה לא זמין לדיסקורד?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 32,
+      "datetime": "2025-04-16T10:16:22.000Z",
+      "messageId": "F7719123932BFB244D7B3C22B0C541C7",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אני יכול לבוא עכשיו",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 33,
+      "datetime": "2025-04-16T10:16:53.000Z",
+      "messageId": "3A7811A624882F262C8A",
+      "sender": "Unknown Member",
+      "body": "סבבה אז בוא",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 34,
+      "datetime": "2025-04-16T10:19:03.000Z",
+      "messageId": "3FD9BB4BDFAD030974CD",
+      "sender": "Unknown Member",
+      "body": "2 דק מתחבר חזרה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 35,
+      "datetime": "2025-04-16T10:33:15.000Z",
+      "messageId": "A5AC6735E501BA9A7E7DBD8BE320FF52",
+      "sender": "Unknown Member",
+      "body": "המחשב שלי לא אוהב כשחם בחוץ חחח\n\nקיצר, נעשה ככה.\nיום שישי הבא, שיהיה אחרי ההגשה של מטלה 1 (1200?), נעשה דיסקורד ונראה שכולנו סגורים על מה קורה במאמר\nכלומר עד אז שכל אחד יקרא את המאמר ויבין פחות או יותר מה הולך שם\n\n\nבכל מקרה, עד ה24, יום חמישי אנחנו צריכים להגיש איזה מאמר בחרנו, אז אם מבחינתכם אנחנו סגורים על זה, אפשר כבר להגיש",
+      "replyTo": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1,
+          "reactedBy": [
+            "972543554912"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 36,
+      "datetime": "2025-04-21T07:06:12.000Z",
+      "messageId": "3F55FD88FF8B09689D6D",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 37,
+      "datetime": "2025-04-21T07:06:17.000Z",
+      "messageId": "3FDDA08DD69CD581FF23",
+      "sender": "Unknown Member",
+      "body": "היא אמרה עכשיו בשיעור שכל אחד צריך להשיג בנפרד",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 38,
+      "datetime": "2025-04-21T07:47:22.000Z",
+      "messageId": "117A14C455DB8F300AEDEB086B3152B9",
+      "sender": "Unknown Member",
+      "body": "סבבי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 39,
+      "datetime": "2025-04-23T12:23:15.000Z",
+      "messageId": "3F417D2DC003A7155AF2",
+      "sender": "Unknown Member",
+      "body": "@972543554912 עשית?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 40,
+      "datetime": "2025-04-23T12:26:40.000Z",
+      "messageId": "1B9C195D0C161A4E9B2697A9D388ABE1",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "ראיתי עכשיו האמת, אני עכשיו רושם גם",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 41,
+      "datetime": "2025-04-25T08:56:22.000Z",
+      "messageId": "3B10FDA2F4F1FEBB7307CAE077C41158",
+      "sender": "Unknown Member",
+      "body": "מוכנים לזום? רוצים לדחות ל13?😅",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 42,
+      "datetime": "2025-04-25T08:56:30.000Z",
+      "messageId": "FDDFF8B2631B9EFAA4E2FFE8A6E2FF2E",
+      "sender": "Unknown Member",
+      "body": "דיסקורד*",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 43,
+      "datetime": "2025-04-25T08:57:18.000Z",
+      "messageId": "3AB7DF8DB09C2BF7DA09",
+      "sender": "Unknown Member",
+      "body": "נראה לי שעדיף לדחות לשבוע הבא כי לא ברור עדיין מה הם מצפים שנעשה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 44,
+      "datetime": "2025-04-25T08:58:26.000Z",
+      "messageId": "C25497FB92D778565BB3C34A9EFBA1A9",
+      "sender": "Unknown Member",
+      "body": "תכלס מסכים",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 45,
+      "datetime": "2025-04-25T09:04:35.000Z",
+      "messageId": "3A33902F3908D909E414",
+      "sender": "Unknown Member",
+      "body": "@972543554912 מה אומר",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 46,
+      "datetime": "2025-04-25T09:37:35.000Z",
+      "messageId": "48B57AA57A771978306191B885316C5A",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "מסכים גם",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 47,
+      "datetime": "2025-04-28T08:43:55.000Z",
+      "messageId": "3FF80732726B1D77BB7D",
+      "sender": "Unknown Member",
+      "body": "[No text]",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 48,
+      "datetime": "2025-04-28T09:15:44.000Z",
+      "messageId": "3F9148495791C90FA88B",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 49,
+      "datetime": "2025-04-28T09:16:52.000Z",
+      "messageId": "3FE23D28C000D495AB79",
+      "sender": "Unknown Member",
+      "body": "כתבתי פה את השאלות מחקר והכיוונים לפיתוח של המחקר שחשבנו עליהם היום בשיעור ובנוסף משימות להמשך שנצטרך לעשות כדי להתקדם ולבחור באמת את השאלת מחקר כמו שצריך",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 50,
+      "datetime": "2025-04-28T09:17:56.000Z",
+      "messageId": "3F97B762396936084269",
+      "sender": "Unknown Member",
+      "body": "בואו נקבע לשבת על זה בשבוע הבא ביחד ונסגור סופית",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 51,
+      "datetime": "2025-04-28T09:18:01.000Z",
+      "messageId": "3F168F8F883A2FD3C58B",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אגב אם אנחנו הולכים על הכיוון של השאלה השלישית, אז זה ממש להתמקד סביב המאמר הזה שהסתכלנו עליו של Berlin and Kay",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 52,
+      "datetime": "2025-04-28T09:18:51.000Z",
+      "messageId": "3F551B3ADAB7598B37C3",
+      "sender": "Unknown Member",
+      "body": "@972543554912 יכול ביום שני שבוע הבא אחרי השיעור שנשב?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 53,
+      "datetime": "2025-04-28T09:19:01.000Z",
+      "messageId": "3FFDF5D08979B977D912",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "כן, עד 16",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 54,
+      "datetime": "2025-04-28T09:19:05.000Z",
+      "messageId": "3FF3BEEF209C49154312",
+      "sender": "Unknown Member",
+      "body": "מעולה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 55,
+      "datetime": "2025-04-28T09:19:07.000Z",
+      "messageId": "3F7A856EDA24CF747C46",
+      "sender": "Unknown Member",
+      "body": "אז קבענו",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 56,
+      "datetime": "2025-04-28T09:19:21.000Z",
+      "messageId": "3F4D06C73F7056225431",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "מעולה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 57,
+      "datetime": "2025-04-28T09:19:46.000Z",
+      "messageId": "3F470381B77087BAE953",
+      "sender": "Unknown Member",
+      "body": "עד אז ננסה להיסגר על דאטה וכל מה שצריך בTDL",
+      "replyTo": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "reactedBy": [
+            "972543554912"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 58,
+      "datetime": "2025-04-28T11:08:27.000Z",
+      "messageId": "3F0541EFAB77C1CE4B7D",
+      "sender": "Unknown Member",
+      "body": "היי\nנשמע מעולה! אני עובר על המאמר עכשיו ועל השאלות מחקר",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 59,
+      "datetime": "2025-04-28T11:09:44.000Z",
+      "messageId": "3FED5921906F141A87F4",
+      "sender": "Unknown Member",
+      "body": "לגבי יום שני, יום שני ושלישי אני בנסיעות אז יהיה לי קשה להיות זמין (יום רביעי אני כבר בארץ🥳)\nאז אם אתם יכולים שנעשה את זה בראשון בצהריים (נגיד 14? או כל שעה בצהריים-ערב) זה יהיה מעולה בשבילי.\nמה אומרים?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 60,
+      "datetime": "2025-04-28T11:10:40.000Z",
+      "messageId": "3F0D35FE1436693F70B3",
+      "sender": "Unknown Member",
+      "body": "אפשר גם להפגש פרונטלי אם אתם רוצים בחמישי\\שישי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 61,
+      "datetime": "2025-05-08T16:34:09.000Z",
+      "messageId": "3FBDDB0A8B9AEB09E492",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1,
+          "reactedBy": [
+            "972543554912"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 62,
+      "datetime": "2025-05-08T16:34:37.000Z",
+      "messageId": "3F9DF9D784AA9CDF9872",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 63,
+      "datetime": "2025-05-08T16:35:15.000Z",
+      "messageId": "3F6E57530F4A1DF1F797",
+      "sender": "Unknown Member",
+      "body": "זה עד היום בעוד 4 שעות",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 64,
+      "datetime": "2025-05-08T16:44:51.000Z",
+      "messageId": "3F1AF2B6C7E03572656E",
+      "sender": "Unknown Member",
+      "body": "@972543554912 @972546374390",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 65,
+      "datetime": "2025-05-08T16:49:33.000Z",
+      "messageId": "D2B1FCC13EC42F7951A5D1A4BF152951",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "רשמתי 👍🏽",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 66,
+      "datetime": "2025-05-18T12:03:48.000Z",
+      "messageId": "3F82DC44ABEE267384CA",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 67,
+      "datetime": "2025-05-18T12:04:02.000Z",
+      "messageId": "3F01221AE82741E2C498",
+      "sender": "Unknown Member",
+      "body": "מחר בשיעור אמורים לעבור שוב על הרעיונות ולהתמקד יותר",
+      "replyTo": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 2,
+          "reactedBy": [
+            "972543554912",
+            "972546374390"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 68,
+      "datetime": "2025-05-18T12:04:13.000Z",
+      "messageId": "3F04CD127253506C9159",
+      "sender": "Unknown Member",
+      "body": "זה מה שהגשתי",
+      "replyTo": {
+        "ref": "3FBDDB0A8B9AEB09E492",
+        "author": "972524085511@c.us",
+        "body": "[No text]"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 69,
+      "datetime": "2025-05-18T12:04:47.000Z",
+      "messageId": "3FEB8A55F4AD3DA385A6",
+      "sender": "Unknown Member",
+      "body": "אני לא אוכל להיות מחר בשיעור אז תתקדמו בלעדי אבל נראה לי ששווה ממש להתייעץ איתה לגבי המימושים ומה מצופה מאיתנו להציג ואיך נקבע הציון בכלל",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 70,
+      "datetime": "2025-05-19T06:40:36.000Z",
+      "messageId": "1D6D84592EB48A201EAB94210EB43BC7",
+      "sender": "Unknown Member",
+      "body": "אגיע באיחור קל😅",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 71,
+      "datetime": "2025-05-19T06:41:08.000Z",
+      "messageId": "A3BDB0E141239A94AA6295013AB93E69",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אני פה בינתיים",
+      "replyTo": null,
+      "reactions": [
+        {
+          "emoji": "❤",
+          "count": 1,
+          "reactedBy": [
+            "972546374390"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 72,
+      "datetime": "2025-05-19T06:52:05.000Z",
+      "messageId": "FC773FDA553713D32741DAB5D031DDBF",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "@972524085511 בסוף אנחנו מתמקדים ברעיון של אימון רשת נוירונים? (הקובץ הזה לא נפתח לי יותר משום מה)",
+      "replyTo": {
+        "ref": "3F9148495791C90FA88B",
+        "author": "972524085511@c.us",
+        "body": "[No text]"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 73,
+      "datetime": "2025-05-19T06:54:03.000Z",
+      "messageId": "2028206CD43FB7009D86501FE70D522B",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "תקשיבו תסתכלו במייל",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 74,
+      "datetime": "2025-05-19T06:54:15.000Z",
+      "messageId": "A6F260CE8C65087B018A7A44555FF11F",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אין שיעור היום 😶",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 75,
+      "datetime": "2025-05-19T07:18:43.000Z",
+      "messageId": "48A5802ECADD81D9C65721AA54E4F5B1",
+      "sender": "Unknown Member",
+      "body": "אנחנו סטלנים😂",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 76,
+      "datetime": "2025-05-19T07:24:32.000Z",
+      "messageId": "76FFCE808CDDAD8750505C39E8DC5F87",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "נראלי יצאנו עוד לפני שהודיעו",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 77,
+      "datetime": "2025-05-26T08:34:05.000Z",
+      "messageId": "3F4F09A7CCF0DCD00D29",
+      "sender": "Unknown Member",
+      "body": "https://www.kaggle.com/datasets/jboysen/color-survey?select=chip.txt",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 78,
+      "datetime": "2025-05-26T08:36:32.000Z",
+      "messageId": "3F9228DE2E1C0250E650",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "https://linguistics.berkeley.edu/wcs/data.html",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 79,
+      "datetime": "2025-05-26T08:36:39.000Z",
+      "messageId": "3FB75F8ED94545C38FFE",
+      "sender": "Unknown Member",
+      "body": "https://linguistics.berkeley.edu/wcs/data.html",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 80,
+      "datetime": "2025-05-27T13:28:51.000Z",
+      "messageId": "3F6921A3EC3C08F1B3B2",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "מישהו מכם הצליח את שאלה 2 בתרגיל 3?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 81,
+      "datetime": "2025-05-27T13:31:58.000Z",
+      "messageId": "3A9F408918A2197245F5",
+      "sender": "Unknown Member",
+      "body": "בתרגיל 4?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 82,
+      "datetime": "2025-05-27T13:32:01.000Z",
+      "messageId": "3ACFA3477080B154EF45",
+      "sender": "Unknown Member",
+      "body": "לא התחלתי אותו",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 83,
+      "datetime": "2025-05-27T13:48:51.000Z",
+      "messageId": "3F74745B1F4849F8011D",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "תרגיל 3",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 84,
+      "datetime": "2025-05-27T13:48:58.000Z",
+      "messageId": "3F432F68568F1EACCB0A",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "על Hopfield networks",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 85,
+      "datetime": "2025-05-27T13:49:10.000Z",
+      "messageId": "3A8FFE9D17262127A053",
+      "sender": "Unknown Member",
+      "body": "אההה רגע אני בודק",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 86,
+      "datetime": "2025-05-27T14:13:36.000Z",
+      "messageId": "3F39F64D4731F4043F7C",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אני על זה שעות תקשיב",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 87,
+      "datetime": "2025-05-27T14:35:54.000Z",
+      "messageId": "3FFC1D77AA8F92A160A3",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 88,
+      "datetime": "2025-05-27T14:57:53.000Z",
+      "messageId": "806298A4101FFB812E44205F020F8469",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אתסכל על זה מאוחר יותר, תודה מלך",
+      "replyTo": {
+        "ref": "3FFC1D77AA8F92A160A3",
+        "author": "972524085511@c.us",
+        "body": "[No text]"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 89,
+      "datetime": "2025-05-27T15:04:42.000Z",
+      "messageId": "C964113FEE53D9D59AC3284137014C39",
+      "sender": "Unknown Member",
+      "body": "אשלח את שלי כשאגיע לבית אם זה רלוונטי🙏🏻",
+      "replyTo": null,
+      "reactions": [
+        {
+          "emoji": "🙏",
+          "count": 1,
+          "reactedBy": [
+            "972543554912"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 90,
+      "datetime": "2025-05-28T05:58:13.000Z",
+      "messageId": "9A8A450A645C1475C9E38847F7D0B27F",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 91,
+      "datetime": "2025-05-28T05:58:20.000Z",
+      "messageId": "CE2F553D5E1B1426186B0EC9990791F4",
+      "sender": "Unknown Member",
+      "body": "סליחה על הדילאי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 92,
+      "datetime": "2025-05-31T17:05:55.000Z",
+      "messageId": "62543FC60A684D4D4E4AE741E952C0BD",
+      "sender": "Unknown Member",
+      "body": "שבוע טוב,\nמה קורה בסוף עם מחר ושני?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 93,
+      "datetime": "2025-05-31T17:12:41.000Z",
+      "messageId": "24B7659DBE0CB823E4024E0656971E75",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אני כנראה בשני מעדיף, מתאים לכם?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 94,
+      "datetime": "2025-05-31T17:15:09.000Z",
+      "messageId": "C2ABC26475E8059541011BEDB4A82EA4",
+      "sender": "Unknown Member",
+      "body": "מתאים\nמתי? אשמח שנקבע שעה ומיקום עכשיו כדי שאוכל לנהל לי את הלוז",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 95,
+      "datetime": "2025-05-31T17:18:03.000Z",
+      "messageId": "78622059FC7B3126D2F244858D0F9189",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אפשר או בקמפוס או אצלי, כנראה אחהצ כזה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 96,
+      "datetime": "2025-05-31T17:18:20.000Z",
+      "messageId": "2C113FB4BB3EC6CD41D26E98E7618690",
+      "sender": "Unknown Member",
+      "body": "נראלי בקמפוס זה מעולה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 97,
+      "datetime": "2025-06-01T16:17:27.000Z",
+      "messageId": "3FECA48D68EBA63183B6",
+      "sender": "Unknown Member",
+      "body": "15?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 98,
+      "datetime": "2025-06-01T16:17:29.000Z",
+      "messageId": "3F87169B4CD78F25F322",
+      "sender": "Unknown Member",
+      "body": "מחר",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 99,
+      "datetime": "2025-06-01T16:19:27.000Z",
+      "messageId": "A63BD1C2E07CE7BE0223D0DCF1B2AFA7",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אז בלתם קטן, מחר בגלל שזה חג אין לי איך להגיע לירושלים. משמע אני כנראה אצטרך לעבוד איתכם מרחוק בזום.. לגבי שעה אני גמיש",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 100,
+      "datetime": "2025-06-01T16:23:23.000Z",
+      "messageId": "3F9BA923B8E0F3B84319",
+      "sender": "Unknown Member",
+      "body": "תכלס תכלס אפשר גם בשלישי אם אתם מעדיפים, בכל מקרה אין לי התנגדות לזום.\n\nכדי שנהיה יעילים - מה בעצם אנחנו רוצים לעשות מחר? לדבר על הכיוון של הפרויקט ולתכנן איך מתחילים אותו? (אפשר גם לחלק את העבודה כדי שנוכל להתחיל לרוץ עם זה)",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 101,
+      "datetime": "2025-06-01T16:26:59.000Z",
+      "messageId": "E958C9D855E22BC2FB566FA47086E6E1",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "שלישי קבעתי לעבודה אחרת. אבל כן. נתחיל בלוודא שהבנו את המאמר כי אנחנו נסתמך עליו מאוד ברעיון הפרויקט הנוכחי. אחר כך נדבר על בניית המודל ובחירת נתונים, וגם נחשוב על שאלות מעניינות שאפשר לחקור עם המודל שלנו. ולדעתי נצא מהמפגש עם כיוונים וחלוקת עבודה לכל אחד שנוכל להתקדם",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 102,
+      "datetime": "2025-06-01T16:27:53.000Z",
+      "messageId": "3F57073B13276E0235A9",
+      "sender": "Unknown Member",
+      "body": "נשמע טוב",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 103,
+      "datetime": "2025-06-01T16:28:14.000Z",
+      "messageId": "3FBAD3F18522ECCB9224",
+      "sender": "Unknown Member",
+      "body": "אז 15 זום? אני מפנה לי כשעתיים כזה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 104,
+      "datetime": "2025-06-02T11:47:42.000Z",
+      "messageId": "3F52E107F0128379B735",
+      "sender": "Unknown Member",
+      "body": "?",
+      "replyTo": {
+        "ref": "3FBAD3F18522ECCB9224",
+        "author": "972546374390@c.us",
+        "body": "אז 15 זום? אני מפנה לי כשעתיים כזה"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 105,
+      "datetime": "2025-06-02T11:47:57.000Z",
+      "messageId": "3A551FDD4081F1C616B5",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "אני פנוי בדיקורס",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 106,
+      "datetime": "2025-06-02T11:48:01.000Z",
+      "messageId": "3A0F05B353BEA47A7CBF",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "דיסקורד",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 107,
+      "datetime": "2025-06-02T11:49:07.000Z",
+      "messageId": "1F29E71976EFE86DD2FEE1C7D4E85893",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "מגיע לדיסקורד עוד 10 דק",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 108,
+      "datetime": "2025-06-02T11:49:12.000Z",
+      "messageId": "3F10E09315D6633E1087",
+      "sender": "Unknown Member",
+      "body": "סבבי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 109,
+      "datetime": "2025-06-02T11:49:14.000Z",
+      "messageId": "3F204398FE70BD273E65",
+      "sender": "Unknown Member",
+      "body": "כנל",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 110,
+      "datetime": "2025-06-02T12:02:40.000Z",
+      "messageId": "9191A445E9A304D943EACD319E62B32A",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "2דק",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 111,
+      "datetime": "2025-06-02T12:49:24.000Z",
+      "messageId": "3FA8CFE84498843EDA84",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 112,
+      "datetime": "2025-06-02T12:49:24.000Z",
+      "messageId": "3FA54469942B8B1C7EA4",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 113,
+      "datetime": "2025-06-02T12:49:24.000Z",
+      "messageId": "3F312240E4B7DD3750C9",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 114,
+      "datetime": "2025-06-02T12:50:09.000Z",
+      "messageId": "3FDFC0E59BC9CA1A5FC2",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "BK-term.txt (≈37 KB): “The file BK-term.txt contains the naming responses from the Berlin & Kay (1969) study: Basic Color Terms. These data are comparable to those in term.txt.” \nLinguistics\n\nBK-dict.txt (≈5 KB, UTF-8): “The file BK-dict.txt contains information on the color terms appearing in the naming data for all 20 languages in Appendix 1 of Basic Color Terms: Their Universality and Evolution (1969). The lines in this file are formatted as follows: lnum abbr tnum term \\n, where lnum = language number (as in BK-term.txt), abbr = term abbreviation, tnum = term number per language, term = ASCII transcription of the B&K color term.” \nLinguistics\n\ncnum-vhcm-lab-new.txt (≈12 KB): “Mapping table giving, for each of the 330 stimulus chips, its WCS coordinate, Munsell (hue,value,chroma) coordinate, and CIEL a b coordinate.”",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 115,
+      "datetime": "2025-06-02T12:51:29.000Z",
+      "messageId": "3F4D699FD6E7A04D63AE",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 116,
+      "datetime": "2025-06-03T10:28:09.000Z",
+      "messageId": "ADD3AC77A11DB84100D8CB29E3C5F716",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 117,
+      "datetime": "2025-06-03T10:28:20.000Z",
+      "messageId": "8E40D1A20372A6C3B06669CD3A769F66",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "והאם נרצה לשאול גם את מור?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 118,
+      "datetime": "2025-06-03T10:31:03.000Z",
+      "messageId": "8E5EC00960F694CA1760E378D2E8BD1F",
+      "sender": "Unknown Member",
+      "body": "מתאים לי",
+      "replyTo": {
+        "ref": "ADD3AC77A11DB84100D8CB29E3C5F716",
+        "author": {
+          "id": "31602503643338@lid",
+          "phone": "972543554912"
+        },
+        "body": "[No text]"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 119,
+      "datetime": "2025-06-03T10:31:16.000Z",
+      "messageId": "39326A1433F638402F69875CB878CB43",
+      "sender": "Unknown Member",
+      "body": "לא יזיק בתכלס",
+      "replyTo": {
+        "ref": "8E40D1A20372A6C3B06669CD3A769F66",
+        "author": {
+          "id": "31602503643338@lid",
+          "phone": "972543554912"
+        },
+        "body": "והאם נרצה לשאול גם את מור?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 120,
+      "datetime": "2025-06-03T10:35:07.000Z",
+      "messageId": "3AEC1690588910C80798",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "בדוק",
+      "replyTo": {
+        "ref": "8E40D1A20372A6C3B06669CD3A769F66",
+        "author": {
+          "id": "31602503643338@lid",
+          "phone": "972543554912"
+        },
+        "body": "והאם נרצה לשאול גם את מור?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 121,
+      "datetime": "2025-06-03T10:35:17.000Z",
+      "messageId": "3A49BD49C6EF10322A0A",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "כן חמישי סבבה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 122,
+      "datetime": "2025-06-03T10:55:46.000Z",
+      "messageId": "254EC29F9A7324A62DF3308C52F235C1",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "טוב אז אני משיב לו שאנחנו זמינים החל מ 12 ושיבחר את השעה המועדפת עליו.\n\nבקשר לקביעה עם מור, אולי נרצה קודם לסיים את המפגש עם חגי ואז בהתאם לצורך לדבר איתה?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 123,
+      "datetime": "2025-06-03T11:00:44.000Z",
+      "messageId": "23F5467A500F26F95D1E68DB2AF7BE83",
+      "sender": "Unknown Member",
+      "body": "סבבי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 124,
+      "datetime": "2025-06-03T11:01:16.000Z",
+      "messageId": "C7F55F7AC8B5E9C2679B953A38DBB7AE",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "טוב שלחתי לו 👍🏽",
+      "replyTo": null,
+      "reactions": [
+        {
+          "emoji": "🙏",
+          "count": 1,
+          "reactedBy": [
+            "972546374390"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 125,
+      "datetime": "2025-06-03T11:04:07.000Z",
+      "messageId": "3A3C76568C0722B0483B",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "👌🏼",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 126,
+      "datetime": "2025-06-04T20:01:38.000Z",
+      "messageId": "3FCC630EA8118C97D1B1",
+      "sender": "Unknown Member",
+      "body": "מתי קבענו איתו מחר בסוף?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 127,
+      "datetime": "2025-06-05T06:50:02.000Z",
+      "messageId": "52FD4B736D4C5D08ED4958DA00AD50DF",
+      "sender": "Unknown Member",
+      "body": "היי?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 128,
+      "datetime": "2025-06-05T06:51:37.000Z",
+      "messageId": "A62C20BDA2F493439D8D740FB1B2E35B",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "היי, חגי לא ענה לי לגבי שעה היום. אני מתכנן להיות בקמפוס מ12 עד אחר הצהריים, ובתקווה יענה עד אז. אולי אשלח מייל נוסף",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 129,
+      "datetime": "2025-06-05T06:52:06.000Z",
+      "messageId": "25DADAC0171499E2D43633D5C79BAB59",
+      "sender": "Unknown Member",
+      "body": "הקטע שאני לא בירושלים, אני אצל ההורים.\nהשאלה אם לבוא במיוחד 😅",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 130,
+      "datetime": "2025-06-05T06:52:50.000Z",
+      "messageId": "3FC8D0FE3192FD8CDA4DBF084E803F0B",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "שמע הוא בגדול הציע את היום",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 131,
+      "datetime": "2025-06-05T06:52:57.000Z",
+      "messageId": "C672D844C04C10B4259EC27202518A27",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אז הוא כנראה פנוי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 132,
+      "datetime": "2025-06-05T06:53:02.000Z",
+      "messageId": "D74BFD66C150BB8C6DE69697EF4186A1",
+      "sender": "Unknown Member",
+      "body": "זהו נכון",
+      "replyTo": {
+        "ref": "3FC8D0FE3192FD8CDA4DBF084E803F0B",
+        "author": {
+          "id": "31602503643338@lid",
+          "phone": "972543554912"
+        },
+        "body": "שמע הוא בגדול הציע את היום"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 133,
+      "datetime": "2025-06-05T06:53:30.000Z",
+      "messageId": "EF7FBB8F2934D4A32614F5BD1DE52A4F",
+      "sender": "Unknown Member",
+      "body": "תכלס יש אופציה לחבר אותי לדיסקורד או שזה יהיה פחות נחמד לדעתך?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 134,
+      "datetime": "2025-06-05T06:56:51.000Z",
+      "messageId": "577DB5FDA24BE0A8673989752709E0DF",
+      "sender": "Unknown Member",
+      "body": "טוב אני אגיע גם אזור 12",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 135,
+      "datetime": "2025-06-05T08:57:46.000Z",
+      "messageId": "3AD2C4914CEEDBE71D6D",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "אני בC221",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 136,
+      "datetime": "2025-06-05T08:58:05.000Z",
+      "messageId": "4E83503C739910ECF4729C8B98058B24",
+      "sender": "Unknown Member",
+      "body": "אני תקוע במחסום, אאחר קצת🙏🏻",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 137,
+      "datetime": "2025-06-05T09:09:09.000Z",
+      "messageId": "289BBBB13B6FBFAB6FE5945AA0A13451",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אני אוכל צהריים ומגיע",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 138,
+      "datetime": "2025-06-05T09:09:20.000Z",
+      "messageId": "7D88C154F7799FE7D09CF065FA11CF7F",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אם אחד מכם מצליח בינתיים לתפוס את חגי תעדכנו",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 139,
+      "datetime": "2025-06-05T09:10:06.000Z",
+      "messageId": "3F3D05BD3A0D87773AAD",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "סבבה בכל מקרה שווה שנשב ביחד רגע לעבור על הדברים",
+      "replyTo": null,
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "reactedBy": [
+            "31602503643338"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 140,
+      "datetime": "2025-06-05T09:31:17.000Z",
+      "messageId": "68FB779E49BC31689FB0D77BA7BFDD86",
+      "sender": "Unknown Member",
+      "body": "2 דק מגיע, חונה בדיוק",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 141,
+      "datetime": "2025-06-05T09:38:46.000Z",
+      "messageId": "ABC632DDC0CB7531A806D82BF17A36B4",
+      "sender": "Unknown Member",
+      "body": "עדיין  שם?",
+      "replyTo": {
+        "ref": "3AD2C4914CEEDBE71D6D",
+        "author": {
+          "id": "200721135837270@lid",
+          "name": "גל מדמח",
+          "shortName": "גל",
+          "pushname": "Gal Cesana",
+          "phone": null
+        },
+        "body": "אני בC221"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 142,
+      "datetime": "2025-06-05T09:55:38.000Z",
+      "messageId": "3F7F2CFE61D3CE712927",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "@972543554912 אייכה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 143,
+      "datetime": "2025-06-05T09:55:58.000Z",
+      "messageId": "64C7DACDC5ACBBA2433F5B4387A02274",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "בפקקים 🙃",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 144,
+      "datetime": "2025-06-05T09:56:15.000Z",
+      "messageId": "23C2CD849913E0459D146D3F33B38553",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "על קו 7",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 145,
+      "datetime": "2025-06-05T09:56:45.000Z",
+      "messageId": "5A14EF648539143F8B0E8A52037C23C8",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "חגי ענה לכם?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 146,
+      "datetime": "2025-06-05T09:57:51.000Z",
+      "messageId": "3F19D9CFFF9CEC5352A5",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "במה?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 147,
+      "datetime": "2025-06-05T09:58:01.000Z",
+      "messageId": "3FC87BA03C0554D50E33",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "אתה לא שלחת לו מייל??",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 148,
+      "datetime": "2025-06-05T09:58:36.000Z",
+      "messageId": "19D66745E6B4520B77BA820D3E3FB761",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 149,
+      "datetime": "2025-06-05T10:00:07.000Z",
+      "messageId": "3FC13C4C0C654C24D18D",
+      "sender": "Unknown Member",
+      "body": "ראשון מתאים?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 150,
+      "datetime": "2025-06-05T10:00:15.000Z",
+      "messageId": "3F28C87DF36F6F02C062",
+      "sender": "Unknown Member",
+      "body": "זה כנראה הזמן היחידי שהוא יכול כי אחר כך הוא בחול",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 151,
+      "datetime": "2025-06-05T10:00:34.000Z",
+      "messageId": "70A7AAC99103B244599F0956E1F63990",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אה שיט",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 152,
+      "datetime": "2025-06-05T10:00:38.000Z",
+      "messageId": "FFB3E321074C02458B3BE1745325BD55",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "טוב ראשון איט איז",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 153,
+      "datetime": "2025-06-05T10:01:05.000Z",
+      "messageId": "9BFB23102B4840694A77CE0BAA12ACB9",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אני פנוי עד 18 בראשון",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 154,
+      "datetime": "2025-06-05T10:01:56.000Z",
+      "messageId": "3F99037A4497748F4552",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "בוא נשב אבל אנחנו עכשיו",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 155,
+      "datetime": "2025-06-05T10:02:44.000Z",
+      "messageId": "51B64F78D767D6DB880FC35554E2A850",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "ירדתי כבר 😓",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 156,
+      "datetime": "2025-06-05T10:02:59.000Z",
+      "messageId": "35A47184BF90C63040D9C9DD9AF764D4",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אני אוכל לבוא לדיסקורד אבל עוד כמה דק",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 157,
+      "datetime": "2025-06-05T10:04:22.000Z",
+      "messageId": "3FE7120A1A6E059C2549",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "לא נתקדם ככה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 158,
+      "datetime": "2025-06-05T10:15:58.000Z",
+      "messageId": "3F589DEBA0A81471C19B",
+      "sender": "Unknown Member",
+      "body": "אני קובע עם חגי ב10:15, זה מסתדר עם הקורסים שלי, של גל ואתה ניצן אמרת שאתה פנוי נכון?\nבעצם יהיה לנו מ10:15 עד 11:45 כי ב12 כבר לגל יש תרגול, אז צריך שנגיע באמת בזמן כדי שזה יהיה כמה שיותר אפקטיבי (זה בעיקר מופנה אלי כי אני נוטה לאחר חח)\n\nמה אומרים?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 159,
+      "datetime": "2025-06-05T10:16:15.000Z",
+      "messageId": "E8AB7BEB9D31407BA632B1B19A0AF9CB",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "מבחינתי סבבה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 160,
+      "datetime": "2025-06-05T10:16:32.000Z",
+      "messageId": "3FBD1B150053162D7539",
+      "sender": "Unknown Member",
+      "body": "מעולה, גל פה גם מאשר",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 161,
+      "datetime": "2025-06-05T10:16:50.000Z",
+      "messageId": "3FC6EA18229878458AA7",
+      "sender": "Unknown Member",
+      "body": "הוא יענה לי עוד מעט ואשלח מיקום",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 162,
+      "datetime": "2025-06-05T10:16:59.000Z",
+      "messageId": "C926A33D5B9F27DC9BEE6BCC346C3364",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "תגידו תרגיל 4 היה קשה?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 163,
+      "datetime": "2025-06-05T10:17:05.000Z",
+      "messageId": "58A1D7EB1ED15A7A439ADA1C5B766A54",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "מי שעשה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 164,
+      "datetime": "2025-06-05T10:17:10.000Z",
+      "messageId": "3F2E10A804CDC702F957",
+      "sender": "Unknown Member",
+      "body": "c414\nיום ראשון\n10:15",
+      "replyTo": null,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 1,
+          "reactedBy": [
+            "31602503643338"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 165,
+      "datetime": "2025-06-05T10:17:21.000Z",
+      "messageId": "74B287E36DDDE70617F927B0C9071B4C",
+      "sender": "Unknown Member",
+      "body": "[No text]",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 166,
+      "datetime": "2025-06-05T10:17:37.000Z",
+      "messageId": "3F0BB1CC9F46F272CBB0",
+      "sender": "Unknown Member",
+      "body": "אני עושה עכשיו, עשיתי בנתיים רק את 2\nעם הצאט זה לא קשה, השאלה כמה הצאט הנפיץ עלי",
+      "replyTo": {
+        "ref": "C926A33D5B9F27DC9BEE6BCC346C3364",
+        "author": {
+          "id": "31602503643338@lid",
+          "phone": "972543554912"
+        },
+        "body": "תגידו תרגיל 4 היה קשה?"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 167,
+      "datetime": "2025-06-05T10:17:54.000Z",
+      "messageId": "3FEAC2709087B91A824F",
+      "sender": "Unknown Member",
+      "body": "תכלס התעצלתי לצלול לתרגול 5 אבל אין שם משו יותר מידי מסובך",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 168,
+      "datetime": "2025-06-05T10:19:15.000Z",
+      "messageId": "3FF9233E6AAD11C0CEC6",
+      "sender": "Unknown Member",
+      "body": "אה רגע שיט, ב11 יש לי ראיון בזום\nמממ",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 169,
+      "datetime": "2025-06-05T10:20:41.000Z",
+      "messageId": "3FA35AA10DE8FFB7024E",
+      "sender": "Unknown Member",
+      "body": "יכול להיות שאצטרך לצאת ב10:45, כמה זה נורא?\nאבקש ממנו אם יש לו אפשרות להגיע קצת מוקדם יותר",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 170,
+      "datetime": "2025-06-05T10:21:22.000Z",
+      "messageId": "3F746A700BDCAAFD4816",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "כמה זמן הראיון?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 171,
+      "datetime": "2025-06-05T10:21:51.000Z",
+      "messageId": "3F276A4585E3B0D28025",
+      "sender": "Unknown Member",
+      "body": "אין לי שמץ\nשעה בערך",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 172,
+      "datetime": "2025-06-05T10:21:58.000Z",
+      "messageId": "3FBDF67327F99DF09026",
+      "sender": "Unknown Member",
+      "body": "אבל אני בודק עם חגי אם הוא יכול להגיע קצת יותר מוקדם",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 173,
+      "datetime": "2025-06-05T10:40:34.000Z",
+      "messageId": "3F747AB27AC21C941288",
+      "sender": "Unknown Member",
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 174,
+      "datetime": "2025-06-05T10:40:54.000Z",
+      "messageId": "3FADF2A8A5F9485756C1",
+      "sender": "Unknown Member",
+      "body": "c414\nיום ראשון\n10:00",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 175,
+      "datetime": "2025-06-05T10:40:59.000Z",
+      "messageId": "034659DBF4704FC5A0AB7A2CA19B7B5B",
+      "sender": "Unknown Member",
+      "body": "[No text]",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 176,
+      "datetime": "2025-06-05T11:32:29.000Z",
+      "messageId": "3FD6A4C38D55AB9865B0",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 177,
+      "datetime": "2025-06-05T11:32:30.000Z",
+      "messageId": "3F70FC735DFAC69F4829",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 178,
+      "datetime": "2025-06-05T11:32:30.000Z",
+      "messageId": "3F6339196C35CE60344E",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 179,
+      "datetime": "2025-06-05T11:33:01.000Z",
+      "messageId": "3FD3AD456B2713E90DAB",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "@972543554912 יש קוד שבעצם מוצא שפה אידיאלית עם עם ערכי בטא שונים ויעד קלאסטרים שונה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 180,
+      "datetime": "2025-06-05T11:33:06.000Z",
+      "messageId": "3F0C447EDF5B7C9CA52F",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "ומחזיר את השפה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 181,
+      "datetime": "2025-06-05T11:33:30.000Z",
+      "messageId": "3FB0D2E2732439F590CF",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "הוספנו גם אילוסטרציה שמראה איך שינוי של הערכים משפיעה על השפה שיוצאת",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 182,
+      "datetime": "2025-06-05T11:33:43.000Z",
+      "messageId": "3F05960B19C3E07AF03A",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "לדעתי זה צריך להיות הבסיס של הפרויקט",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 183,
+      "datetime": "2025-06-05T11:33:59.000Z",
+      "messageId": "3F91EA248706E647A56A",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "ונבחן כל מני ערכים ואפשרויות וננסה להסיק מסקנות מעניינות",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 184,
+      "datetime": "2025-06-05T11:34:26.000Z",
+      "messageId": "3FFA4B2FE1A1EF1B6568",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "שים את שלושת הקבצים האלה באותה תיקייה ותריץ את הmain",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 185,
+      "datetime": "2025-06-05T11:37:38.000Z",
+      "messageId": "3FEBBBF0263143E2EC73",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 186,
+      "datetime": "2025-06-05T12:08:16.000Z",
+      "messageId": "3FAE4097113A9897DE1D",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "שנייה אז זה בלי מודל? אנחנו רוצים לוותר על מודל אם כך?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 187,
+      "datetime": "2025-06-05T12:08:58.000Z",
+      "messageId": "02A437D90B8FE55BF3AFB751086089A0",
+      "sender": "Unknown Member",
+      "body": "כן",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 188,
+      "datetime": "2025-06-05T12:09:27.000Z",
+      "messageId": "3A6066379164BF940A82",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "יש סוג של מודל",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 189,
+      "datetime": "2025-06-05T12:09:35.000Z",
+      "messageId": "3A4442BDF866C376A521",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "לא רשת פשוט",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 190,
+      "datetime": "2025-06-05T12:10:23.000Z",
+      "messageId": "3A696575ED21F5728010",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "זה המודל",
+      "replyTo": {
+        "ref": "3F70FC735DFAC69F4829",
+        "author": {
+          "id": "200721135837270@lid",
+          "name": "גל מדמח",
+          "shortName": "גל",
+          "pushname": "Gal Cesana",
+          "phone": null
+        },
+        "body": "[No text]"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 191,
+      "datetime": "2025-06-05T12:17:56.000Z",
+      "messageId": "3F127601CBDA4F2A33F6",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "<Media Message (Truncated)>",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 192,
+      "datetime": "2025-06-07T16:26:40.000Z",
+      "messageId": "3AED313F2DE5163FA7B6",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "מזכיר",
+      "replyTo": {
+        "ref": "3FADF2A8A5F9485756C1",
+        "author": "972546374390@c.us",
+        "body": "c414\nיום ראשון\n10:00"
+      },
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 1,
+          "reactedBy": [
+            "31602503643338"
+          ]
+        },
+        {
+          "emoji": "🙏",
+          "count": 1,
+          "reactedBy": [
+            "972546374390"
+          ]
+        }
+      ]
+    },
+    {
+      "serialNumber": 193,
+      "datetime": "2025-06-07T17:47:53.000Z",
+      "messageId": "3AF16EE95CC2958B5B20",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "ישבתי עכשיו לקרוא את המאמר מההתחלה עד הסוף בלי קיצורים של ג׳פט",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 194,
+      "datetime": "2025-06-07T17:48:18.000Z",
+      "messageId": "3ABE88814C511E64A9CE",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "הבנתי הרבה דברים שלא היו ברורים לי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 195,
+      "datetime": "2025-06-07T17:48:27.000Z",
+      "messageId": "3AC4E4AAE2340B79F2D3",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "שווה שנדבר לפני שנלך אליהם מחר",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 196,
+      "datetime": "2025-06-07T18:25:46.000Z",
+      "messageId": "A2A2401DD54E49711826D04770C2A4AF",
+      "sender": "Unknown Member",
+      "body": "אפשר לקבוע ב9:30",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 197,
+      "datetime": "2025-06-07T18:26:19.000Z",
+      "messageId": "3F759EC89248715121B7",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "סבבה תסבירו גם על מה חשבתם פה כי לא הבנתי ככ",
+      "replyTo": {
+        "ref": "3FEBBBF0263143E2EC73",
+        "author": {
+          "id": "200721135837270@lid",
+          "name": "גל מדמח",
+          "shortName": "גל",
+          "pushname": "Gal Cesana",
+          "phone": null
+        },
+        "body": "[No text]"
+      },
+      "reactions": null
+    },
+    {
+      "serialNumber": 198,
+      "datetime": "2025-06-07T18:26:32.000Z",
+      "messageId": "3F19F8CC624E3B4FFC95",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אגיע גם בתשע וחצי אז",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 199,
+      "datetime": "2025-06-08T05:41:50.000Z",
+      "messageId": "4F46C19A32C051FB5C3966014B53A60B",
+      "sender": "Unknown Member",
+      "body": "למישהו פה יש טוש מחיק במקרה להביא לי להיום?",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 200,
+      "datetime": "2025-06-08T06:08:54.000Z",
+      "messageId": "3FF6F70629BDD6E6109E",
+      "sender": "Unknown Member",
+      "body": "אני בB124",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 201,
+      "datetime": "2025-06-08T06:08:57.000Z",
+      "messageId": "3F4F8EB7FA931C118A7B",
+      "sender": "Unknown Member",
+      "body": "בואו לפה",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 202,
+      "datetime": "2025-06-08T06:15:00.000Z",
+      "messageId": "9DEDA216A07C2AD6B2E255B84FBA1DC0",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "אני בדרך",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 203,
+      "datetime": "2025-06-08T06:20:51.000Z",
+      "messageId": "3AEC0F469BE92D9C5D3C",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "מה זה b124",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 204,
+      "datetime": "2025-06-08T06:21:32.000Z",
+      "messageId": "3AF8653C4CB94CE79729",
+      "sender": {
+        "id": "200721135837270@lid",
+        "name": "גל מדמח",
+        "shortName": "גל",
+        "pushname": "Gal Cesana",
+        "phone": null
+      },
+      "body": "אה זה חדר פרטי",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 205,
+      "datetime": "2025-06-08T06:21:48.000Z",
+      "messageId": "C5046847D7BFDC6FE14A6B06BDE8A0A0",
+      "sender": "Unknown Member",
+      "body": "כן",
+      "replyTo": null,
+      "reactions": null
+    },
+    {
+      "serialNumber": 206,
+      "datetime": "2025-06-08T06:22:26.000Z",
+      "messageId": "A5AC7FBA029C7A441291B774E574F0DD",
+      "sender": {
+        "id": "31602503643338@lid",
+        "phone": "972543554912"
+      },
+      "body": "טוב תתחילו אתם האוטובוס רק עכשיו הגיע",
+      "replyTo": null,
+      "reactions": null
+    }
+  ],
+  "participants": [
+    {
+      "id": "200721135837270@lid",
+      "name": "גל מדמח",
+      "shortName": "גל",
+      "pushname": "Gal Cesana",
+      "phone": null
+    },
+    {
+      "id": "227564681449618@lid",
+      "pushname": "Yehonatan (Jonny)",
+      "phone": null
+    },
+    {
+      "id": "31602503643338@lid",
+      "phone": "972543554912"
+    }
+  ]
+}
