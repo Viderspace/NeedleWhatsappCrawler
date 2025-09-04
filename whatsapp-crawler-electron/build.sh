@@ -30,3 +30,4 @@ echo "  npm run build-mac    # Build for macOS"
 echo "  npm run build-linux  # Build for Linux"
 echo ""
 echo "📂 Distributable files will be in the 'dist' directory."
+

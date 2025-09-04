@@ -3,6 +3,7 @@
 
 const path = require('path');
 const fs = require('fs');
+const os = require('os');
 
 // Import existing modules (copy from parent directory)
 const { hebrewifyIfNeeded } = require('./common');
@@ -12,9 +13,9 @@ const { enrichMessages, analyzeMessageLengths, analyzeMessageWordCounts } = requ
 const { writeExportFile } = require('./exporter');
 
 /**
- * Get all available WhatsApp groups for selection
+ * Get all available WhatsApp groups for selection with progressive loading
  */
-async function getGroups(client) {
+async function getGroups(client, progressCallback = null) {
     console.log('📋 Fetching all WhatsApp groups...');
     
     const groups = await client.getAllGroups();
@@ -33,6 +34,15 @@ async function getGroups(client) {
         const group = groups[i];
         const groupName = hebrewifyIfNeeded(group.name || 'Unknown Group');
         
+        // Send progress update before processing each group
+        if (progressCallback) {
+            progressCallback(
+                `Loading group ${i + 1}/${groups.length}: ${groupName}`,
+                i,
+                groups.length
+            );
+        }
+        
         let participantCount = 0;
         try {
             // Fetch actual member count for each group
@@ -46,7 +56,7 @@ async function getGroups(client) {
         
         console.log(`   ${i + 1}). ${groupName} (${participantCount} members)`);
         
-        formattedGroups.push({
+        const formattedGroup = {
             id: group.id,
             name: groupName,
             originalName: group.name,
@@ -54,7 +64,19 @@ async function getGroups(client) {
             isGroupChat: true,
             description: group.description || '',
             createdBy: group.groupMetadata?.owner || 'Unknown'
-        });
+        };
+        
+        formattedGroups.push(formattedGroup);
+        
+        // Send incremental group data to frontend for progressive display
+        if (progressCallback) {
+            progressCallback(
+                `Loaded ${groupName} (${participantCount} members)`,
+                i + 1,
+                groups.length,
+                formattedGroup // Send the individual group for immediate display
+            );
+        }
         
         // Small delay to avoid overwhelming WhatsApp API
         if (i < groups.length - 1) {
@@ -172,11 +194,15 @@ async function processGroup(client, group, progressCallback) {
 
         // Write export file
         progressCallback?.(`Exporting data for ${group.name}...`, 95, 100);
-        const exportPath = path.join(__dirname, '..', 'exports');
+        
+        // Create export path in Downloads directory
+        const downloadsPath = path.join(os.homedir(), 'Downloads');
+        const exportPath = path.join(downloadsPath, 'WhatsApp Data Collection');
         
         // Ensure exports directory exists
         if (!fs.existsSync(exportPath)) {
             fs.mkdirSync(exportPath, { recursive: true });
+            console.log(`📁 Created export directory: ${exportPath}`);
         }
         
         writeExportFile(exportData, group.name, exportPath);

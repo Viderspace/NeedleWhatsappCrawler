@@ -1,13 +1,14 @@
 {
-  "name": "whatsapp_crawler_neeldle",
+  "name": "whatsapp-data-collector",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "WhatsApp Data Collector for Course Research",
+  "main": "crawl.js",
   "scripts": {
+    "start": "node crawl.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["whatsapp", "data-collection", "research"],
+  "author": "Needle Research Team",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {

@@ -33,6 +33,19 @@ contextBridge.exposeInMainWorld('electronAPI', {
         ipcRenderer.on('crawl-progress', (event, data) => callback(data));
     },
     
+    // Progressive group loading events
+    onGroupLoadingProgress: (callback) => {
+        ipcRenderer.on('group-loading-progress', (event, data) => callback(data));
+    },
+    
+    onGroupLoaded: (callback) => {
+        ipcRenderer.on('group-loaded', (event, groupData) => callback(groupData));
+    },
+    
+    onGroupsLoadingComplete: (callback) => {
+        ipcRenderer.on('groups-loading-complete', (event, groups) => callback(groups));
+    },
+    
     // Remove listeners (cleanup)
     removeAllListeners: (channel) => {
         ipcRenderer.removeAllListeners(channel);

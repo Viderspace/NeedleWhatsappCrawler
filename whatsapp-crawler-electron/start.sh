@@ -19,3 +19,4 @@ export ELECTRON_IS_DEV=true
 # Start the application
 echo "🔥 Launching application..."
 npm start
+

@@ -1,6 +1,7 @@
 const { app, BrowserWindow, ipcMain, dialog, shell } = require('electron');
 const path = require('path');
 const fs = require('fs');
+const os = require('os');
 
 // Import backend modules
 const { authenticateWhatsApp } = require('./backend/auth-process');
@@ -9,6 +10,12 @@ const { getGroups, runCrawler } = require('./backend/crawl-service');
 let mainWindow;
 let authenticatedClient = null;
 let cachedGroups = null; // Cache groups to avoid redundant loading
+
+// Helper function to get consistent export path
+function getExportPath() {
+    const downloadsPath = path.join(os.homedir(), 'Downloads');
+    return path.join(downloadsPath, 'WhatsApp Data Collection');
+}
 
 function createWindow() {
     mainWindow = new BrowserWindow({
@@ -83,7 +90,7 @@ ipcMain.handle('start-auth', async () => {
 });
 
 /**
- * Get available WhatsApp groups (with caching)
+ * Get available WhatsApp groups (with caching and progressive loading)
  */
 ipcMain.handle('get-groups', async () => {
     try {
@@ -100,10 +107,30 @@ ipcMain.handle('get-groups', async () => {
         console.log('📋 Fetching WhatsApp groups...');
         mainWindow.webContents.send('progress-update', 'Loading groups...');
         
-        const groups = await getGroups(authenticatedClient);
+        // Set up progressive loading callback
+        const progressCallback = (message, current, total, groupData = null) => {
+            // Send progress update
+            mainWindow.webContents.send('group-loading-progress', {
+                message,
+                current,
+                total,
+                percentage: total > 0 ? Math.round((current / total) * 100) : 0
+            });
+            
+            // If we have group data, send it immediately for progressive display
+            if (groupData) {
+                mainWindow.webContents.send('group-loaded', groupData);
+            }
+        };
+        
+        const groups = await getGroups(authenticatedClient, progressCallback);
         cachedGroups = groups; // Cache for future use
         
         console.log(`✅ Found ${groups.length} groups (cached for future use)`);
+        
+        // Send final sorted groups
+        mainWindow.webContents.send('groups-loading-complete', groups);
+        
         return { success: true, groups };
     } catch (error) {
         console.error('❌ Failed to get groups:', error);
@@ -157,7 +184,7 @@ ipcMain.handle('start-crawl', async (event, selectedGroupIds) => {
  */
 ipcMain.handle('show-exports', async () => {
     try {
-        const exportsPath = path.join(__dirname, 'exports');
+        const exportsPath = getExportPath();
         
         // Ensure exports directory exists
         if (!fs.existsSync(exportsPath)) {
@@ -182,7 +209,7 @@ ipcMain.handle('show-exports', async () => {
  */
 ipcMain.handle('get-export-files', async () => {
     try {
-        const exportsPath = path.join(__dirname, 'exports');
+        const exportsPath = getExportPath();
         
         if (!fs.existsSync(exportsPath)) {
             return { success: true, files: [] };

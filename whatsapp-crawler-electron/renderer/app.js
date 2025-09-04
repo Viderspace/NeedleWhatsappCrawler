@@ -11,9 +11,31 @@ class WhatsAppCollectorApp {
     }
 
     init() {
+        this.initializeUIText();
         this.setupEventListeners();
         this.setupElectronEventListeners();
         this.showScreen('welcome-screen');
+    }
+
+    initializeUIText() {
+        // Initialize UI text from constants
+        if (typeof UI_TEXT !== 'undefined') {
+            // Update app title and subtitle
+            const appTitle = document.getElementById('app-title');
+            const appSubtitle = document.getElementById('app-subtitle');
+            const footerText = document.getElementById('footer-text');
+            
+            if (appTitle) appTitle.textContent = `📱 ${UI_TEXT.APP_TITLE}`;
+            if (appSubtitle) appSubtitle.textContent = UI_TEXT.APP_SUBTITLE;
+            if (footerText) footerText.textContent = UI_TEXT.FOOTER_TEXT;
+            
+            // Update welcome screen
+            const welcomeTitle = document.getElementById('welcome-title');
+            const welcomeDescription = document.getElementById('welcome-description');
+            
+            if (welcomeTitle) welcomeTitle.textContent = UI_TEXT.WELCOME.TITLE;
+            if (welcomeDescription) welcomeDescription.textContent = UI_TEXT.WELCOME.DESCRIPTION;
+        }
     }
 
     setupEventListeners() {
@@ -80,6 +102,19 @@ class WhatsAppCollectorApp {
         window.electronAPI.onCrawlProgress((data) => {
             this.updateCrawlProgress(data);
         });
+
+        // Progressive group loading events
+        window.electronAPI.onGroupLoadingProgress((data) => {
+            this.updateGroupLoadingProgress(data);
+        });
+
+        window.electronAPI.onGroupLoaded((groupData) => {
+            this.addGroupToList(groupData);
+        });
+
+        window.electronAPI.onGroupsLoadingComplete((groups) => {
+            this.finishGroupLoading(groups);
+        });
     }
 
     showScreen(screenId) {
@@ -135,15 +170,16 @@ class WhatsAppCollectorApp {
             this.showScreen('groups-screen');
             this.showGroupsLoading();
             
+            // Initialize progressive loading
+            this.progressiveGroups = [];
+            
             const result = await window.electronAPI.getGroups();
             
-            if (result.success) {
-                this.allGroups = result.groups;
-                this.renderGroups(this.allGroups);
-            } else {
+            if (!result.success) {
                 await window.electronAPI.showError('Error', `Failed to load groups: ${result.message}`);
                 this.showScreen('welcome-screen');
             }
+            // Note: Groups will be loaded progressively via event handlers
         } catch (error) {
             console.error('Error loading groups:', error);
             await window.electronAPI.showError('Error', `Failed to load groups: ${error.message}`);
@@ -154,13 +190,21 @@ class WhatsAppCollectorApp {
     showGroupsLoading() {
         const groupsList = document.getElementById('groups-list');
         groupsList.innerHTML = `
-            <div style="text-align: center; padding: 3rem; color: #667eea;">
+            <div id="groups-loading-container" style="text-align: center; padding: 3rem; color: #667eea;">
                 <div class="spinner" style="margin: 0 auto 1rem auto; width: 40px; height: 40px;"></div>
                 <h3>Loading Groups...</h3>
-                <p style="color: #718096; margin-top: 0.5rem;">
-                    Fetching your WhatsApp groups and member counts.<br>
-                    This may take a moment for groups with many members.
+                <div id="loading-progress-bar" style="width: 100%; max-width: 300px; margin: 1rem auto; background: rgba(102, 126, 234, 0.2); border-radius: 10px; height: 8px;">
+                    <div id="loading-progress-fill" style="width: 0%; height: 100%; background: #667eea; border-radius: 10px; transition: width 0.3s ease;"></div>
+                </div>
+                <p id="loading-status" style="color: #718096; margin-top: 0.5rem;">
+                    Fetching your WhatsApp groups and member counts...
                 </p>
+                <p id="loading-counter" style="color: #4a5568; font-weight: 500; margin-top: 0.5rem;">
+                    0 groups loaded
+                </p>
+            </div>
+            <div id="progressive-groups-list" style="padding: 0.5rem;">
+                <!-- Groups will appear here progressively -->
             </div>
         `;
         
@@ -273,7 +317,9 @@ class WhatsAppCollectorApp {
 
     async startExtraction() {
         if (this.selectedGroups.size === 0) {
-            await window.electronAPI.showError('No Groups Selected', 'Please select at least one group to extract data from.');
+            const errorTitle = UI_TEXT?.ERRORS?.NO_GROUPS_SELECTED?.TITLE || 'No Groups Selected';
+            const errorMessage = UI_TEXT?.ERRORS?.NO_GROUPS_SELECTED?.MESSAGE || 'Please select at least one group to extract data from.';
+            await window.electronAPI.showError(errorTitle, errorMessage);
             return;
         }
 
@@ -287,12 +333,14 @@ class WhatsAppCollectorApp {
             if (result.success) {
                 this.showResults(result.results);
             } else {
-                await window.electronAPI.showError('Extraction Failed', result.message);
+                const errorTitle = UI_TEXT?.ERRORS?.EXTRACTION_FAILED?.TITLE || 'Extraction Failed';
+                await window.electronAPI.showError(errorTitle, result.message);
                 this.showScreen('groups-screen');
             }
         } catch (error) {
             console.error('Extraction error:', error);
-            await window.electronAPI.showError('Extraction Error', error.message);
+            const errorTitle = UI_TEXT?.ERRORS?.EXTRACTION_ERROR?.TITLE || 'Extraction Error';
+            await window.electronAPI.showError(errorTitle, error.message);
             this.showScreen('groups-screen');
         }
     }
@@ -390,12 +438,103 @@ class WhatsAppCollectorApp {
         return div.innerHTML;
     }
 
+    // Progressive group loading methods
+    updateGroupLoadingProgress(data) {
+        const progressFill = document.getElementById('loading-progress-fill');
+        const loadingStatus = document.getElementById('loading-status');
+        const loadingCounter = document.getElementById('loading-counter');
+        
+        if (progressFill) {
+            progressFill.style.width = `${data.percentage}%`;
+        }
+        
+        if (loadingStatus) {
+            loadingStatus.textContent = data.message;
+        }
+        
+        if (loadingCounter) {
+            loadingCounter.textContent = `${data.current}/${data.total} groups loaded`;
+        }
+    }
+
+    addGroupToList(groupData) {
+        const progressiveGroupsList = document.getElementById('progressive-groups-list');
+        if (!progressiveGroupsList) return;
+        
+        // Add group to our progressive array
+        this.progressiveGroups = this.progressiveGroups || [];
+        this.progressiveGroups.push(groupData);
+        
+        // Create group item
+        const groupItem = document.createElement('div');
+        groupItem.className = 'group-item';
+        groupItem.dataset.groupId = groupData.id;
+        groupItem.style.opacity = '0';
+        groupItem.style.transform = 'translateY(10px)';
+        groupItem.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+
+        const isSelected = this.selectedGroups.has(groupData.id);
+        if (isSelected) {
+            groupItem.classList.add('selected');
+        }
+
+        groupItem.innerHTML = `
+            <input type="checkbox" class="group-checkbox" ${isSelected ? 'checked' : ''}>
+            <div class="group-info">
+                <div class="group-name">${this.escapeHtml(groupData.name)}</div>
+                <div class="group-meta">
+                    👥 ${groupData.participantCount} members
+                    ${groupData.description ? ` • ${this.escapeHtml(groupData.description.substring(0, 50))}${groupData.description.length > 50 ? '...' : ''}` : ''}
+                </div>
+            </div>
+        `;
+
+        groupItem.addEventListener('click', () => {
+            this.toggleGroupSelection(groupData.id);
+        });
+
+        progressiveGroupsList.appendChild(groupItem);
+        
+        // Animate in
+        setTimeout(() => {
+            groupItem.style.opacity = '1';
+            groupItem.style.transform = 'translateY(0)';
+        }, 50);
+    }
+
+    finishGroupLoading(groups) {
+        // Hide loading indicator
+        const loadingContainer = document.getElementById('groups-loading-container');
+        if (loadingContainer) {
+            loadingContainer.style.display = 'none';
+        }
+        
+        // Store the final sorted groups
+        this.allGroups = groups;
+        
+        // Re-enable controls
+        document.getElementById('group-search').disabled = false;
+        document.getElementById('min-members-filter').disabled = false;
+        document.getElementById('clear-selection-btn').disabled = false;
+        
+        // Apply current filters to the loaded groups
+        this.applyFilters();
+        
+        // Update selection count
+        this.updateSelectionCount();
+        
+        console.log(`✅ Progressive loading complete: ${groups.length} groups loaded`);
+    }
+
     // Cleanup method
     destroy() {
         // Remove all Electron event listeners
         window.electronAPI.removeAllListeners('auth-status');
         window.electronAPI.removeAllListeners('progress-update');
         window.electronAPI.removeAllListeners('crawl-progress');
+        window.electronAPI.removeAllListeners('group-loading-progress');
+        window.electronAPI.removeAllListeners('group-loaded');
+        window.electronAPI.removeAllListeners('groups-loading-complete');
     }
 }
 
