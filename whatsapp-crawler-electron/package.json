@@ -1,0 +1,53 @@
+{
+  "name": "whatsapp-crawler-electron",
+  "version": "1.0.0",
+  "description": "WhatsApp Data Collector for Course Research - Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --inspect",
+    "build": "electron-builder",
+    "build-win": "electron-builder --win",
+    "build-mac": "electron-builder --mac",
+    "build-linux": "electron-builder --linux",
+    "dist": "npm run build"
+  },
+  "build": {
+    "appId": "com.needle.whatsapp-crawler",
+    "productName": "WhatsApp Data Collector",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer/**/*",
+      "backend/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      "exports"
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "keywords": ["whatsapp", "data-collection", "research", "electron"],
+  "author": "Needle Research Team",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  },
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.76.0"
+  }
+}
