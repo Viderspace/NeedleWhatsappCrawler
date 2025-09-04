@@ -2,6 +2,7 @@ const { spawn } = require('child_process');
 const { create } = require('@open-wa/wa-automate');
 const path = require('path');
 const os = require('os');
+const fs = require('fs');
 
 /**
  * Authenticate with WhatsApp using terminal QR code display
@@ -11,6 +12,13 @@ const os = require('os');
 async function authenticateWhatsApp() {
     return new Promise((resolve, reject) => {
         console.log('🔐 Initializing WhatsApp authentication...');
+        
+        // Ensure session directory exists in user's home directory
+        const sessionPath = path.join(os.homedir(), '.whatsapp-data-collector', 'session');
+        if (!fs.existsSync(sessionPath)) {
+            fs.mkdirSync(sessionPath, { recursive: true });
+            console.log(`📁 Created session directory: ${sessionPath}`);
+        }
         
         // Create WhatsApp client with QR code display in terminal
         create({
@@ -31,8 +39,8 @@ async function authenticateWhatsApp() {
             // Custom QR code handler to display in terminal
             qrLogSkip: false,
             qrRefreshS: 15,
-            // Session configuration
-            sessionDataPath: path.join(__dirname, '..', '_IGNORE_session'),
+            // Session configuration - use writable directory outside app bundle
+            sessionDataPath: sessionPath,
             // Fix port conflicts by disabling popup server
             skipBrokenMethodsCheck: true,
             chromiumArgs: [
