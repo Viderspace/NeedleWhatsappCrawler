@@ -1,10 +1,13 @@
-{
+ {
   "name": "whatsapp-data-collector",
   "version": "1.0.0",
   "description": "WhatsApp Data Collector for Course Research",
   "main": "crawl.js",
   "scripts": {
-    "start": "node crawl.js",
+    "start": "npm run start:native",
+    "start:native": "cd apps/native-runner && npm start",
+    "start:legacy": "node crawl.js",
+    "build:native:mac": "cd apps/native-runner && npm run build:native:mac",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["whatsapp", "data-collection", "research"],
@@ -12,6 +15,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@open-wa/wa-automate": "^4.76.0"
+    "@open-wa/wa-automate": "^4.76.0",
+    "adm-zip": "^0.5.10"
   }
 }

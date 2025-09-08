@@ -1,0 +1,42 @@
+{
+  "name": "native-runner",
+  "version": "1.0.0",
+  "description": "Tiny Express server for native runner",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:sea": "node --experimental-sea-config sea-config.json",
+    "build:binary": "node build-binary.js",
+    "build:nexe": "node build-nexe.js",
+    "build:pkg": "node build-pkg.js",
+    "build:native:mac": "npm run build:pkg"
+  },
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.76.0",
+    "express": "^4.18.2",
+    "puppeteer-core": "^24.19.0"
+  },
+  "devDependencies": {
+    "nexe": "^5.0.0-beta.4",
+    "pkg": "^5.8.1",
+    "postject": "^1.0.0-alpha.6"
+  },
+  "pkg": {
+    "scripts": [
+      "server.js",
+      "bundle.js",
+      "src/**/*.js"
+    ],
+    "assets": [
+      "public/**/*",
+      "node_modules/@open-wa/wa-automate/**/*",
+      "node_modules/axios/**/*"
+    ],
+    "targets": [
+      "node18-macos-arm64",
+      "node18-win-x64",
+      "node18-linux-x64"
+    ],
+    "outputPath": "../../dist/release"
+  }
+}

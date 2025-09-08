@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Data Collector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-content">
+                <h1 id="app-title">📱 WhatsApp Data Collector</h1>
+                <p class="subtitle" id="app-subtitle">Native Runner - Research Tool</p>
+            </div>
+            <div class="health-indicator" id="healthIndicator">
+                <div class="health-dot" id="healthDot"></div>
+                <span id="healthText">Server Online</span>
+            </div>
+        </header>
+
+        <!-- Sync Status Indicator -->
+        <div id="sync-indicator" class="sync-indicator" style="display: none;">
+            <!-- Sync status will be populated by JavaScript -->
+        </div>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Welcome Screen -->
+            <div id="welcome-screen" class="screen active">
+                <div class="welcome-content">
+                    <div class="project-info">
+                        <h2 id="welcome-title">🎓 WhatsApp Data Collection</h2>
+                        <p id="welcome-description">This tool helps collect WhatsApp group data for research purposes. Connect to WhatsApp to view and select groups for data export.</p>
+                        
+                        <div class="features">
+                            <div class="feature">
+                                <span class="icon">🔒</span>
+                                <div>
+                                    <h3>Session Persistence</h3>
+                                    <p>Your WhatsApp session is saved across restarts</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <span class="icon">📊</span>
+                                <div>
+                                    <h3>Smart Selection</h3>
+                                    <p>Filter and search groups to find what you need</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <span class="icon">🎯</span>
+                                <div>
+                                    <h3>Selective Export</h3>
+                                    <p>Choose exactly which groups to export</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button id="start-connect-btn" class="primary-button">
+                            <span class="button-icon">🚀</span>
+                            Connect to WhatsApp
+                        </button>
+
+                        <div class="utility-actions">
+                            <button id="test-browser-btn" class="secondary-button">
+                                <span class="button-icon">🌐</span>
+                                Test Browser
+                            </button>
+                            <button id="clear-session-btn" class="secondary-button">
+                                <span class="button-icon">🔄</span>
+                                Clear Session
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Connection Progress Screen -->
+            <div id="connection-screen" class="screen">
+                <div class="auth-content">
+                    <div class="auth-header">
+                        <h2>🔐 WhatsApp Connection</h2>
+                        <div class="progress-indicator">
+                            <div class="spinner"></div>
+                        </div>
+                    </div>
+
+                    <div class="auth-instructions">
+                        <div class="instruction-step">
+                            <span class="step-number">1</span>
+                            <p>A browser window will open with WhatsApp Web</p>
+                        </div>
+                        <div class="instruction-step">
+                            <span class="step-number">2</span>
+                            <p>If not logged in, scan the QR code with your phone</p>
+                        </div>
+                        <div class="instruction-step">
+                            <span class="step-number">3</span>
+                            <p>Wait for groups to load automatically</p>
+                        </div>
+                    </div>
+
+                    <div class="auth-status">
+                        <p id="connection-status-text">Initializing WhatsApp connection...</p>
+                    </div>
+
+                    <button id="cancel-connection-btn" class="secondary-button">
+                        Back to Welcome
+                    </button>
+                </div>
+            </div>
+
+            <!-- Group Selection Screen -->
+            <div id="groups-screen" class="screen">
+                <div class="groups-content">
+                    <div class="groups-header">
+                        <h2>📋 Select WhatsApp Groups</h2>
+                        <p>Choose which groups to include in the data export</p>
+                    </div>
+
+                    <div class="search-section">
+                        <input type="text" id="group-search" placeholder="🔍 Search groups..." class="search-input">
+                        <div class="filter-controls">
+                            <label for="min-members-filter" class="filter-label">
+                                👥 Min members:
+                            </label>
+                            <input type="number" id="min-members-filter" class="min-members-input" value="5" min="1" max="1000">
+                            <span class="filter-help">Only show groups with at least this many members</span>
+                        </div>
+                    </div>
+
+                    <div class="groups-stats">
+                        <span id="groups-shown-count">0</span> groups shown • <span id="selected-count">0</span> selected
+                        <div class="sorting-info">
+                            <span class="sorting-label">📊 Sorted by:</span>
+                            <span class="sorting-details">Active groups first, then by member count (highest first)</span>
+                        </div>
+                    </div>
+
+                    <div class="groups-list-container">
+                        <div id="groups-list" class="groups-list">
+                            <!-- Groups will be populated here -->
+                        </div>
+                    </div>
+
+                    <div class="groups-actions">
+                        <button id="select-all-btn" class="secondary-button">Select All Shown</button>
+                        <button id="clear-selection-btn" class="secondary-button">Clear Selection</button>
+                        <button id="export-selected-btn" class="primary-button" disabled>
+                            <span class="button-icon">📥</span>
+                            Export Selected Groups
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Export Progress Screen -->
+            <div id="export-progress-screen" class="screen">
+                <div class="progress-content">
+                    <div class="progress-header">
+                        <h2>🔄 Exporting Groups</h2>
+                        <p>Processing and analyzing data from selected groups...</p>
+                    </div>
+
+                    <div class="progress-details">
+                        <div class="progress-bar-container">
+                            <div class="progress-bar">
+                                <div id="export-progress-bar-fill" class="progress-bar-fill"></div>
+                            </div>
+                            <div class="progress-percentage">
+                                <span id="export-progress-percentage">0%</span>
+                            </div>
+                        </div>
+
+                        <div class="progress-status">
+                            <p id="export-progress-status-text">Initializing export...</p>
+                        </div>
+
+                        <div class="progress-stats">
+                            <div class="stat">
+                                <span class="stat-label">Current:</span>
+                                <span id="current-export-group">-</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-label">Progress:</span>
+                                <span id="export-progress-counter">0/0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Shell Output Area -->
+                    <div class="shell-output-section">
+                        <div class="shell-output-header">
+                            <h3>📋 Export Log</h3>
+                            <p>Real-time output from the export process</p>
+                        </div>
+                        <div id="shell-output" class="shell-output">
+                            <!-- Shell output will be streamed here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Screen -->
+            <div id="results-screen" class="screen">
+                <div class="results-content">
+                    <div class="results-header">
+                        <h2>✅ Export Complete</h2>
+                        <p>Your WhatsApp data has been successfully processed and exported!</p>
+                    </div>
+
+                    <div class="results-summary">
+                        <div class="summary-stats">
+                            <div class="stat-card">
+                                <span class="stat-number" id="total-exported-groups">0</span>
+                                <span class="stat-label">Groups Processed</span>
+                            </div>
+                            <div class="stat-card success">
+                                <span class="stat-number" id="successful-exports">0</span>
+                                <span class="stat-label">Successful</span>
+                            </div>
+                            <div class="stat-card error">
+                                <span class="stat-number" id="failed-exports">0</span>
+                                <span class="stat-label">Failed</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="export-files">
+                        <h3>📁 Exported Files</h3>
+                        <div id="export-files-list" class="files-list">
+                            <!-- Export files will be listed here -->
+                        </div>
+                    </div>
+
+                    <div class="results-actions">
+                        <button id="open-exports-btn" class="primary-button">
+                            <span class="button-icon">📂</span>
+                            Open Export Folder
+                        </button>
+                        <button id="export-more-btn" class="secondary-button">
+                            <span class="button-icon">📋</span>
+                            Export More Groups
+                        </button>
+                        <button id="start-over-btn" class="secondary-button">
+                            <span class="button-icon">🔄</span>
+                            Start Over
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p id="footer-text">&copy; 2024 Needle Research Team | WhatsApp Data Collector - Native Runner</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
