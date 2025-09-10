@@ -5,7 +5,7 @@ const os = require('os');
 const { exec } = require('child_process');
 const { openUrl, clearSession } = require('./src/browser');
 const { listChats, exportChats, closeClient, focusWhatsAppWindow, getSyncStatus } = require('./src/services');
-const { findAvailablePort } = require('./src/portDetector');
+const { isPortAvailable } = require('./src/portDetector');
 
 const app = express();
 
@@ -406,28 +406,21 @@ process.on('SIGTERM', async () => {
   process.exit(0);
 });
 
-// Start server with port detection
+// Start server on fixed port 3377
 async function startServer() {
   try {
-    // Try to use port 3377 first (for backward compatibility)
-    const { isPortAvailable } = require('./src/portDetector');
-    
-    let port;
-    if (await isPortAvailable(3377)) {
-      port = 3377;
-      console.log('🎯 Using preferred port 3377');
-    } else {
-      console.log('⚠️  Port 3377 is busy, scouting for available port...');
-      port = await findAvailablePort(3000);
-      console.log(`🔍 Found available port: ${port}`);
+    const fixedPort = 3377;
+    if (!(await isPortAvailable(fixedPort))) {
+      console.error('❌ Port 3377 is already in use. Please free it and try again.');
+      process.exit(1);
     }
-    
-    app.listen(port, () => {
-      console.log(`🚀 Native runner server listening on http://localhost:${port}`);
-      console.log(`🌐 Open your browser to: http://localhost:${port}`);
-      
+
+    app.listen(fixedPort, () => {
+      console.log(`🚀 Native runner server listening on http://localhost:${fixedPort}`);
+      console.log(`🌐 Open your browser to: http://localhost:${fixedPort}`);
+
       // Store the port for other processes to use
-      process.env.SERVER_PORT = port.toString();
+      process.env.SERVER_PORT = fixedPort.toString();
     });
     
   } catch (error) {
