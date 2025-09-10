@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "start:managed": "node restart-manager.js",
     "build:sea": "node --experimental-sea-config sea-config.json",
     "build:binary": "node build-binary.js",
     "build:nexe": "node build-nexe.js",

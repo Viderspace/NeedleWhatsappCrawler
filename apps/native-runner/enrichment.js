@@ -10,11 +10,21 @@ const {
 const { isPhoneNumber, isLid, normalizePhoneNumber } = require('./common');
 
 function enrichMessages(messages, members) {
+    if (!messages || !Array.isArray(messages)) {
+        console.log('⚠️ enrichMessages: Invalid messages array, returning empty array');
+        return [];
+    }
+    
     messages.sort(sortByTimestamp);
 
-    const enriched = messages.map((msg, index) =>
-        enrichSingleMessage(msg, index, members)
-    );
+    const enriched = messages.map((msg, index) => {
+        try {
+            return enrichSingleMessage(msg, index, members);
+        } catch (error) {
+            console.log(`⚠️ Error enriching message ${index}: ${error.message}`);
+            return null;
+        }
+    }).filter(msg => msg !== null);
 
     return enriched
         .filter(isValidMessage)
@@ -27,7 +37,7 @@ function enrichSingleMessage(msg, index, members) {
     const sender = resolveSender(msg, members);
     const replyTo = buildReplyTo(msg, members);
 
-    console.log(`Enriching message ${index + 1} sent by ${JSON.stringify(sender)}`);
+    // console.log(`Enriching message ${index + 1} sent by ${JSON.stringify(sender)}`);
 
     return {
         id: parsedId.valid ? parsedId.msgHashId : msg.id,
@@ -79,9 +89,9 @@ function formatReactionsForMessage(msg) {
     if (!msg.reactions?.length) return null;
 
     return msg.reactions.map(reaction => ({
-        emoji: reaction.aggregateEmoji,
-        count: reaction.senders.length,
-        reactedBy: reaction.senders.map(s => s.senderUserJid.replace(/@.*/, ''))
+        emoji: reaction.aggregateEmoji || '❓',
+        count: reaction.senders?.length || 0,
+        reactedBy: reaction.senders?.map(s => s.senderUserJid?.replace(/@.*/, '') || 'unknown') || []
     }));
 }
 

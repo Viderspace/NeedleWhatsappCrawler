@@ -35,6 +35,22 @@ app.get('/api/sync-status', (req, res) => {
   }
 });
 
+// Timer status endpoint
+app.get('/api/timer-status', (req, res) => {
+  try {
+    const { getTimerStatus } = require('./src/services');
+    const timerStatus = getTimerStatus();
+    res.json(timerStatus);
+  } catch (error) {
+    console.error('❌ Error getting timer status:', error);
+    res.status(500).json({ 
+      error: 'Failed to get timer status',
+      timeRemaining: 0,
+      isActive: false
+    });
+  }
+});
+
 // Browser launch test endpoint
 app.get('/api/open', async (req, res) => {
   try {
@@ -78,6 +94,8 @@ app.get('/api/open-wa', async (req, res) => {
   }
 });
 
+// Focus functionality removed - using standard web API approach
+
 // Simple system-only test endpoint
 app.get('/api/open-system', async (req, res) => {
   try {
@@ -114,6 +132,32 @@ app.post('/api/session/clear', async (req, res) => {
       success: true, 
       message: 'WhatsApp session cleared. Next login will require QR code.' 
     });
+    
+  } catch (error) {
+    console.error('Error clearing session:', error);
+    res.status(500).json({ 
+      error: 'Failed to clear session', 
+      message: error.message 
+    });
+  }
+});
+
+// Clear session endpoint (alias for frontend compatibility)
+app.post('/api/clear-session', async (req, res) => {
+  try {
+    await clearSession();
+    
+    // Send response first
+    res.json({ 
+      success: true, 
+      message: 'WhatsApp session cleared. Next login will require QR code.' 
+    });
+    
+    // Then exit the server after a short delay to ensure response is sent
+    setTimeout(() => {
+      console.log('🚪 Logout requested - shutting down server...');
+      process.exit(0);
+    }, 1000);
     
   } catch (error) {
     console.error('Error clearing session:', error);
@@ -391,5 +435,39 @@ async function startServer() {
     process.exit(1);
   }
 }
+
+// Handle graceful shutdown
+process.on('SIGINT', async () => {
+  console.log('\n🛑 Received SIGINT, shutting down gracefully...');
+  try {
+    await closeClient();
+    process.exit(0);
+  } catch (error) {
+    console.error('❌ Error during shutdown:', error);
+    process.exit(1);
+  }
+});
+
+process.on('SIGTERM', async () => {
+  console.log('\n🛑 Received SIGTERM, shutting down gracefully...');
+  try {
+    await closeClient();
+    process.exit(0);
+  } catch (error) {
+    console.error('❌ Error during shutdown:', error);
+    process.exit(1);
+  }
+});
+
+// Handle uncaught exceptions
+process.on('uncaughtException', (error) => {
+  console.error('❌ Uncaught Exception:', error);
+  process.exit(1);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+  console.error('❌ Unhandled Rejection at:', promise, 'reason:', reason);
+  process.exit(1);
+});
 
 startServer();

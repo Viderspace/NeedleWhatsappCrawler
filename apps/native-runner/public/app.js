@@ -63,12 +63,12 @@ class WhatsAppCollectorApp {
             this.openExportsFolder();
         });
 
-        document.getElementById('export-more-btn').addEventListener('click', () => {
-            this.showScreen('groups-screen');
-        });
-
         document.getElementById('start-over-btn').addEventListener('click', () => {
             this.startOver();
+        });
+
+        document.getElementById('logout-quit-btn').addEventListener('click', () => {
+            this.logoutAndQuit();
         });
     }
 
@@ -81,6 +81,9 @@ class WhatsAppCollectorApp {
         // Poll sync status every 2 seconds
         this.syncMonitorInterval = setInterval(() => this.updateSyncStatus(), 2000);
     }
+
+    // Focus functionality removed - using standard web API approach
+    // The window.focus() method should be handled directly when needed
 
     async updateHealthStatus() {
         try {
@@ -187,7 +190,68 @@ class WhatsAppCollectorApp {
         document.getElementById('connection-status-text').textContent = message;
     }
 
+    updateConnectionStatusWithTimer(message, timeRemaining = null) {
+        let statusText = message;
+        if (timeRemaining !== null && timeRemaining > 0) {
+            statusText += ` (⏰ ${timeRemaining}s timeout)`;
+        }
+        document.getElementById('connection-status-text').textContent = statusText;
+    }
+
+    startTimerPolling() {
+        // Poll timer status every second
+        this.timerInterval = setInterval(async () => {
+            try {
+                const response = await fetch('/api/timer-status');
+                const timerStatus = await response.json();
+                
+                if (timerStatus.isActive && timerStatus.timeRemaining > 0) {
+                    this.updateConnectionStatusWithTimer('Authenticating...', timerStatus.timeRemaining);
+                } else if (timerStatus.isActive) {
+                    this.updateConnectionStatus('Authentication timeout - restarting...');
+                } else {
+                    // Timer cleared, stop polling
+                    this.stopTimerPolling();
+                }
+            } catch (error) {
+                console.log('Timer polling error:', error);
+            }
+        }, 1000);
+    }
+
+    stopTimerPolling() {
+        if (this.timerInterval) {
+            clearInterval(this.timerInterval);
+            this.timerInterval = null;
+        }
+    }
+
     async startConnection() {
+        // Show popup warning first
+        this.showPopup();
+    }
+
+    showPopup() {
+        const popup = document.getElementById('popup-modal');
+        popup.style.display = 'flex';
+        
+        // Add event listeners
+        document.getElementById('popup-cancel').onclick = () => {
+            this.hidePopup();
+        };
+        
+        document.getElementById('popup-continue').onclick = () => {
+            this.hidePopup();
+            this.proceedWithConnection();
+        };
+    }
+
+    hidePopup() {
+        const popup = document.getElementById('popup-modal');
+        popup.style.display = 'none';
+    }
+
+    async proceedWithConnection() {
         this.showScreen('connection-screen');
         this.updateConnectionStatus('Initializing WhatsApp connection...');
 
@@ -196,6 +260,9 @@ class WhatsAppCollectorApp {
             await this.focusWhatsApp();
             
             this.updateConnectionStatus('Connecting to WhatsApp and loading groups...');
+            
+            // Start timer polling to show countdown
+            this.startTimerPolling();
             
             // Switch to groups screen early and show progressive loading
             this.showGroupsScreen();
@@ -222,8 +289,14 @@ class WhatsAppCollectorApp {
             eventSource.onmessage = (event) => {
                 try {
                     const data = JSON.parse(event.data);
+                    console.log('🔄 Progressive loading data:', data);
                     
                     switch (data.type) {
+                        case 'sync-progress':
+                            // Show sync progress
+                            this.showSyncProgress(data);
+                            break;
+                            
                         case 'group-loaded':
                             // Add group to display immediately
                             this.addGroupProgressively(data.group);
@@ -293,16 +366,37 @@ class WhatsAppCollectorApp {
         groupsList.innerHTML = `
             <div id="progressive-loading-container" class="loading-container">
                 <div class="spinner" style="margin: 0 auto 1rem auto; width: 40px; height: 40px;"></div>
-                <h3>Loading Groups...</h3>
-                <div id="progressive-loading-bar" class="loading-progress-bar" style="width: 100%; max-width: 300px; margin: 1rem auto; background: rgba(102, 126, 234, 0.2); border-radius: 10px; height: 8px;">
-                    <div id="progressive-loading-fill" class="loading-progress-fill" style="width: 0%; height: 100%; background: #667eea; border-radius: 10px; transition: width 0.3s ease;"></div>
+                <h3 id="loading-title">Starting up...</h3>
+                
+                <!-- Sync Progress Section -->
+                <div id="sync-progress-container" class="sync-progress-container" style="display: none;">
+                    <div class="sync-progress-header">
+                        <div class="sync-icon">🔄</div>
+                        <div class="sync-text">
+                            <div class="sync-title">Keep both phone and WhatsApp Web active</div>
+                            <div class="sync-subtitle">Syncing messages with WhatsApp Web</div>
+                        </div>
+                    </div>
+                    <div class="sync-progress-bar">
+                        <div id="sync-progress-fill" class="sync-progress-fill" style="width: 0%;"></div>
+                    </div>
+                    <div id="sync-progress-details" class="sync-progress-details">
+                        <span id="sync-status-text">Initializing...</span>
+                    </div>
                 </div>
-                <p id="progressive-loading-status" style="color: #718096; margin-top: 0.5rem;">
-                    Fetching your WhatsApp groups and member counts...
-                </p>
-                <p id="progressive-loading-counter" style="color: #4a5568; font-weight: 500; margin-top: 0.5rem;">
-                    0 groups loaded
-                </p>
+                
+                <!-- Group Loading Section -->
+                <div id="group-loading-section" class="group-loading-section">
+                    <div id="progressive-loading-bar" class="loading-progress-bar" style="width: 100%; max-width: 300px; margin: 1rem auto; background: rgba(102, 126, 234, 0.2); border-radius: 10px; height: 8px;">
+                        <div id="progressive-loading-fill" class="loading-progress-fill" style="width: 0%; height: 100%; background: #667eea; border-radius: 10px; transition: width 0.3s ease;"></div>
+                    </div>
+                    <p id="progressive-loading-status" style="color: #718096; margin-top: 0.5rem;">
+                        Fetching your WhatsApp groups and member counts...
+                    </p>
+                    <p id="progressive-loading-counter" style="color: #4a5568; font-weight: 500; margin-top: 0.5rem;">
+                        0 groups loaded
+                    </p>
+                </div>
             </div>
             <div id="progressive-groups-container" style="padding: 0.5rem;">
                 <!-- Groups will appear here progressively -->
@@ -315,6 +409,60 @@ class WhatsAppCollectorApp {
         document.getElementById('select-all-btn').disabled = true;
         document.getElementById('clear-selection-btn').disabled = true;
         document.getElementById('export-selected-btn').disabled = true;
+    }
+
+    showSyncProgress(data) {
+        const syncContainer = document.getElementById('sync-progress-container');
+        const groupLoadingSection = document.getElementById('group-loading-section');
+        const loadingTitle = document.getElementById('loading-title');
+        
+        if (!syncContainer) return;
+        
+        // Change title to "Loading Groups..." when sync starts
+        if (loadingTitle) {
+            loadingTitle.textContent = 'Loading Groups...';
+        }
+        
+        // Show sync progress
+        syncContainer.style.display = 'block';
+        groupLoadingSection.style.display = 'none';
+        
+        // Update progress bar based on timer progress
+        const progressFill = document.getElementById('sync-progress-fill');
+        if (progressFill) {
+            progressFill.style.width = `${data.progress || 0}%`;
+        }
+        
+        // Update status text
+        const statusText = document.getElementById('sync-status-text');
+        if (statusText) {
+            if (data.status === 'complete') {
+                statusText.textContent = 'Sync complete!';
+            } else if (data.status === 'syncing') {
+                statusText.textContent = 'Syncing messages...';
+            } else {
+                statusText.textContent = 'Initializing...';
+            }
+        }
+        
+        // Update status based on progress
+        if (data.status === 'complete') {
+            syncContainer.innerHTML = `
+                <div class="sync-progress-header">
+                    <div class="sync-icon">✅</div>
+                    <div class="sync-text">
+                        <div class="sync-title">Message Sync Complete!</div>
+                        <div class="sync-subtitle">Ready to load groups</div>
+                    </div>
+                </div>
+            `;
+            
+            // Hide sync progress and show group loading after 2 seconds
+            setTimeout(() => {
+                syncContainer.style.display = 'none';
+                groupLoadingSection.style.display = 'block';
+            }, 2000);
+        }
     }
 
     addGroupProgressively(group) {
@@ -394,6 +542,9 @@ class WhatsAppCollectorApp {
     }
 
     finishProgressiveLoading() {
+        // Stop timer polling
+        this.stopTimerPolling();
+        
         // Hide loading indicator
         const loadingContainer = document.getElementById('progressive-loading-container');
         if (loadingContainer) {
@@ -731,8 +882,21 @@ class WhatsAppCollectorApp {
         document.getElementById('successful-exports').textContent = successful;
         document.getElementById('failed-exports').textContent = failed;
 
+        // Copy shell output to results screen for review
+        this.copyShellOutputToResults();
+
         // Show export files
         this.renderExportFiles(results.filter(r => r.success));
+    }
+
+    copyShellOutputToResults() {
+        const originalShellOutput = document.getElementById('shell-output');
+        const resultsShellOutput = document.getElementById('shell-output-results');
+        
+        if (originalShellOutput && resultsShellOutput) {
+            // Copy the HTML content from the original shell output to the results screen
+            resultsShellOutput.innerHTML = originalShellOutput.innerHTML;
+        }
     }
 
     renderExportFiles(results) {
@@ -832,15 +996,54 @@ class WhatsAppCollectorApp {
     }
 
     startOver() {
-        // Reset selections but keep connection
+        // Reset everything and go back to the beginning
         this.selectedGroups.clear();
+        this.allGroups = [];
+        this.isConnected = false;
+        
+        // Clear form inputs
         document.getElementById('group-search').value = '';
         document.getElementById('min-members-filter').value = '5';
         
-        if (this.isConnected && this.allGroups.length > 0) {
-            this.showGroupsScreen();
-        } else {
-            this.showScreen('welcome-screen');
+        // Stop any ongoing processes
+        this.stopTimerPolling();
+        
+        // Show welcome screen to restart from the beginning
+        this.showScreen('welcome-screen');
+        
+        console.log('🔄 Starting over - returning to welcome screen');
+    }
+
+    async logoutAndQuit() {
+        if (confirm('Are you sure you want to logout and quit?\n\nThis will clear your WhatsApp session and close the application.')) {
+            try {
+                // Clear the WhatsApp session
+                const response = await fetch('/api/clear-session', { method: 'POST' });
+                const data = await response.json();
+                
+                if (data.success) {
+                    console.log('🚪 Session cleared successfully');
+                    this.showStatus('🚪 Logging out and closing application...', false);
+                    
+                    // Close the application after a short delay
+                    setTimeout(() => {
+                        // Try to close the window (works in some environments)
+                        if (window.close) {
+                            window.close();
+                        } else {
+                            // Fallback: show message
+                            alert('Session cleared. You can now close this window.\n\nNext time you run the app, you will need to scan the QR code again.');
+                            this.startOver();
+                        }
+                    }, 2000);
+                } else {
+                    console.error('Failed to clear session:', data.error);
+                    alert('Failed to clear session. Please try again.');
+                }
+            } catch (error) {
+                console.error('Logout error:', error);
+                alert('Error during logout. Please try again.');
+            }
         }
     }
 

@@ -231,6 +231,8 @@ async function clearSession() {
   }
 }
 
+// Focus functionality removed - using popup warning instead
+
 module.exports = {
   openUrl,
   getUserDataDir,

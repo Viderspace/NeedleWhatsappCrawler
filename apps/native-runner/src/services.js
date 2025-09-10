@@ -5,7 +5,6 @@
 const path = require('path');
 const fs = require('fs');
 const os = require('os');
-const { exec } = require('child_process');
 const { create } = require('@open-wa/wa-automate');
 
 // Import existing modules from the root project
@@ -33,278 +32,177 @@ const MAX_MESSAGES = 5000;
 // Global client instance
 let waClient = null;
 
-/**
- * Bring the wa-automate browser window to front on macOS
- */
-function focusWhatsAppWindow() {
-    if (process.platform === 'darwin') {
-        // Try Chrome first, then fallback to any browser with WhatsApp Web
-        const tryFocusChrome = () => {
-            const chromeScript = `
-                tell application "Google Chrome"
-                    repeat with w in windows
-                        repeat with t in tabs of w
-                            if URL of t contains "web.whatsapp.com" then
-                                set active tab index of w to index of t
-                                set index of w to 1
-                                activate
-                                return true
-                            end if
-                        end repeat
-                    end repeat
-                    return false
-                end tell
-            `;
-            
-            exec(`osascript -e '${chromeScript}'`, (error, stdout, stderr) => {
-                if (error || !stdout.trim()) {
-                    // Chrome didn't work, try generic approach
-                    tryFocusGeneric();
-                } else {
-                    console.log('🔍 Chrome WhatsApp window brought to front');
-                }
-            });
-        };
-        
-        const tryFocusGeneric = () => {
-            // Fallback: Use System Events to find any window with "WhatsApp" in title
-            const genericScript = `
-                tell application "System Events"
-                    set whatsappWindows to every window of every process whose name contains "WhatsApp" or title contains "WhatsApp"
-                    if length of whatsappWindows > 0 then
-                        set frontmost of first process of whatsappWindows to true
-                        return true
-                    end if
-                    return false
-                end tell
-            `;
-            
-            exec(`osascript -e '${genericScript}'`, (error, stdout, stderr) => {
-                if (error) {
-                    console.log('⚠️ Could not focus WhatsApp window with any method');
-                } else {
-                    console.log('🔍 WhatsApp window brought to front (generic method)');
-                }
-            });
-        };
-        
-        // Start with Chrome
-        tryFocusChrome();
-    }
-}
+// Simple sync state tracking
+let syncState = {
+    isComplete: false,
+    messageCount: 0,
+    status: 'initializing'
+};
 
 /**
- * Set up sync monitoring events for WhatsApp client
+ * Wait for WhatsApp messages to finish loading with simple time-based approach
  * @param {Object} client - WhatsApp client instance
+ * @param {Function} onProgress - Progress callback function
+ * @returns {Promise<boolean>} - Resolves when sync is complete
  */
-// File-system based sync detection state
-let globalSyncState = {
-    isSyncing: false,
-    syncStartTime: null,
-    lastSyncDuration: null,
-    status: 'unknown',
-    lastUpdated: Date.now()
-};
-
-// File monitoring for sync detection
-let sessionDirMonitor = {
-    interval: null,
-    lastSize: 0,
-    lastModified: 0,
-    stableCount: 0,
-    isMonitoring: false
-};
-
-/**
- * Get the size and modification time of the WhatsApp session directory
- */
-function getSessionDirStats() {
-    try {
-        const sessionDir = path.join(os.homedir(), '.wwebjs_auth', 'session-needle-crawler');
-        
-        if (!fs.existsSync(sessionDir)) {
-            return { size: 0, modified: 0 };
-        }
-        
-        let totalSize = 0;
-        let lastModified = 0;
-        
-        function walkDir(dir) {
+async function waitForMessageSync(client, onProgress = null) {
+    console.log('🔄 Waiting for WhatsApp messages to finish loading...');
+    
+    let attempts = 0;
+    let isInitialOnboarding = null;
+    let syncPhase = 'detecting';
+    let waitDuration = 0;
+    let maxAttempts = 0;
+    
+    return new Promise((resolve, reject) => {
+        const syncCheck = setInterval(async () => {
+            attempts++;
+            
             try {
-                const files = fs.readdirSync(dir);
-                for (const file of files) {
-                    const filePath = path.join(dir, file);
-                    const stats = fs.statSync(filePath);
+                // Detect sync type on first attempt
+                if (isInitialOnboarding === null) {
+                    const groups = await client.getAllGroups().catch(() => []);
                     
-                    if (stats.isDirectory()) {
-                        walkDir(filePath);
+                    if (!groups || groups.length === 0) {
+                        console.log(`📊 No groups available yet - waiting... (attempt ${attempts})`);
+                        return;
+                    }
+                    
+                    // Quick check to detect initial onboarding
+                    const testGroups = groups.slice(0, Math.min(3, groups.length));
+                    let groupsWithMessages = 0;
+                    
+                    for (const group of testGroups) {
+                        try {
+                            const messages = await client.loadEarlierMessages(group.id).catch(() => []);
+                            if (messages && messages.length > 0) {
+                                groupsWithMessages++;
+                            }
+                        } catch (error) {
+                            // Ignore errors during detection
+                        }
+                    }
+                    
+                    isInitialOnboarding = groupsWithMessages === 0;
+                    
+                    if (isInitialOnboarding) {
+                        syncPhase = 'initial';
+                        waitDuration = 120; // 120 seconds for initial onboarding
+                        maxAttempts = 24; // 18 * 5 seconds = 90 seconds
+                        console.log(`🆕 Detected initial onboarding - waiting ${waitDuration}s for sync`);
                     } else {
-                        totalSize += stats.size;
-                        lastModified = Math.max(lastModified, stats.mtime.getTime());
+                        syncPhase = 'normal';
+                        waitDuration = 15; // 25 seconds for normal reconnection
+                        maxAttempts = 3; // 5 * 5 seconds = 25 seconds
+                        console.log(`🔄 Detected normal reconnection - waiting ${waitDuration}s for sync`);
                     }
+                    
+                    // Reset attempts counter after detection
+                    attempts = 0;
+                    return;
                 }
+                
+                // Simple countdown
+                const timeRemaining = ((maxAttempts - attempts) * 5);
+                console.log(`⏳ ${syncPhase} sync: ${timeRemaining}s remaining...`);
+                
+                // Update sync state
+                syncState.messageCount = attempts; // Use attempts as progress indicator
+                syncState.status = 'syncing';
+                
+                // Progress callback
+                if (onProgress) {
+                    const progress = (attempts / maxAttempts) * 100;
+                    onProgress({
+                        attempts,
+                        maxAttempts,
+                        progress: Math.round(progress),
+                        status: 'syncing',
+                        syncPhase: syncPhase,
+                        isInitialOnboarding: isInitialOnboarding,
+                        timeRemaining: timeRemaining
+                    });
+                }
+                
+                // Complete when time is up
+                if (attempts >= maxAttempts) {
+                    clearInterval(syncCheck);
+                    syncState.isComplete = true;
+                    syncState.status = 'complete';
+                    
+                    if (onProgress) {
+                        onProgress({
+                            attempts,
+                            maxAttempts,
+                            progress: 100,
+                            status: 'complete',
+                            syncPhase: syncPhase,
+                            isInitialOnboarding: isInitialOnboarding,
+                            timeRemaining: 0
+                        });
+                    }
+                    
+                    const syncType = isInitialOnboarding ? 'Initial' : 'Normal';
+                    console.log(`✅ ${syncType} sync complete! Waited ${waitDuration}s for messages to load`);
+                    resolve(true);
+                }
+                
             } catch (error) {
-                // Ignore permission errors or missing files
-            }
-        }
-        
-        walkDir(sessionDir);
-        return { size: totalSize, modified: lastModified };
-    } catch (error) {
-        return { size: 0, modified: 0 };
-    }
-}
-
-/**
- * Start monitoring the session directory for changes
- */
-function startSessionMonitoring() {
-    if (sessionDirMonitor.isMonitoring) return;
-    
-    console.log('🔧 Starting file-system based sync monitoring...');
-    sessionDirMonitor.isMonitoring = true;
-    
-    // Get initial stats
-    const initialStats = getSessionDirStats();
-    sessionDirMonitor.lastSize = initialStats.size;
-    sessionDirMonitor.lastModified = initialStats.modified;
-    sessionDirMonitor.stableCount = 0;
-    
-    sessionDirMonitor.interval = setInterval(() => {
-        const currentStats = getSessionDirStats();
-        const sizeChanged = Math.abs(currentStats.size - sessionDirMonitor.lastSize) > 1024; // 1KB threshold
-        const modifiedChanged = currentStats.modified > sessionDirMonitor.lastModified;
-        
-        if (sizeChanged || modifiedChanged) {
-            // Directory is changing - WhatsApp is likely syncing
-            if (!globalSyncState.isSyncing) {
-                console.log('🔄 WhatsApp sync detected (session directory changing)...');
-                globalSyncState.isSyncing = true;
-                globalSyncState.syncStartTime = Date.now();
-                globalSyncState.status = 'syncing';
-                globalSyncState.lastUpdated = Date.now();
-            }
-            
-            sessionDirMonitor.lastSize = currentStats.size;
-            sessionDirMonitor.lastModified = currentStats.modified;
-            sessionDirMonitor.stableCount = 0;
-        } else {
-            // Directory is stable
-            sessionDirMonitor.stableCount++;
-            
-            // If it's been stable for 10 checks (20 seconds) and was syncing, sync is done
-            if (globalSyncState.isSyncing && sessionDirMonitor.stableCount >= 10) {
-                const syncDuration = ((Date.now() - globalSyncState.syncStartTime) / 1000).toFixed(1);
-                console.log(`✅ WhatsApp sync completed (directory stable after ${syncDuration}s)`);
-                globalSyncState.isSyncing = false;
-                globalSyncState.syncStartTime = null;
-                globalSyncState.lastSyncDuration = parseFloat(syncDuration);
-                globalSyncState.status = 'connected';
-                globalSyncState.lastUpdated = Date.now();
-                sessionDirMonitor.stableCount = 0;
-            }
-        }
-    }, 2000); // Check every 2 seconds
-}
-
-/**
- * Stop monitoring the session directory
- */
-function stopSessionMonitoring() {
-    if (sessionDirMonitor.interval) {
-        clearInterval(sessionDirMonitor.interval);
-        sessionDirMonitor.interval = null;
-    }
-    sessionDirMonitor.isMonitoring = false;
-    console.log('🔧 Stopped file-system based sync monitoring');
-}
-
-function setupSyncMonitoring(client) {
-    console.log('🔧 Setting up connection monitoring with file-system sync detection...');
-    
-    // Monitor state changes for basic connection status
-    client.onStateChanged((state) => {
-        console.log(`📱 WhatsApp state changed: ${state}`);
-        
-        switch (state) {
-            case 'CONNECTED':
-                console.log('✅ WhatsApp connected and ready');
-                globalSyncState.status = 'connected';
-                globalSyncState.lastUpdated = Date.now();
-                // Start monitoring session directory for sync activity
-                startSessionMonitoring();
-                break;
+                console.log(`⚠️ Error during sync wait: ${error.message}`);
                 
-            case 'UNPAIRED':
-                console.log('🔓 WhatsApp session logged out - please scan QR code again');
-                globalSyncState.status = 'unpaired';
-                globalSyncState.lastUpdated = Date.now();
-                // Stop monitoring when disconnected
-                stopSessionMonitoring();
-                break;
-                
-            case 'PAIRING':
-                console.log('📲 WhatsApp pairing in progress...');
-                globalSyncState.status = 'pairing';
-                globalSyncState.lastUpdated = Date.now();
-                // Stop monitoring during pairing
-                stopSessionMonitoring();
-                break;
-                
-            case 'CONFLICT':
-                console.log('⚠️ WhatsApp session conflict - attempting to refocus...');
-                globalSyncState.status = 'conflict';
-                globalSyncState.lastUpdated = Date.now();
-                // Try to refocus if there's a conflict
-                setTimeout(() => {
-                    try {
-                        client.forceRefocus();
-                        console.log('🔍 Attempted to refocus WhatsApp session');
-                    } catch (error) {
-                        console.log('⚠️ Could not refocus session:', error.message);
-                    }
-                }, 1000);
-                break;
-                
-            default:
-                console.log(`📱 WhatsApp state: ${state}`);
-                if (globalSyncState.status === 'unknown') {
-                    globalSyncState.status = 'initializing';
-                    globalSyncState.lastUpdated = Date.now();
+                // Continue waiting even on errors
+                if (attempts >= maxAttempts) {
+                    clearInterval(syncCheck);
+                    syncState.status = 'timeout';
+                    console.log(`⏰ Sync wait completed despite errors after ${waitDuration}s`);
+                    resolve(true); // Don't fail, just continue
                 }
-        }
+            }
+        }, 5000); // Check every 5 seconds
     });
 }
 
 /**
  * Initialize WhatsApp client if not already connected
+ * @param {Function} onSyncProgress - Optional callback for sync progress
  * @returns {Promise<Object>} WhatsApp client instance
  */
-async function getClient() {
+async function getClient(onSyncProgress = null) {
     if (!waClient) {
         console.log('🔄 Initializing WhatsApp client...');
+        
         waClient = await create({
             sessionId: 'needle-crawler',
             headless: false,
             qrTimeout: 0,
-            authTimeout: 0,
+            authTimeout: 30,
             blockCrashLogs: true,
             disableSpins: true,
             hostNotificationLang: 'PT_BR',
             logConsole: false,
-            popup: false, // Disable popup to avoid port conflicts
+            popup: false,
             restartOnCrash: getClient,
         });
+
+        // Simple state change handler
+        waClient.onStateChanged(state => {
+            console.log('State changed:', state);
+            if (state === "CONFLICT") {
+                waClient.forceRefocus();
+            }
+        });
+        
         console.log('✅ WhatsApp client initialized');
         
-        // Set up sync monitoring events
-        setupSyncMonitoring(waClient);
-        
-        // Focus the WhatsApp window after a short delay
-        setTimeout(() => {
-            focusWhatsAppWindow();
-        }, 2000);
+        // Wait for messages to sync
+        try {
+            await waitForMessageSync(waClient, onSyncProgress);
+        } catch (error) {
+            console.warn('⚠️ Message sync failed, continuing anyway:', error.message);
+            // Don't fail completely, just continue
+        }
     }
+    
     return waClient;
 }
 
@@ -316,7 +214,18 @@ async function getClient() {
 async function listChats(progressCallback = null) {
     try {
         console.log('📋 Fetching chat list...');
-        const client = await getClient();
+        
+        // Get client with sync detection
+        const client = await getClient((syncProgress) => {
+            if (progressCallback) {
+                progressCallback({
+                    type: 'sync-progress',
+                    message: `Loading messages: ${syncProgress.messageCount}`,
+                    progress: syncProgress.progress,
+                    messageCount: syncProgress.messageCount
+                });
+            }
+        });
         
         // Get all groups (this is working based on logs)
         const groups = await client.getAllGroups();
@@ -364,7 +273,8 @@ async function listChats(progressCallback = null) {
                         // If we got less than 3 messages, mark as unloaded
                         if (messageCount < 3) {
                             isActive = false;
-                            console.log(`⚠️ Group "${group.name}" has only ${messageCount} messages - marking as unloaded`);
+                        } else {
+                            console.log(`✅ Group "${group.name}" has ${messageCount}+ messages - marking as loaded`);
                         }
                     }
                 } catch (error) {
@@ -374,7 +284,7 @@ async function listChats(progressCallback = null) {
                 
                 const groupData = {
                     id: group.id,
-                    title: group.name || 'Unknown Group', // Don't reverse Hebrew, let CSS handle direction
+                    title: group.name || 'Unknown Group',
                     type: 'group',
                     participantCount: participantCount,
                     messageCount: messageCount,
@@ -439,17 +349,6 @@ async function listChats(progressCallback = null) {
             // Continue with just groups
         }
         
-        // Sort groups by member count (descending order)
-        result.sort((a, b) => {
-            if (a.type === 'group' && b.type === 'group') {
-                return b.participantCount - a.participantCount;
-            }
-            // Keep groups before individual chats
-            if (a.type === 'group' && b.type === 'individual') return -1;
-            if (a.type === 'individual' && b.type === 'group') return 1;
-            return 0;
-        });
-        
         // Send completion callback
         if (progressCallback) {
             progressCallback({
@@ -473,6 +372,10 @@ async function listChats(progressCallback = null) {
         throw new Error(`Failed to list chats: ${error.message}`);
     }
 }
+
+
+
+
 
 /**
  * Export messages from specified chats to JSON files
@@ -500,6 +403,14 @@ async function exportChats(chatIds) {
                     : (chatInfo.contact?.pushname || chatInfo.contact?.formattedName || 'Unknown Contact');
                 
                 console.log(`📂 Chat name: ${chatName}`);
+                                
+                // Get participants (for groups)
+                let participants = [];
+                if (chatInfo.isGroup) {
+                    participants = await client.getGroupMembers(chatId);
+                    participants = filterParticipants(participants);
+                    console.log(`👥 Found ${participants.length} participants`);
+                }
                 
                 // Load messages
                 console.log(`📥 Loading messages for ${chatName}...`);
@@ -519,13 +430,9 @@ async function exportChats(chatIds) {
                     continue;
                 }
                 
-                // Get participants (for groups)
-                let participants = [];
-                if (chatInfo.isGroup) {
-                    participants = await client.getGroupMembers(chatId);
-                    participants = filterParticipants(participants);
-                    console.log(`👥 Found ${participants.length} participants`);
-                }
+
+
+
                 
                 // Enrich messages
                 console.log(`🔧 Enriching messages...`);
@@ -575,7 +482,7 @@ async function exportChats(chatIds) {
                     chatId,
                     chatName: 'Unknown',
                     success: false,
-                    error: chatError.message,
+                    error: chatError.message || 'Unknown error',
                     messageCount: 0,
                     filePath: null
                 });
@@ -597,11 +504,9 @@ async function exportChats(chatIds) {
 async function closeClient() {
     if (waClient) {
         try {
-            // Stop file monitoring
-            stopSessionMonitoring();
-            
             await waClient.kill();
             waClient = null;
+            syncState = { isComplete: false, messageCount: 0, status: 'initializing' };
             console.log('🔌 WhatsApp client disconnected');
         } catch (error) {
             console.error('❌ Error closing client:', error);
@@ -610,26 +515,44 @@ async function closeClient() {
 }
 
 /**
- * Get current sync status for API endpoints
+ * Get current sync status
  * @returns {Object} Current sync state
  */
 function getSyncStatus() {
-    const currentTime = Date.now();
-    const result = { ...globalSyncState };
-    
-    // Calculate current sync duration if syncing
-    if (result.isSyncing && result.syncStartTime) {
-        result.currentSyncDuration = ((currentTime - result.syncStartTime) / 1000).toFixed(1);
-    }
-    
-    return result;
+    return {
+        ...syncState,
+        lastUpdated: Date.now()
+    };
+}
+
+/**
+ * Simple focus function (stub for API compatibility)
+ * @returns {void}
+ */
+function focusWhatsAppWindow() {
+    console.log('📱 Focus WhatsApp window requested (using browser native focus)');
+    // The browser window should already be focused when user interacts with it
+    // This is just a stub to maintain API compatibility
+}
+
+/**
+ * Get timer status (stub for API compatibility)
+ * @returns {Object} Timer status
+ */
+function getTimerStatus() {
+    return {
+        timeRemaining: 0,
+        isActive: false,
+        isInQrMode: false
+    };
 }
 
 module.exports = {
     listChats,
     exportChats,
     closeClient,
-    getClient, // For advanced usage
-    focusWhatsAppWindow, // For manual focus
-    getSyncStatus // For sync status API
+    getClient,
+    getSyncStatus,
+    focusWhatsAppWindow,
+    getTimerStatus
 };

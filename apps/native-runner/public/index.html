@@ -25,6 +25,23 @@
             <!-- Sync status will be populated by JavaScript -->
         </div>
 
+        <!-- Popup Modal -->
+        <div id="popup-modal" class="popup-modal" style="display: none;">
+            <div class="popup-content">
+                <div class="popup-header">
+                    <h3>🪟 New Window Opening</h3>
+                </div>
+                <div class="popup-body">
+                    <p>A new browser window will open now to connect to your WhatsApp Web.</p>
+                    <p><strong>After WhatsApp loads, return to this window to continue.</strong></p>
+                </div>
+                <div class="popup-footer">
+                    <button id="popup-cancel" class="secondary-button">Cancel</button>
+                    <button id="popup-continue" class="primary-button">Continue</button>
+                </div>
+            </div>
+        </div>
+
         <!-- Main Content Area -->
         <main class="main-content">
             <!-- Welcome Screen -->
@@ -133,10 +150,7 @@
 
                     <div class="groups-stats">
                         <span id="groups-shown-count">0</span> groups shown • <span id="selected-count">0</span> selected
-                        <div class="sorting-info">
-                            <span class="sorting-label">📊 Sorted by:</span>
-                            <span class="sorting-details">Active groups first, then by member count (highest first)</span>
-                        </div>
+
                     </div>
 
                     <div class="groups-list-container">
@@ -235,18 +249,29 @@
                         </div>
                     </div>
 
+                    <!-- Shell Output Area (kept for review) -->
+                    <div class="shell-output-section">
+                        <div class="shell-output-header">
+                            <h3>📋 Export Log</h3>
+                            <p>Complete export process log for review</p>
+                        </div>
+                        <div id="shell-output-results" class="shell-output">
+                            <!-- Shell output will be copied here from export process -->
+                        </div>
+                    </div>
+
                     <div class="results-actions">
                         <button id="open-exports-btn" class="primary-button">
                             <span class="button-icon">📂</span>
                             Open Export Folder
                         </button>
-                        <button id="export-more-btn" class="secondary-button">
-                            <span class="button-icon">📋</span>
-                            Export More Groups
-                        </button>
                         <button id="start-over-btn" class="secondary-button">
                             <span class="button-icon">🔄</span>
                             Start Over
+                        </button>
+                        <button id="logout-quit-btn" class="secondary-button logout-button">
+                            <span class="button-icon">🚪</span>
+                            Logout and Quit
                         </button>
                     </div>
                 </div>

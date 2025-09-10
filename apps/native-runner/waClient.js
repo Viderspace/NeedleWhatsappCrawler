@@ -39,7 +39,9 @@ async function findGroup(client, name) {
 }
 
 async function loadAllMessages(client, chatId, maxCount) {
-    let allMessages = [];
+    // let allMessages = [];
+    let allMessages = await client.getAllMessagesInChat(chatId, true, true);
+    console.log(`✅ Initial Found ${allMessages.length} messages in chat ${chatId}`);
     const seenIds = new Set();
 
     while (allMessages.length < maxCount) {
@@ -66,6 +68,7 @@ async function loadAllMessages(client, chatId, maxCount) {
 
     return allMessages;
 }
+
 
 module.exports = {
     findGroup,
